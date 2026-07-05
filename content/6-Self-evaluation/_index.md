@@ -5,66 +5,56 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at **AWS First Cloud Journey** from **08/09** to **24/12**, I had the opportunity to learn, practice, and apply cloud computing knowledge to real-world scenarios while developing a comprehensive understanding of AWS services.
+During my 12-week internship at **AWS First Cloud Journey** (from April 2026 to July 2026), I had the opportunity to learn, practice, and experience the real-world challenges of applying cloud computing knowledge to software system deployment.
 
-I participated in **developing the Coffee Cloud – Coffee Shop Order Platform project**, a full-stack serverless application using ReactJS, C#/.NET Lambda, and multiple AWS services including Amplify, DynamoDB, Cognito, API Gateway, SNS, and SES. Through this project, I improved my skills in **cloud architecture design, full-stack development, project documentation, technical presentation, and AWS service integration**.
+I collaborated with a 5-member team to develop the **Pet Resort & Care System** project—a web application combining e-commerce and pet spa scheduling. The application was built using ReactJS and Spring Boot (Java) and deployed on AWS following a 3-Tier Architecture. We utilized core services such as VPC, EC2, Application Load Balancer, Amazon RDS (Multi-AZ), and ElastiCache (Redis). Through this project, I took my first steps in network infrastructure design, basic security configuration, and gained a deep awareness of cloud cost optimization (FinOps).
 
-Additionally, I actively participated in **4 major AWS technical events** including AI-Driven Development, AI/ML workshops, DevOps practices, and AWS Security best practices, which significantly enhanced my knowledge of cutting-edge cloud technologies and industry trends.
+Additionally, I participated in **3 community technical events** regarding Cloud Architecture, Voice AI, and Career Orientation. These events broadened my horizons and helped me clearly see the gap between academic knowledge and corporate reality.
 
-In terms of work ethic, I demonstrated strong self-direction in learning complex AWS services, maintained detailed weekly work logs, created comprehensive project documentation, and consistently engaged with the AWS community through events and workshops.
+Reflecting on my journey, I acknowledge that the system we built is still at an MVP (Minimum Viable Product) stage, the codebase is not fully optimized, and there are still loopholes. To objectively reflect on my internship process, I would like to self-evaluate based on the following criteria:
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+| No. | Criteria | Description | Good | Fair | Average |
+| --- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --- | --- | ---------- |
+| 1 | **Technical Knowledge and Skills** | Understand the flow of a 3-Tier architecture, know how to configure basic VPC, EC2, and RDS, but lack deep performance optimization skills. | ☐ | ✅ | ☐ |
+| 2 | **Learning Ability** | Quickly adapted to new concepts on the AWS Console, proactively searched for documentation when facing network drops or permission errors. | ✅ | ☐ | ☐ |
+| 3 | **Proactiveness** | Voluntarily researched how to set up S3 Pre-signed URLs and updated the Architecture Diagram when receiving feedback from mentors. | ☐ | ✅ | ☐ |
+| 4 | **Sense of Responsibility** | Maintained a complete 12-week worklog, closely followed assigned tasks in the team to avoid delaying the overall progress. | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Attended team meetings and workshops regularly; however, sometimes tasks were piled up close to the deadline. | ☐ | ✅ | ☐ |
+| 6 | **Progressive Attitude** | Willing to scrap the old architecture diagram and redraw it when realizing the flow was wrong; unafraid to admit the system's weaknesses. | ✅ | ☐ | ☐ |
+| 7 | **Communication** | Conveying technical ideas is sometimes awkward; public speaking and presentation skills with mentors need significant improvement. | ☐ | ☐ | ✅ |
+| 8 | **Teamwork** | Coordinated smoothly with the other 4 members, knew how to share AWS resources to avoid stepping on each other's toes during deployment. | ✅ | ☐ | ☐ |
+| 9 | **Professional Conduct** | Respected the rules of the AWS community, listened to feedback, and maintained a proper attitude in a team environment. | ✅ | ☐ | ☐ |
+| 10 | **Problem-Solving Mindset** | Debugging skills on the Cloud via CloudWatch are still slow; handling backend bugs like "double-booking" is not yet thoroughly resolved. | ☐ | ☐ | ✅ |
+| 11 | **Contribution to the Project** | Completed assigned tasks regarding infrastructure architecture and wrote the deployment guidelines (README) for the Pet Resort project. | ☐ | ✅ | ☐ |
+| 12 | **Overall** | Completed the internship with many hard-earned lessons; the system runs but needs a lot of refinement to meet actual production standards. | ☐ | ✅ | ☐ |
 
-| No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
-| --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Mastered AWS serverless architecture, full-stack development with ReactJS/.NET, database design with DynamoDB | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Rapidly acquired knowledge of 10+ AWS services, attended 4 technical workshops, self-directed learning | ✅    | ☐    | ☐       |
-| 3   | **Proactiveness**                   | Initiated comprehensive project documentation, actively participated in AWS community events    | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Maintained detailed 12-week work logs, delivered complete project proposal and architecture design | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Consistent documentation habits, regular attendance at workshops, systematic project approach   | ☐    | ✅    | ☐       |
-| 6   | **Progressive mindset**             | Continuously learned new AWS services, incorporated workshop learnings into project design      | ✅    | ☐    | ☐       |
-| 7   | **Communication**                   | Created detailed technical documentation, comprehensive event reports, clear project presentations | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Collaborated effectively in 5-person team structure, engaged with AWS community and experts     | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Demonstrated respect in all AWS events, maintained professional documentation standards          | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Designed complex serverless architecture, addressed real business problems with Coffee Cloud platform | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Delivered complete end-to-end project design, comprehensive documentation, innovative AWS service integration | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | Successfully completed comprehensive AWS cloud development internship with practical deliverables | ✅    | ☐    | ☐       |
+---
 
-### What I Accomplished During Internship
+### What I Have Achieved During the Internship
 
 **Technical Learning:**
-* **Learned about Coffee Cloud project** - Got hands-on experience with AWS services like Amplify, Lambda, and DynamoDB
-* **Basic AWS understanding** - Gradually learned how different services work together in a serverless architecture
-* **Improved coding skills** - Practiced with ReactJS and C#/.NET, though still have much to learn
-* **Cost awareness** - Learned to be mindful of AWS costs and how Free Tier works
+* **Curing "Cloud Blindness":** Manually configured virtual networks (VPC), subnetting, and load balancers instead of merely learning theories on paper.
+* **Architectural Lessons:** Understood the harsh difference between code running smoothly on Localhost versus code crashing when thrown onto an EC2 instance (hidden behind a Private Subnet).
+* **Cost Awareness (FinOps):** Developed a healthy "fear of costs", learned how to clean up unused Snapshots, shut down idle NAT Gateways, and set up Billing Alarms.
 
-**Learning Attitude:**
-* **Attended AWS workshops** - Participated in 4 events to learn about AI, DevOps, and Security (still processing a lot of the information)
-* **Kept work records** - Maintained weekly logs and documented what I learned from events
-* **Tried to document properly** - Created project documentation, though it took me longer than expected
-* **Asked questions** - When I didn't understand something, I tried to research and ask for help
+**Attitude & Experience:**
+* **Community Engagement:** Attended 3 AWS technical events/meetups, expanding my network and getting exposed to large-scale problems faced by real enterprises.
+* **Documentation Discipline:** Maintained weekly Worklogs and learned how to package project documentation (even though it was time-consuming and sometimes tedious).
+* **Honesty with Myself:** Dared to face the reality that our system still risks crashing under heavy load spam, rather than writing a report with inflated results.
 
-**Personal Growth:**
-* **Stepped out of comfort zone** - Attended community events even though I was nervous about networking
-* **Persistence** - Kept working on tasks even when they seemed challenging at first
-* **Responsibility** - Tried my best to complete assignments and meet deadlines
-* **Honest about limitations** - Acknowledged when I needed more time to understand concepts
+---
 
-### Areas I Need to Improve
+### Limitations and Areas for Improvement
 
 **Technical Skills:**
-* **Problem-solving approach** - Need to develop better systematic thinking when facing technical challenges
-* **AWS service integration** - Still learning how to properly connect different services together
-* **Code quality** - Need more practice to write cleaner, more efficient code
-* **Understanding architecture** - Basic knowledge is there, but need deeper understanding of design principles
+* **Code & Database Optimization Mindset:** The business logic code (e.g., cart handling, scheduling) is not yet optimal, still causing sync errors. I do not yet know how to properly index the Database for faster querying.
+* **Weak Troubleshooting:** When the system crashes, I often spend way too much time fumbling through CloudWatch Logs because I haven't learned how to set up centralized logging.
+* **Lack of CI/CD:** Deployments are still quite manual. The failure to integrate a professional automated CI/CD pipeline (like Jenkins or GitHub Actions) is a major shortcoming.
+* **Security:** Although we used IAM and Secrets Manager, out of fear of breaking the app, the team sometimes granted overly broad IAM Roles that violate the Least Privilege principle.
 
-**Professional Skills:**
-* **Communication** - Need to get better at explaining technical concepts clearly, especially when presenting
-* **Time management** - Sometimes take longer than expected to complete tasks
-* **Confidence** - Working on being more confident when discussing technical topics or asking questions
+**Soft Skills & Work Habits:**
+* **Communication and Presentation:** I tend to lose confidence and over-explain when mentors challenge my technical decisions (e.g., why choose this service over another).
+* **Time Management:** I often underestimate the time needed to fix a bug (thinking it takes 1 hour, but it actually takes a whole day), leading to last-minute sprints near the deadline.
+* **Patience:** Sometimes I am too eager to see immediate results (like forcing Auto Scaling to run instantly) without deeply understanding the underlying AWS configuration principles.
 
-**Work Habits:**
-* **Consistency** - Need to maintain steady progress rather than rushing at deadlines
-* **Detail orientation** - Sometimes miss small but important details in documentation or code
-* **Initiative** - Could be more proactive in seeking additional learning opportunities
-* **Efficiency** - Learning to work smarter, not just harder
+> **Conclusion:** This internship was like a "wake-up call" that helped me soberly realize exactly where I stand in the IT industry. What I have achieved is just the ABCs. The journey ahead requires me to study much more seriously, particularly focusing on Containerization (Docker), CI/CD automation, and advanced system design thinking.

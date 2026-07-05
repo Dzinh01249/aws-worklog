@@ -1,26 +1,32 @@
 ---
-title: "Week 11 Worklog"
-weight: 2
+title: "Worklog Week 11"
+weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
 
 ### Week 11 Objectives:
 
-* Learn Infrastructure as Code (IaC) basics and practice with CloudFormation and Terraform.
-* Automate the creation of a small, repeatable stack that includes networking, compute, and storage.
+* Receive feedback from Admins/Mentors to revise, optimize, and finalize the final AWS architecture diagram.
+* Deploy the entire Pet Resort & Care System project (both Frontend and Backend) to the actual Cloud environment based on the finalized architecture.
+* Ensure the system operates stably on the 3-Tier architecture, meeting High Availability (Multi-AZ) and closed security requirements.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Responsible for admin dashboard on Front End React.                                                                               | 17/11/2025 | 18/11/2025      |                        |
-| 3   | - Responsible for shipper dashboard on Front End React.                                                           | 19/11/2025 | 20/11/2025      |                      |
-| 4   | - Set up SES on Back End to send account emails to shippers.                                               | 21/11/2025 | 21/11/2025      | AWS Console Home SES                             |
+### Tasks to be implemented this week:
+| Day | Task | Start Date | End Date | References |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
+| Monday | - Receive feedback from admin: Fix the CloudFront flow for distributing Frontend and Media content to avoid flow errors; redraw connection lines for visual clarity.<br>- Finalize the AWS architecture blueprint. | 29/06/2026   | 29/06/2026      | Feedback from AWS Study Group Admin       |
+| Tuesday | - Deploy Network & Security Layer: Initialize VPC, Public/Private Subnets (Multi-AZ), NAT Gateway.<br>- Set up Security Groups, IAM Roles, KMS, and Secrets Manager.                            | 30/06/2026   | 30/06/2026      | AWS Documentation (VPC, IAM, KMS)         |
+| Wednesday | - Deploy Data Tier: Install Amazon RDS MySQL (Multi-AZ, Sync Replication) and Amazon ElastiCache (Redis) using the Cache-Aside model.                                         | 01/07/2026   | 01/07/2026      | AWS Documentation (RDS, ElastiCache)      |
+| Thursday | - Deploy Compute Tier: Push Spring Boot Backend source code to EC2.<br>- Configure Auto Scaling Group and manage traffic with Application Load Balancer (ALB).            | 02/07/2026   | 03/07/2026      | AWS Documentation (EC2, ALB, Auto Scaling)|
+| Saturday | - Deploy Edge Layer: Upload ReactJS static source code to S3 Frontend, create S3 Media.<br>- Configure CloudFront to route requests and attach AWS WAF to protect the system.        | 04/07/2026   | 04/07/2026      | AWS Documentation (CloudFront, S3, WAF)   |
 
+### Achievements in Week 11:
 
+#### A. Architecture Finalization
+* Successfully fixed logic errors in the Data Flow design based on Admin's feedback: Clearly separated the role of CloudFront combined with S3 for the static Frontend, and the direct Media resource retrieval flow.
+* Finalized a professional 3-Tier architecture diagram, fully prepared for the final project reporting and acceptance phase.
 
-### Week 11 Achievements:
-
-* Understand the basic concepts of SES to apply to the project
-
-* Learn more knowledge and necessary functions from the project
+#### B. Cloud Deployment
+* Successfully migrated the entire *Pet Resort & Care System* from the Local environment to the actual AWS infrastructure.
+* The system is now accessible smoothly via the Internet using a custom domain. API calls from Frontend to Backend, as well as image/media retrieval flows, operate seamlessly through the global CDN.
+* Successfully applied Zero Trust security principles: Completely disabled SSH port (Port 22), isolated the Database within the Private Subnet, and securely managed credentials using AWS Secrets Manager.

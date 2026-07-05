@@ -1,50 +1,26 @@
 ---
-title: "Week 4 Worklog"
-weight: 1
+title: "Worklog Week 4"
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
 ### Week 4 Objectives:
+- Learn about isolated virtual networking (Amazon VPC) to build a secure deployment environment.
+- Initialize the Amazon RDS MySQL relational database for the Pet Shop & Invoice project.
+- Establish initial firewall configurations (Security Groups) to safeguard data components.
 
-* Set up DynamoDB database for Coffee Cloud project
-* Learn DynamoDB basics and create tables for user and order data
-* Set up AWS Cognito for user authentication
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+### Tasks carried out this week:
+| Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Learn DynamoDB fundamentals <br> - Understand NoSQL concepts, primary keys, and indexes                                                                                                             | 22/07/2025 | 22/07/2025      | DynamoDB documentation                    |
-| 2   | - Create DynamoDB tables for Coffee Cloud: <br>&emsp; + Users table <br>&emsp; + Products table <br>&emsp; + Orders table <br>&emsp; + Points table                                                 | 23/07/2025 | 23/07/2025      | DynamoDB console guide                    |
-| 3   | - Configure table schemas and indexes <br> - Add sample data for testing <br> - Practice basic CRUD operations                                                                                        | 24/07/2025 | 24/07/2025      | DynamoDB SDK documentation                |
-| 4   | - Learn AWS Cognito for user authentication <br> - Understand User Pools and Identity Pools                                                                                                           | 25/07/2025 | 25/07/2025      | Cognito documentation                     |
-| 5   | - Create Cognito User Pool for Coffee Cloud <br> - Configure sign-up/sign-in settings <br> - Set up user groups (Customer, Shipper, Admin)                                                          | 26/07/2025 | 26/07/2025      | Cognito console guide                     |
-
+| 1 | Study fundamental concepts of Amazon VPC, including how to allocate Public Subnets (inbound traffic) and Private Subnets (hiding Databases). | 11/05/2026 | 11/05/2026 | Amazon VPC Documentation |
+| 2 | Research Amazon RDS relational database services; compare the benefits of managed RDS versus self-hosting MySQL on an EC2 instance. | 12/05/2026 | 12/05/2026 | Amazon RDS Documentation |
+| 3 | Practice launching an Amazon RDS MySQL database instance (selecting the Single-AZ Free Tier configuration to optimize internship credits). | 13/05/2026 | 13/05/2026 | AWS RDS Console |
+| 4 | Configure the Database Security Group: restrict access only to designated internal IP ranges or specific compute hosts, blocking public internet exposure. | 14/05/2026 | 14/05/2026 | AWS Security Best Practices |
+| 5 | Verify connection configurations (Endpoint URL) of the Database instance; prepare schema layouts (User, Pet, Order tables) for backend utilization. | 15/05/2026 | 15/05/2026 | |
 
 ### Week 4 Achievements:
 
-* Successfully created DynamoDB tables for Coffee Cloud project:
-  * **Users table**: Stores customer, shipper, and admin information
-  * **Products table**: Coffee menu items with prices and descriptions  
-  * **Orders table**: Order details and status tracking
-  * **Points table**: Customer loyalty points system
-
-* Configured proper primary keys and secondary indexes for efficient queries
-
-* Added sample data to all tables for testing purposes
-
-* Successfully set up AWS Cognito User Pool with the following configuration:
-  * Email-based sign-in
-  * Password policies for security
-  * Three user groups: Customer, Shipper, Admin
-  * Email verification for new accounts
-
-* Tested basic DynamoDB operations using AWS console:
-  * Create, read, update, delete operations
-  * Query and scan operations
-  * Understanding of capacity units and billing
-
-* Learned DynamoDB best practices for cost optimization within Free Tier limits
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Mastered secure cloud network architecture planning through VPC models and subnet isolation techniques.
+* Successfully initialized a managed MySQL server instance on Amazon RDS under Single-AZ mode to preserve credit boundaries.
+* Effectively implemented baseline Security Group firewall rules to insulate core storage clusters from unauthorized public external requests.

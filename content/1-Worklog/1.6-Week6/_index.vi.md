@@ -1,69 +1,27 @@
 ---
 title: "Worklog Tuần 6"
-weight: 1
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
-### Mục tiêu tuần 6:
+Mục tiêu tuần 6:
+- Lên văn phòng tham gia các buổi tự học, trao đổi trực tiếp với các thành viên để giải quyết các thắc mắc về hạ tầng đám mây.
+- Ôn tập và củng cố lại các kiến thức cốt lõi đã học trong các tuần qua (IAM, S3, VPC, EC2).
+- Nghiên cứu lý thuyết về phương pháp tối ưu hóa việc lưu trữ và phân phối giao diện tĩnh (Static Website Hosting).
 
-* Thiết lập AWS Amplify cho hosting frontend Coffee Cloud
-* Tạo ứng dụng React.js frontend
-* Cấu hình CI/CD pipeline để deploy tự động
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
+|------|----------|--------------|---------------|-------------------|
+| 1 | Lên văn phòng tự học, hệ thống hóa lại các thiết lập bảo mật tài khoản; kiểm tra cấu hình MFA và các chính sách phân quyền IAM User đã tạo. | 25/05/2026 | 25/05/2026 | AWS IAM Documentation |
+| 2 | Ôn tập chuyên sâu về dịch vụ lưu trữ Amazon S3, làm rõ cơ chế quản lý vòng đời đối tượng (Lifecycle Policies) và bảo mật Bucket. | 26/05/2026 | 26/05/2026 | Amazon S3 Guide |
+| 3 | Thảo luận nhóm tại văn phòng về mô hình VPC; rà soát lại lý thuyết phân chia Subnet và cách thức hoạt động của các quy tắc tường lửa (Security Groups). | 27/05/2026 | 27/05/2026 | |
+| 4 | Tìm hiểu các giải pháp phân phối giao diện Frontend tĩnh: Đọc tài liệu so sánh giữa việc dùng Amazon S3 Static Hosting thông thường và tích hợp AWS Amplify. | 28/05/2026 | 28/05/2026 | AWS Web Hosting Blog |
+| 5 | Tổng hợp các nội dung tự học trong tuần, chuẩn bị các câu hỏi kỹ thuật cần Mentor hỗ trợ và cập nhật tiến độ báo cáo local. | 29/05/2026 | 29/05/2026 | |
 
-### Nhiệm vụ thực hiện trong tuần:
-| Ngày | Nhiệm vụ                                                                                                                                                                                               | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Tìm hiểu cơ bản AWS Amplify <br> - Hiểu Amplify hosting và CI/CD features <br> - Ôn tập React.js cơ bản cho phát triển frontend                                                        | 05/08/2025 | 05/08/2025      | Tài liệu Amplify                     |
-| 2   | - Tạo ứng dụng React.js mới cho Coffee Cloud <br> - Thiết lập cấu trúc project với components cho: login, menu, cart, orders                                                                   | 06/08/2025 | 06/08/2025      | Tài liệu React.js                    |
-| 3   | - Khởi tạo Git repository cho project <br> - Push code ban đầu lên GitHub repository <br> - Thiết lập routing và navigation cơ bản                                                                | 07/08/2025 | 07/08/2025      | Tài liệu Git                         |
-| 4   | - Kết nối React app với AWS Amplify <br> - Cấu hình automatic deployment từ GitHub <br> - Thiết lập custom domain (nếu có)                                                                     | 08/08/2025 | 08/08/2025      | Hướng dẫn Amplify console                     |
-| 5   | - Test CI/CD pipeline bằng cách thay đổi code <br> - Cấu hình environment variables cho API endpoints <br> - Xác minh deployment thành công                                                              | 09/08/2025 | 09/08/2025      | Hướng dẫn Amplify deployment                  |
+Thành tích tuần 6:
 
+• Hoàn thành việc hệ thống hóa và nắm vững toàn bộ kiến thức nền tảng về nhóm dịch vụ Core (Tính toán, Mạng, Lưu trữ, Bảo mật) của AWS.
 
-### Kết quả đạt được tuần 6:
+• Làm rõ được định hướng triển khai phần giao diện (Frontend ReactJS): Quyết định nghiên cứu sâu giải pháp lưu trữ tĩnh trên Amazon S3 kết hợp CDN để tối ưu chi phí thay vì lạm dụng các dịch vụ tự động hóa đắt đỏ.
 
-* Thành công tạo ứng dụng React.js frontend cho Coffee Cloud với các tính năng:
-  * **Trang Login/Registration**: Giao diện xác thực người dùng
-  * **Trang Menu**: Hiển thị sản phẩm cà phê với giá và mô tả
-  * **Giỏ hàng**: Thêm/bỏ items và tính tổng tiền
-  * **Lịch sử đơn hàng**: Xem đơn hàng cũ và theo dõi trạng thái
-  * **Hệ thống điểm**: Hiển thị điểm thưởng khách hàng
-
-* Thiết lập AWS Amplify hosting với CI/CD pipeline tự động:
-  * Kết nối GitHub repository với Amplify
-  * Cấu hình automatic deployment khi commit code
-  * Thiết lập environment-specific builds (dev/prod)
-  * Cấu hình custom domain sẵn sàng cho tương lai
-
-* Implement responsive design cho người dùng mobile và desktop
-
-* Thành công test toàn bộ deployment process:
-  * Thay đổi code trigger automatic builds
-  * Build logs cho thấy deployment thành công
-  * Ứng dụng live có thể truy cập qua Amplify URL
-
-* Cấu hình environment variables để kết nối API Gateway endpoints
-
-* Tìm hiểu lợi ích của Amplify cho frontend developers:
-  * Không cần cấu hình server
-  * Quản lý SSL certificate tự động
-  * Global CDN để phân phối nội dung nhanh
-  * Dễ dàng rollback về version trước
-
-* Đã tạo và bảo mật AWS Free Tier account: bật MFA và tạo IAM user ban đầu.
-
-* Thành thạo thao tác cơ bản trên AWS Management Console.
-
-* Cài đặt và cấu hình AWS CLI (access key, secret key, region mặc định, output format).
-
-* Thực hiện một số lệnh CLI cơ bản:
-  * aws sts get-caller-identity
-  * aws ec2 describe-instances
-  * aws s3 ls
-
-* Khởi tạo EC2, kết nối SSH và gắn EBS volume để thực hành.
-
-* Ghi chú: sẽ tiếp tục ôn tập S3 và IAM trong các tuần tới.
-
-
+• Tăng cường khả năng làm việc độc lập thông qua chuỗi ngày tự học tại văn phòng và phối hợp nhịp nhàng với tiến độ chung của nhóm.

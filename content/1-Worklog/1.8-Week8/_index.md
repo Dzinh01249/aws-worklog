@@ -1,63 +1,34 @@
 ---
-title: "Week 8 Worklog"
-weight: 1
+title: "Worklog Week 8"
+weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
 
 ### Week 8 Objectives:
+* Complete the packaging process of the Pet Shop Spring Boot source code into an executable archive (.jar) on the local environment.
+* Research beginner-friendly cloud deployment solutions for hosting the backend application.
+* Pivot research focus towards AWS Elastic Beanstalk after recognizing that manually managing an EC2 Linux server exceeds current technical capabilities.
 
-* Set up notification services (SNS and SES) for Coffee Cloud
-* Implement email notifications for orders and promotions
-* Add push notifications for order status updates
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+### Tasks carried out this week:
+| Day | Detailed Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Learn AWS SNS (Simple Notification Service) basics <br> - Understand topics, subscriptions, and message formats <br> - Create SNS topic for order notifications                                   | 19/08/2025 | 19/08/2025      | SNS documentation                         |
-| 2   | - Set up AWS SES (Simple Email Service) <br> - Verify email domain/address <br> - Create email templates for order confirmations                                                                     | 20/08/2025 | 20/08/2025      | SES documentation                         |
-| 3   | - Integrate SNS with Lambda functions <br> - Send notifications when orders are created/updated <br> - Test notification delivery                                                                    | 21/08/2025 | 21/08/2025      | Lambda + SNS integration                  |
-| 4   | - Implement email notifications with SES <br> - Send order confirmation emails <br> - Create promotional email templates                                                                             | 22/08/2025 | 22/08/2025      | SES email templates                       |
-| 5   | - Test complete notification flow <br> - Verify email delivery and formatting <br> - Test SMS notifications (optional)                                                                              | 23/08/2025 | 23/08/2025      | End-to-end notification testing           |
-
+| 1 | - Pause feature development to study the Build and Packaging lifecycle of a Spring Boot application.<br>- Read documentation covering Maven Lifecycles (Clean, Compile, Package). | 08/06/2026 | 08/06/2026 | Spring Boot Maven Docs |
+| 2 | - Practice executing the `mvn clean package` command within the VS Code / IntelliJ terminal to build the Pet Shop backend into a `.jar` file.<br>- Resolve minor build failures related to skipped Test Cases. | 09/06/2026 | 09/06/2026 | StackOverflow / Java Blogs |
+| 3 | - Close the IDE completely, open Windows Command Prompt, and execute the generated binary using the `java -jar petshop-backend.jar` command.<br>- Retest API endpoints via Postman to ensure stable standalone execution. | 10/06/2026 | 10/06/2026 | Java Documentation |
+| 4 | - Review documentation for deploying the `.jar` file onto an Amazon EC2 instance.<br>- Realized that provisioning bare-metal EC2 requires Linux (Ubuntu) command-line skills and complex environment variable setups, posing a high risk of operational failure. | 11/06/2026 | 11/06/2026 | Amazon EC2 Linux Docs |
+| 5 | - Discussed with the team and decided to pivot towards researching **AWS Elastic Beanstalk** (PaaS) – a managed service that allows direct `.jar` file uploads via the Web UI without requiring Linux command-line expertise. | 12/06/2026 | 12/06/2026 | AWS Elastic Beanstalk Guide |
 
 ### Week 8 Achievements:
 
-* Successfully configured AWS SNS for Coffee Cloud notifications:
-  * Created SNS topics for different notification types (orders, promotions, alerts)
-  * Set up email subscriptions for admin notifications
-  * Configured topic policies for secure access from Lambda functions
+* **Mastered Local Application Packaging Skills:**
+  * Understood the operational difference between running source code inside an IDE versus executing an independently compiled binary.
+  * Successfully utilized Apache Maven to compile and package the Spring Boot project into a complete, standalone `.jar` executable.
+  * Ensured the backend application runs stably on the local Windows environment using the `java -jar` protocol, successfully connecting to the local database.
 
-* Implemented AWS SES for email communications:
-  * Verified sender email address for development
-  * Created professional email templates for:
-    - Order confirmation emails
-    - Welcome emails for new users
-    - Promotional newsletters
-    - Password reset emails
+* **Developed Cloud Service Evaluation Mindset:**
+  * Grasped the fundamental differences between IaaS (Amazon EC2) and PaaS (AWS Elastic Beanstalk) deployment models.
+  * Accurately assessed personal technical limitations: proactively chose to bypass raw EC2 provisioning to avoid security and operational risks associated with a lack of Linux OS administration experience.
 
-* Integrated notification services with Lambda functions:
-  * Order creation triggers automatic email confirmation
-  * Order status updates send real-time notifications
-  * Admin receives alerts for new orders and system issues
-
-* Enhanced Coffee Cloud user experience:
-  * Customers receive immediate order confirmations
-  * Real-time updates on order preparation and delivery status
-  * Professional-looking email templates with Coffee Cloud branding
-
-* Tested notification reliability:
-  * Email delivery working within SES sandbox limits
-  * Proper error handling for failed notifications
-  * Monitoring notification logs via CloudWatch
-
-* Learned AWS communication services best practices:
-  * Understanding SES sandbox vs production mode
-  * SNS pricing and message limits
-  * Proper IAM permissions for notification services
-
-* Implemented a NAT gateway pattern to allow private instances to access the internet for updates.
-
-* Documented VPC diagrams, CIDR choices, and common troubleshooting commands (e.g., traceroute, curl, iptables checks).
-
-* Next steps: explore managed database services and backups.
+* **Defined a Safe Deployment Roadmap for Upcoming Weeks:**
+  * Aligned on using AWS Elastic Beanstalk for the Pet Shop backend. This managed service handles EC2 provisioning, Java installation, and network configuration automatically under the hood, saving the team time and mitigating complex infrastructure setup errors.

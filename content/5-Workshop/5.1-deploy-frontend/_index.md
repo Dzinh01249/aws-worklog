@@ -29,7 +29,7 @@ GitHub Repository → AWS Amplify → CloudFront CDN → Users
 1. [Workshop Overview](5.1.1-overview/)
 2. [Prerequisites](5.1.2-prerequisites/)
 3. [Setup Git Repository](5.1.3-setup-git/)
-4. [Deploy to AWS Amplify](5.1.4-deploy-amplify/)
+4. [Deploy to AWS Amplify](5.1.4-deploy-frontend/)
 5. [Configure Build Settings](5.1.5-configure-build/)
 6. [Testing & Verification](5.1.6-testing/)
 

@@ -5,161 +5,73 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
-
-# Coffee Cloud – Coffee Shop Order Platform  
+# Pet Resort & Care System  
 ### Project Documentation
 
-📄 **[Download Complete Project Proposal (Word Document)](/documents/Coffee-Cloud-Complete-Proposal.docx)**
+📄 **[Download Complete Project Proposal (Word Document)](#)**
 
 ---
-### 1. Tóm tắt điều hành
-Dự án "Coffee Cloud – Coffee Shop Order Platform" là nền tảng web giúp khách hàng đặt cà phê trực tuyến, tích điểm sau mỗi đơn hàng và đổi voucher ưu đãi.
 
-Hệ thống hỗ trợ ba nhóm người dùng: Customer, Shipper, và Admin, nhằm tối ưu trải nghiệm đặt hàng, giao hàng và quản lý vận hành quán.
+### 1. Tổng Quan Hệ Thống
 
-Ứng dụng Frontend được xây dựng bằng ReactJS, Backend bằng C#/.NET chạy trên AWS Elastic Beanstalk, và được triển khai hoàn toàn trên AWS Free Tier với các dịch vụ: Amplify (Hosting + CI/CD), Cognito (Authentication), Elastic Beanstalk (.NET Backend services), S3 Storage, DynamoDB, SNS (Notifications), SES (Email Service), IAM, và CloudWatch Logs.  
+Dự án "Pet Resort & Care System" là một sản phẩm thử nghiệm (dạng MVP - Minimum Viable Product) được phát triển trong khuôn khổ dự án tốt nghiệp/thực tập. Ứng dụng là một trang web kết hợp mua bán đồ thú cưng và đặt lịch spa cơ bản.
 
-### 2. Tuyên bố vấn đề  
-*Vấn đề hiện tại*  
-Quán cà phê truyền thống gặp khó khăn trong việc quản lý đơn hàng đông đúc, khách hàng phải chờ đợi lâu để đặt hàng và nhận sản phẩm. Không có hệ thống tích điểm để khuyến khích khách hàng quay lại, và việc theo dõi trạng thái đơn hàng chưa minh bạch.
+Nhóm đã cố gắng áp dụng mô hình Kiến trúc 3 lớp (3-Tier Architecture) trên AWS để trải nghiệm việc triển khai ứng dụng thực tế. Dù đã thiết lập Multi-AZ và các dịch vụ cơ bản của AWS, hệ thống hiện tại vẫn mang tính chất "học hỏi và thử nghiệm" là chính, chưa thể so sánh với các hệ thống Enterprise chịu tải cao ngoài thực tế.
 
-*Giải pháp*  
-Nền tảng Coffee Cloud được xây dựng với kiến trúc cloud có khả năng mở rộng trên AWS, sử dụng ReactJS cho frontend được host trên Amplify, và các dịch vụ backend được containerized triển khai trên Elastic Beanstalk. Hệ thống cung cấp ba giao diện riêng biệt cho Customer (đặt hàng, tích điểm), Shipper (nhận và giao hàng), và Admin (quản lý tổng thể). Dữ liệu được lưu trữ trong DynamoDB cho hiệu suất cao với S3 cho static assets và Amazon Location Service cho theo dõi giao hàng. Authentication được quản lý bởi Cognito với hỗ trợ đa role. AWS SNS xử lý thông báo realtime về trạng thái đơn hàng, trong khi SES quản lý email communications. Xử lý thanh toán được tích hợp thông qua các payment gateway bên ngoài. Các tính năng chính bao gồm đặt hàng trực tuyến, hệ thống tích điểm, theo dõi đơn hàng thời gian thực với GPS, quản lý inventory, và hệ thống thông báo đa kênh.
+---
 
-*Lợi ích và hoàn vốn đầu tư (ROI)*  
-Hệ thống giúp tăng doanh thu thông qua kênh online, giảm thời gian chờ đợi của khách hàng và tối ưu hóa quy trình vận hành. Chi phí triển khai thấp nhờ sử dụng AWS Free Tier, ước tính chi phí vận hành hàng tháng dưới $5 USD cho giai đoạn đầu. Hệ thống tích điểm giúp tăng tỷ lệ khách hàng quay lại, dự kiến tăng doanh thu 20-30% so với hình thức truyền thống. Thời gian hoàn vốn ước tính 3-6 tháng nhờ tiết kiệm chi phí nhân lực và tăng hiệu quả bán hàng.  
+### 2. Kiến trúc giải pháp & Chi Tiết Các Lớp (Mức độ thử nghiệm)
 
-### 3. Kiến trúc giải pháp  
-Coffee Cloud áp dụng kiến trúc containerized có khả năng mở rộng trên AWS để đảm bảo high availability và tiết kiệm chi phí. Frontend ReactJS được deploy trên AWS Amplify với tích hợp CI/CD tự động từ Git repository. Backend services được containerized và triển khai trên AWS Elastic Beanstalk để dễ dàng scaling và quản lý. Dữ liệu được lưu trữ trong DynamoDB cho hiệu suất cao, S3 cho static assets, và Amazon Location Service cho GPS tracking và tối ưu hóa giao hàng. Authentication và authorization được quản lý bởi Amazon Cognito với hỗ trợ đa role (Customer, Shipper, Admin). Các dịch vụ thanh toán bên ngoài được tích hợp để xử lý giao dịch an toàn.
+Dưới đây là sơ đồ kiến trúc hệ thống mà nhóm đã cố gắng phác thảo và triển khai sau khi được các mentor góp ý sửa lỗi luồng (flow):
 
-![Coffee Cloud Platform Architecture](/images/2-Proposal/architecture_proposal.jpg)
+![Kiến trúc AWS Hệ thống Pet Resort](image_ab600f.jpg)
 
-*Dịch vụ AWS sử dụng*  
-- *AWS Amplify*: Hosting frontend ReactJS với CI/CD pipeline tự động từ Git repository.  
-- *AWS Elastic Beanstalk*: Containerized .NET Framework 8.0 backend services với auto-scaling và load balancing.  
-- *Amazon DynamoDB*: NoSQL database lưu trữ dữ liệu users, orders, products, points.  
-- *Amazon S3*: Lưu trữ static assets như hình ảnh sản phẩm, documents, và backup data.  
-- *Amazon Location Service*: GPS tracking, geocoding, và tối ưu hóa tuyến đường giao hàng.  
-- *Amazon Cognito*: Authentication và authorization cho 3 loại user roles.  
-- *Amazon SNS*: Push notifications và SMS alerts cho trạng thái đơn hàng và promotions.  
-- *Amazon SES*: Email service cho order confirmations, receipts và marketing campaigns.  
-- *Cloudflare Tunnel*: Kết nối domain an toàn giữa Amplify frontend và Elastic Beanstalk backend sử dụng Quick Tunnel.  
-- *Payment Gateway Integration*: Xử lý thanh toán bên ngoài cho các giao dịch an toàn.  
-- *Amazon CloudWatch*: Monitoring và logging cho toàn bộ hệ thống.  
-- *AWS IAM*: Quản lý permissions và security policies.  
+#### 2.1. Lớp Biên & Phân Phối (Edge Layer)
+*   **AWS WAF & CloudFront:** Nhóm có bật WAF và CloudFront để tập làm quen với CDN. Tuy nhiên, các rule WAF hầu hết đang dùng bộ luật mặc định (AWS Managed Rules), chưa có kinh nghiệm tinh chỉnh sâu. CloudFront giúp tải tĩnh từ S3 nhanh hơn một chút, nhưng thỉnh thoảng vẫn gặp lỗi cache do chưa cấu hình invalidation chuẩn.
 
-*Thiết kế thành phần*  
-- *Frontend Layer*: ReactJS application hosted trên Amplify với responsive design và Git-based CI/CD.  
-- *Application Layer*: Containerized .NET Framework 8.0 services triển khai trên Elastic Beanstalk với auto-scaling capabilities.  
-- *Network Layer*: Cloudflare Tunnel (Quick Tunnel) cung cấp kết nối domain an toàn giữa frontend và backend services.  
-- *Data Storage Layer*: DynamoDB cho structured data, S3 cho file storage, Location Service cho GPS data.  
-- *Authentication Layer*: Cognito User Pools quản lý users với 3 groups (Customer, Shipper, Admin).  
-- *Communication Layer*: SNS cho real-time notifications, SES cho email communications.  
-- *Payment Layer*: Tích hợp external payment gateways cho xử lý giao dịch an toàn.  
-- *Monitoring Layer*: CloudWatch theo dõi performance, errors và usage metrics với IAM security controls.
+#### 2.2. Lớp Mạng & Xử Lý Logic (Network & Compute Tier)
+*   **ALB & EC2 (Auto Scaling):** Sử dụng Application Load Balancer để chia traffic xuống các máy chủ EC2 (t3.micro) đặt trong Private Subnet. Có thiết lập Auto Scaling Group, nhưng qua quá trình test thực tế, tốc độ sinh thêm máy (scale-out) vẫn khá chậm (mất vài phút), nên nếu bị spam request đột ngột thì server vẫn có nguy cơ "treo" cục bộ.
+*   **NAT Gateway:** Để tiết kiệm chi phí, nhóm chỉ dám dùng 1 NAT Gateway duy nhất cho cả 2 AZ. Điều này tạo ra một điểm thắt nút (Single Point of Failure), nhưng đành chấp nhận vì kinh phí sinh viên có hạn.
 
-### 4. Triển khai kỹ thuật  
-*Các giai đoạn triển khai*  
-Dự án Coffee Cloud được chia thành 4 giai đoạn chính trong vòng 3 tháng:  
-1. *Nghiên cứu và thiết kế*: Phân tích yêu cầu business, thiết kế database schema, wireframe UI/UX và kiến trúc system (Tháng 1).  
-2. *Setup Environment và Backend Development*: Cấu hình AWS services, phát triển containerized backend services, thiết lập DynamoDB tables và Elastic Beanstalk environment (Tháng 1-2).  
-3. *Frontend Development*: Xây dựng ReactJS application, tích hợp với backend APIs, implement authentication flow với Cognito (Tháng 2).  
-4. *Testing và Deployment*: Unit testing, integration testing, performance testing, deploy lên Amplify và Elastic Beanstalk với monitoring (Tháng 3).  
+#### 2.3. Lớp Lưu Trữ Dữ Liệu (Data Tier)
+*   **Amazon ElastiCache (Redis):** Nhóm tập tành cài đặt Redis để lưu Session và giỏ hàng tạm. Do code Backend (Spring Boot) xử lý cache chưa thực sự tốt, đôi lúc vẫn xảy ra tình trạng dữ liệu không đồng bộ giữa Database và Cache.
+*   **Amazon RDS (MySQL):** "Chơi lớn" thiết lập Multi-AZ (Active-Standby) để xem tính năng tự động failover hoạt động ra sao. Dữ liệu demo chưa nhiều nên chủ yếu setup để lấy kinh nghiệm quản trị Database trên cloud.
 
-*Yêu cầu kỹ thuật*  
-- *Frontend Requirements*: ReactJS với hooks, React Router cho navigation, Axios cho API calls, CSS frameworks (Bootstrap/Material-UI), responsive design cho mobile và desktop.  
-- *Backend Requirements*: Containerized .NET Framework 8.0 services trên Elastic Beanstalk, Entity Framework Core cho data access, JWT authentication, exception handling và logging.  
-- *Database Design*: DynamoDB tables cho Users, Products, Orders, OrderItems, Points, Vouchers với proper indexing và relationships.  
-- *Location Services*: Amazon Location Service integration cho GPS tracking, geocoding, và route optimization.  
-- *Payment Integration*: External payment gateway APIs cho xử lý giao dịch an toàn.  
-- *Network Integration*: Cloudflare Tunnel (Quick Tunnel) cho kết nối domain an toàn giữa Amplify frontend và Elastic Beanstalk backend.  
-- *DevOps Requirements*: Git version control, Amplify CI/CD pipeline, Elastic Beanstalk deployment, CloudWatch monitoring, IAM roles và policies cho security.  
+#### 2.4. Lớp Bảo Mật & Quản Trị
+*   Nhóm đã cố gắng không hardcode password bằng cách thử dùng **Secrets Manager** và **KMS**. Dù vậy, việc phân quyền IAM Roles thỉnh thoảng vẫn còn khá lỏng (gắn quyền hơi rộng để code khỏi báo lỗi Access Denied).
+*   Đã tiếp cận được việc dùng **Session Manager** thay cho Port 22, một điểm cộng nhỏ về bảo mật mà nhóm học được từ mentor.
 
-### 5. Lộ trình & Mốc triển khai  
-*Lịch trình dự án*  
-- *Giai đoạn 1 (Tuần 1-4)*: Nghiên cứu và thiết kế hệ thống  
-    - Phân tích yêu cầu business và technical  
-    - Thiết kế database schema và API specifications  
-    - Tạo wireframes và UI mockups  
-    - Setup AWS account và cấu hình ban đầu  
-- *Giai đoạn 2 (Tuần 5-8)*: Phát triển Backend và Infrastructure  
-    - Tạo DynamoDB tables và configure indexes  
-    - Phát triển containerized backend services với C#/.NET  
-    - Setup Elastic Beanstalk environment và deployment  
-    - Configure Cognito User Pools và Groups  
-    - Tích hợp Amazon Location Service cho GPS tracking  
-    - Setup payment gateway integration  
-- *Giai đoạn 3 (Tuần 9-10)*: Phát triển Frontend  
-    - Xây dựng ReactJS components và pages  
-    - Implement authentication và authorization  
-    - Tích hợp với backend APIs  
-    - Responsive design cho mobile  
-- *Giai đoạn 4 (Tuần 11-12)*: Testing và Deployment  
-    - Unit testing và integration testing  
-    - Deploy lên AWS Amplify  
-    - Performance optimization và monitoring setup  
-    - User acceptance testing và documentation  
+#### 2.5. Tối Ưu Chi Phí (FinOps "Nhập môn")
+*   **S3 Endpoint & Pre-signed URL:** Nhờ tham khảo tài liệu, nhóm đã biết cách cho Client upload file thẳng lên S3 (dùng URL tạm thời) thay vì đẩy qua EC2, giúp server đỡ bị quá tải bộ nhớ và tiết kiệm được một chút phí NAT Gateway.
 
-### 6. Ước tính ngân sách  
-Dự án Coffee Cloud được thiết kế để tận dụng tối đa AWS Free Tier trong giai đoạn đầu phát triển và testing.
+---
 
-### Chi phí hạ tầng  
-*Dịch vụ AWS (Monthly)*  
-- AWS Amplify: $0.00 USD (Free Tier: 1000 build minutes, 15GB storage)  
-- AWS Elastic Beanstalk: $0.00 USD (Free Tier: t3.micro instance, 750 hours/month)  
-- Amazon DynamoDB: $0.00 USD (Free Tier: 25GB storage, 25 RCU/WCU)  
-- Amazon S3: $0.00 USD (Free Tier: 5GB standard storage)  
-- Amazon Location Service: $0.00 USD (Free Tier: 5000 requests/month)  
-- Amazon Cognito: $0.00 USD (Free Tier: 50,000 MAU)  
-- Amazon SNS: $0.00 USD (Free Tier: 1M publications, 100,000 HTTP/HTTPS requests)  
-- Amazon SES: $0.00 USD (Free Tier: 62,000 emails/month)  
-- Amazon CloudWatch: $0.00 USD (Free Tier: 10 custom metrics, 5GB logs)  
+### 3. Ước tính ngân sách (Bài toán "sống sót")
+Do cấu hình kiến trúc có nhiều dịch vụ trả phí (NAT, RDS, ALB), nhóm phải liên tục theo dõi để không bị "cháy túi". Chi phí ước lượng hiện tại ráng ép xuống mức dưới 130$/tháng.
 
-*Chi phí sau Free Tier (Ước tính cho production)*  
-- AWS Amplify: ~$1.00 USD/month (hosting + build minutes)  
-- AWS Elastic Beanstalk: ~$15.00 USD/month (t3.small instance cho production)  
-- Amazon DynamoDB: ~$1.25 USD/month (additional RCU/WCU)  
-- Amazon Location Service: ~$2.00 USD/month (additional GPS requests)  
-- Amazon SNS: ~$0.50 USD/month (additional notifications + SMS)  
-- Amazon SES: ~$1.00 USD/month (additional emails beyond free tier)  
-- Payment Gateway Fees: ~$5.00 USD/month (transaction processing fees)  
+*Chi phí hạ tầng Ước tính (Monthly - Môi trường Demo)* 
+- *Amazon EC2*: ~$15.00 USD (2 instances `t3.micro`).
+- *Application Load Balancer*: ~$18.00 USD.
+- *NAT Gateway*: ~$35.00 USD (Chỉ dùng 1 cái).
+- *Amazon RDS*: ~$28.00 USD (`db.t3.micro` Multi-AZ).
+- *Amazon ElastiCache (Redis)*: ~$12.00 USD (`cache.t4g.micro`).
+- *Các dịch vụ khác (WAF, S3, CloudFront, Secrets Manager...)*: ~$12.00 USD.
 
-*Tổng ước tính*: $0.00 USD/month (Development), ~$25.75 USD/month (Production)  
-*Chi phí phát triển*: Chỉ phát sinh chi phí nhân lực cho developer  
+*Tổng ngân sách*: **~$120.00 USD/tháng**. 
+Dù đã cố gắng bóp chặt, đây vẫn là mức phí khá "đau ví" với sinh viên. Nhóm dự định ngay sau khi báo cáo nghiệm thu xong sẽ xóa bớt RDS và NAT Gateway để tránh phát sinh hóa đơn.
 
-### 7. Đánh giá rủi ro  
-*Ma trận rủi ro*  
-- Vượt giới hạn Free Tier: Ảnh hưởng trung bình, xác suất trung bình  
-- Lỗi integration giữa các AWS services: Ảnh hưởng cao, xác suất thấp  
-- Performance issues với DynamoDB: Ảnh hưởng trung bình, xác suất thấp  
-- Security vulnerabilities: Ảnh hưởng cao, xác suất thấp  
+---
 
-*Chiến lược giảm thiểu*  
-- Chi phí: Thiết lập CloudWatch billing alerts, monitor usage daily  
-- Integration: Thực hiện thorough testing, sử dụng AWS SAM cho local testing  
-- Performance: Thiết kế proper DynamoDB indexes, implement caching strategies  
-- Security: Follow AWS security best practices, regular security audits  
+### 4. Đánh giá rủi ro (Rất thực tế)
+*   **Auto Scaling phản ứng chậm (Khả năng cao):** Nếu thầy cô hoặc hội đồng test spam request quá nhanh, EC2 sẽ quá tải trước khi Auto Scaling kịp sinh ra máy mới.
+*   **Lỗi code Backend (Khả năng trung bình):** Logic xử lý đặt lịch spa (booking) thỉnh thoảng vẫn bị lỗi double-booking do xử lý khóa (lock) trong Database chưa thực sự triệt để.
+*   **Vượt ngân sách (Khả năng cao):** Cấu hình sai IAM hoặc CloudWatch đôi khi làm hệ thống gọi API lòng vòng, sinh ra phí ẩn.
 
-*Kế hoạch dự phòng*  
-- Backup và recovery plan cho DynamoDB data  
-- Fallback mechanisms cho critical functions  
-- Manual operation procedures nếu hệ thống gặp sự cố  
-- Communication plan với stakeholders khi có incidents  
+---
 
-### 8. Kết quả kỳ vọng  
-*Cải tiến kỹ thuật*: Hệ thống Coffee Cloud hoàn chỉnh với khả năng xử lý hàng trăm đơn hàng đồng thời, responsive design hoạt động mượt mà trên mọi thiết bị.
-
-*Lợi ích kinh doanh*:  
-- Tăng 30% doanh thu nhờ kênh online mới  
-- Giảm 50% thời gian xử lý đơn hàng  
-- Tăng 25% tỷ lệ khách hàng quay lại nhờ hệ thống tích điểm  
-- Cải thiện customer satisfaction score lên 90%  
-
-*Kỹ năng phát triển*:  
-- Thành thạo AWS Serverless Architecture  
-- Kinh nghiệm phát triển full-stack với ReactJS và .NET  
-- Hiểu biết sâu về NoSQL database design  
-- Kỹ năng DevOps với CI/CD pipeline  
-
-*Khả năng mở rộng*: Hệ thống có thể dễ dàng scale để phục vụ multiple coffee shops hoặc integrate thêm features như AI recommendation, loyalty program nâng cao.  
-*Giá trị dài hạn*: Platform foundation có thể tái sử dụng cho các dự án e-commerce khác, tạo cơ sở cho việc phát triển các ứng dụng kinh doanh tương tự.
+### 5. Kết quả kỳ vọng & Bài học rút ra
+*   **Sản phẩm:** Một trang web "chạy được", các luồng cơ bản (mua hàng, đặt lịch) có thể thao tác từ đầu đến cuối mà không văng lỗi 500 (trừ khi quá tải).
+*   **Kỹ năng đạt được:** 
+    *   Hết "mù mờ" về Cloud: Nhóm đã tự tay bấm giao diện, tự cấu hình VPC, Subnet, Load Balancer thay vì chỉ học lý thuyết.
+    *   Nếm mùi "đau thương": Hiểu được việc debug code chạy trên Local rất dễ, nhưng khi vứt lên Cloud (EC2) mà giấu sau Private Subnet thì tìm lỗi qua CloudWatch Logs khó khăn như thế nào.
+    *   Tuy kiến trúc còn sơ sài và nhiều lỗ hổng, dự án là bước đệm cực kỳ giá trị để nhóm định hình được một hệ thống thực tế cần những mảnh ghép gì.

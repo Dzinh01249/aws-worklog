@@ -5,145 +5,125 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Báo cáo Tóm tắt: "AI-Driven Development Life Cycle: Reimagining Software Engineering"
+# Báo cáo Tóm tắt: "Tech Meetup: Cloud Architecture, Security & Engineering Career Roadmap"
 
 ### Chi tiết Sự kiện
-- **Ngày**: Thứ Sáu, 3 tháng 10, 2025 lúc 2pm
-- **Thời gian**: 2:00 PM - 4:30 PM
-- **Địa điểm**: AWS Event Hall, L26 Bitexco Tower, HCMC
-- **Loại sự kiện**: Hội thảo Kỹ thuật và Demo
+- **Ngày**: Thứ Bảy, 6 tháng 6, 2026
+- **Thời gian**: 9:00 AM - 12:00 PM
+- **Địa điểm**: Saigon Campus - Tầng 26 Tòa nhà Bitexco, TP.HCM
+- **Loại sự kiện**: Hội thảo Kỹ thuật, Chia sẻ định hướng nghề nghiệp và Networking
 
 ### Mục tiêu Sự kiện
-
-- Khám phá AI-Driven Development sử dụng Amazon Q Developer và Kiro
-- Tìm hiểu cách AI thay đổi lifecycle phát triển phần mềm
-- Demo trực tiếp các công cụ AI trong quá trình development
-- Networking với cộng đồng AWS GenAI Builder
+- Khám phá các công nghệ Cloud tiên tiến trên AWS (AWS WAF, AWS Neptune).
+- Hiểu rõ về công nghệ ảo hóa (Containerization) với Docker và cách vận hành Game Server trên Cloud.
+- Trang bị kỹ năng mềm làm việc nhóm và định hướng lộ trình thăng tiến sự nghiệp trong ngành IT.
+- Kết nối và học hỏi từ kinh nghiệm thực chiến của các diễn giả đi trước.
 
 ### Lịch trình
 
-#### Chào mừng (2:00 PM - 2:15 PM)
-- Đăng ký tham gia và networking
-- Tổng quan về workshop và mục tiêu học tập
-- Hoạt động làm quen
-- Giới thiệu về AI/ML landscape tại Việt Nam
+#### Chào mừng & Định hướng (9:00 AM - 9:15 AM)
+- Đăng ký tham gia, check-in và networking đầu giờ.
+- Tổng quan về mục tiêu sự kiện và giới thiệu các diễn giả.
+- AWS study group cùng nhau chụp hình cho buổi event cùng với ban tổ chức
 
-#### AI-Driven Development Life Cycle Overview (2:15 PM - 3:30 PM)
-- **Tổng quan và demo Amazon Q Developer** (by Toan Huynh)
-- Cách AI thay đổi software development lifecycle
-- Tự động hóa từ planning đến maintenance
-- Code transformation và modernization capabilities
+#### Phần 1: Soft Skills & Career Roadmap (9:15 AM - 10:00 AM)
+- **Từ IT Helpdesk lên Senior Sysadmin: Hành trình tự học và Lộ trình** (bởi Vinh Trần)
+- **Topic: Cách làm việc nhóm hiệu quả** (bởi Trương Phước)
 
-#### Giải lao (3:30 PM - 3:45 PM)
+#### Phần 2: Core Infrastructure & Security (10:00 AM - 10:45 AM)
+- **Docker - A containerization technology** (bởi Bảo Huỳnh)
+- **Combining AWS WAF with Machine Learning for Cyber Attacks** (bởi Lê Hoàng Gia Đại)
 
-#### Kiro Demonstration (3:45 PM - 4:30 PM)  
-- **Demo Kiro** (by My Nguyen)
-- Multi-step workflows và tool integrations
-- Practical applications trong development
+#### Giải lao & Teabreak (10:45 AM - 11:00 AM)
+
+#### Phần 3: Advanced Cloud Applications (11:00 AM - 11:45 AM)
+- **AWS Neptune for Building a Graph Knowledge Base** (bởi Việt Phát)
+- **Multiplayer in the Cloud: Connecting Godot Clients** (bởi Nguyễn Quốc Bảo)
+
+#### Q&A và Networking (11:45 AM - 12:00 PM)
+- Giao lưu trực tiếp với các diễn giả và bế mạc sự kiện.
 
 ### Diễn giả
+- **Vinh Trần** - Senior Sysadmin / System Engineer
+- **Trương Phước** - Chuyên gia phát triển phần mềm & Quản lý dự án
+- **Bảo Huỳnh** - Cloud & DevOps Engineer
+- **Lê Hoàng Gia Đại** - Cloud Security Specialist
+- **Việt Phát** - Data & Cloud Architect
+- **Nguyễn Quốc Bảo** - Game Developer / Cloud Infrastructure Engineer
 
-- **Toan Huynh** - AWS Solutions Architect, Amazon Q Developer specialist
-- **My Nguyen** - AWS Technical Evangelist, Kiro platform expert
-
-### Coordinators
-- Diem My, Dai Truong, Dinh Nguyen
+---
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### 1. Định hướng sự nghiệp và Kỹ năng làm việc nhóm
+- **Lộ trình thăng tiến (Vinh Trần):** Phác họa bức tranh thực tế từ một IT Helpdesk hỗ trợ người dùng cơ bản tiến lên vị trí Senior Sysadmin. Nhấn mạnh tầm quan trọng của việc tự học các kiến thức nền tảng (Linux, Networking), kỹ năng scripting (Bash/Python) và sự chuyển dịch tất yếu sang Cloud/DevOps.
+- **Kỹ năng làm việc nhóm (Trương Phước):** Cách giải quyết xung đột (conflict resolution), quy trình làm việc với Git chuẩn xác trong team, và tầm quan trọng của giao tiếp minh bạch. Kỹ thuật tốt là chưa đủ, một kỹ sư giỏi phải biết phối hợp và thấu hiểu đồng đội.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### 2. Kỷ nguyên Ảo hóa với Docker (Bảo Huỳnh)
+- Giải quyết triệt để vấn đề *"Code chạy trên máy tôi nhưng lỗi trên server"*.
+- **Kiến trúc Docker:** Phân biệt rõ ràng giữa Image (bản thiết kế) và Container (phiên bản đang chạy).
+- **Lợi ích cốt lõi:** Tính cô lập (Isolation), khả năng di động (Portability) và khởi động siêu nhanh so với máy ảo (VM) truyền thống. 
+- Ứng dụng Docker vào quy trình CI/CD để tự động hóa việc triển khai mã nguồn.
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### 3. Bảo mật Web nâng cao: AWS WAF + Machine Learning (Lê Hoàng Gia Đại)
+- **Giới hạn của WAF truyền thống:** Các rules tĩnh dựa trên IP hoặc chuỗi định sẵn không còn đủ sức chống lại các cuộc tấn công Zero-day hoặc Botnet tinh vi.
+- **Sức mạnh của Machine Learning:** Cách tích hợp ML vào AWS WAF để phân tích hành vi người dùng, phát hiện các mẫu truy cập bất thường (anomaly traffic) và tự động cập nhật rule chặn đứng các cuộc tấn công chưa từng có tiền lệ.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### 4. Cơ sở dữ liệu đồ thị: AWS Neptune (Việt Phát)
+- **Graph Database vs Relational Database:** Phân tích lý do tại sao CSDL quan hệ (SQL) gặp thắt nút cổ chai khi xử lý dữ liệu có tính liên kết chéo phức tạp.
+- **AWS Neptune:** Dịch vụ CSDL đồ thị được quản lý hoàn toàn. Ứng dụng thực tế trong việc xây dựng Knowledge Base, hệ thống gợi ý (Recommendation System) và phát hiện gian lận (Fraud Detection) bằng cách truy vấn các "Đỉnh" (Nodes) và "Cạnh" (Edges).
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### 5. Giải pháp Máy chủ Game trên Đám mây (Nguyễn Quốc Bảo)
+- Giải quyết bài toán độ trễ (latency) và đồng bộ trạng thái (state synchronization) cho game nhiều người chơi (Multiplayer).
+- Hướng dẫn cách kết nối client phát triển bằng **Godot Engine** với các cụm máy chủ game được tự động mở rộng (Auto-scaling) trên hạ tầng Cloud, đảm bảo trải nghiệm mượt mà dù lượng người chơi tăng đột biến.
 
-#### Domain-Driven Design (DDD)
-
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
-
-#### Event-Driven Architecture
-
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+---
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+#### Tư Duy Hệ Thống & Bảo Mật
+- **Bảo mật là một quá trình động:** Không thể chỉ dựa vào cấu hình tĩnh. Việc áp dụng Machine Learning vào Firewall (AWS WAF) mở ra tư duy phòng thủ chủ động trước các mối đe dọa mạng.
+- **Chọn đúng công cụ lưu trữ:** Không phải bài toán nào cũng dùng MySQL/PostgreSQL. Với dữ liệu có tính liên kết mạng lưới cao, AWS Neptune (Graph DB) mới là chìa khóa để tối ưu hiệu suất truy vấn.
 
 #### Kiến Trúc Kỹ Thuật
+- **Containerization là kỹ năng bắt buộc:** Hiểu sâu về Docker không chỉ giúp ích cho việc deploy mà còn tối ưu hóa môi trường phát triển ứng dụng ở máy local.
+- **Real-time scaling:** Việc thiết kế server cho Game đòi hỏi kỹ thuật tối ưu kết nối mạng (UDP/TCP) và khả năng auto-scale linh hoạt hơn rất nhiều so với Web app thông thường.
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+#### Phát Triển Bản Thân
+- Lộ trình sự nghiệp trong ngành IT không phải lúc nào cũng là đường thẳng. Việc bắt đầu từ Helpdesk hoàn toàn có thể tiến xa đến Senior Sysadmin/DevOps nếu có kế hoạch tự học rõ ràng và bền bỉ.
 
-#### Chiến Lược Hiện Đại Hóa
+---
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+### Ứng Dụng Vào Công Việc & Học Tập
 
-### Ứng Dụng Vào Công Việc
+- **Áp dụng Docker vào dự án thực tế:** Sử dụng Docker và `docker-compose` để đóng gói database và các services backend/frontend, giúp các thành viên trong nhóm đồng bộ môi trường lập trình chỉ với một lệnh.
+- **Cải thiện quy trình làm việc nhóm:** Áp dụng ngay các tips giao tiếp và quản lý task từ diễn giả Trương Phước để tối ưu hiệu suất khi chạy dự án đồ án môn học hoặc dự án thực tế.
+- **Thiết kế hạ tầng an toàn hơn:** Lưu ý tích hợp cấu hình WAF cơ bản khi có cơ hội triển khai ứng dụng web lên AWS để chống lại các luồng traffic độc hại.
+- **Vạch ra lộ trình học tập dài hạn:** Lấy cảm hứng từ bài chia sẻ của anh Vinh Trần để xác định rõ chứng chỉ và kỹ năng cần học trong 1-3 năm tới để bước chân vào mảng System/Cloud.
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+---
 
 ### Trải nghiệm trong event
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Tham gia sự kiện công nghệ ngày 6/6/2026 thực sự là một trải nghiệm mở mang tầm mắt, cung cấp cho tôi một bức tranh toàn cảnh từ những kỹ năng mềm cốt lõi cho đến các công nghệ Cloud chuyên sâu. Một số trải nghiệm nổi bật:
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+#### Học hỏi từ đa dạng góc nhìn
+- Các chủ đề được thiết kế rất thông minh, đi từ nền tảng con người (làm việc nhóm, lộ trình nghề nghiệp) đến hạ tầng (Docker), bảo mật (WAF), lưu trữ (Neptune) và ứng dụng thực tiễn (Game Cloud). Điều này giúp người nghe không bị ngợp mà vẫn tiếp thu được nhiều khía cạnh của ngành IT.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+#### Trải nghiệm kỹ thuật chuyên sâu
+- Ấn tượng nhất với tôi là cách anh Lê Hoàng Gia Đại trình bày về việc kết hợp Machine Learning vào AWS WAF. Nó thay đổi hoàn toàn suy nghĩ của tôi về cách một hệ thống tự động học hỏi và phản ứng lại với các cuộc tấn công mạng.
+- Các demo và kiến thức về cấu trúc dữ liệu đồ thị của AWS Neptune giúp tôi mở rộng tư duy về cách cấu trúc cơ sở dữ liệu ngoài mô hình RDBMS truyền thống.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+#### Cải thiện Kỹ năng mềm
+- Những chia sẻ thực tế, đôi khi là những "vấp ngã" trong quá trình làm việc nhóm và tự học của các diễn giả giúp tôi nhận ra: Kỹ thuật tốt mới chỉ là điều kiện cần, khả năng giao tiếp, làm việc nhóm và tinh thần không ngừng học hỏi mới là điều kiện đủ để tiến xa.
 
 #### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+- Giờ giải lao và phần Q&A là cơ hội tuyệt vời để tôi được đặt câu hỏi trực tiếp. Gặp gỡ những anh chị giàu kinh nghiệm và những sinh viên/lập trình viên cùng chí hướng giúp tôi có thêm nhiều động lực và định hướng rõ ràng hơn.
 
 #### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+- Công nghệ liên tục thay đổi (từ máy chủ vật lý sang Cloud, từ SQL sang Graph DB, từ cấu hình Firewall thủ công sang AI/ML). Để không bị bỏ lại phía sau, bản thân phải liên tục cập nhật kiến thức, đồng thời xây dựng một môi trường làm việc nhóm vững chắc để cùng nhau phát triển.
 
 #### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+*(Chèn hình ảnh check-in, hình ảnh các slide thuyết trình của diễn giả hoặc ảnh chụp chung cùng cộng đồng tại đây)*
+
+> Tổng thể, sự kiện không chỉ cung cấp những kiến thức kỹ thuật chuyên sâu trên nền tảng AWS mà còn tiếp thêm năng lượng, truyền cảm hứng mạnh mẽ cho hành trình phát triển sự nghiệp kỹ sư phần mềm và Cloud của tôi.

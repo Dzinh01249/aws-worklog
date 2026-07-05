@@ -1,49 +1,27 @@
 ---
 title: "Worklog Tuần 5"
-weight: 1
+weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
 
 Mục tiêu tuần 5:
-- Bắt đầu học cách dịch và viết blog kỹ thuật về AWS
-- Tìm hiểu về các dịch vụ Security và Monitoring của AWS
-- Thực hành với CloudWatch và IAM
+- Tiếp cận và tìm hiểu tổng quan nhóm dịch vụ tính toán (Compute Services) trên nền tảng AWS.
+- Nghiên cứu lý thuyết cơ bản về máy chủ ảo (Amazon EC2) và kiến trúc phi máy chủ (AWS Lambda).
+- Đánh giá sơ bộ đặc điểm của từng dịch vụ để định hướng giải pháp triển khai phần xử lý backend sau này.
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 1 | Tìm hiểu AWS IAM:<br>- Users, Groups, Roles<br>- Policies và Permissions<br>- Best practices for IAM | 6/10/2025 | 6/10/2025 | AWS Documentation, CloudJourney |
-| 2 | Thực hành với IAM:<br>- Tạo users và groups<br>- Gán policies<br>- Thực hành với roles | 7/10/2025 | 7/10/2025 | AWS Console |
-| 3 | Tìm hiểu Amazon CloudWatch:<br>- Metrics và Logs<br>- Alarms và Notifications<br>- Monitoring EC2 và RDS | 8/10/2025 | 8/10/2025 | AWS Documentation |
-| 4 | Bắt đầu dịch blog đầu tiên:<br>- Chọn blog AWS phù hợp (cơ bản)<br>- Dịch 50% nội dung<br>- Review với mentor | 9/10/2025 | 9/10/2025 | AWS Blog, Mentor guidance |
-| 5 | Làm việc nhóm và hoàn thiện:<br>- Chia sẻ tiến độ dịch blog<br>- Hoàn thiện bài dịch<br>- Planning cho workshop | 10/10/2025 | 12/10/2025 | Team collaboration |
+| 1 | Đọc tài liệu tổng quan về Amazon EC2: Tìm hiểu về vòng đời của một Instance (EC2 Lifecycle), các trạng thái hoạt động và cơ chế bảo mật khóa Key Pair. | 18/05/2026 | 18/05/2026 | Tài liệu Amazon EC2 |
+| 2 | Tìm hiểu khái niệm cơ bản về Serverless (kiến trúc phi máy chủ) và cách thức hoạt động dựa trên sự kiện của dịch vụ AWS Lambda. | 19/05/2026 | 19/05/2026 | Tài liệu AWS Lambda |
+| 3 | Thực hiện bài toán phân tích so sánh lý thuyết giữa EC2 và Lambda về mặt quản lý hạ tầng, cơ chế tự động co giãn (Scaling) và cách tính chi phí. | 20/05/2026 | 20/05/2026 | AWS Compute Blog |
+| 4 | Thảo luận tổng quan với nhóm về mô hình kiến trúc web: Đánh giá xem một ứng dụng Spring Boot (như dự án Pet Shop) sẽ phù hợp với EC2 truyền thống hay Serverless Lambda hơn. | 21/05/2026 | 21/05/2026 | |
+| 5 | Hệ thống hóa lại toàn bộ kiến thức lý thuyết đã tìm hiểu trong tuần và cập nhật tiến độ báo cáo vào hệ thống Hugo local. | 22/05/2026 | 22/05/2026 | |
 
-### Thành tích tuần 5:
+Thành tích tuần 5:
 
-* Thành công tạo AWS Lambda functions cho Coffee Cloud backend:
-  * **User Registration**: Xử lý đăng ký người dùng mới với tích hợp Cognito
-  * **User Authentication**: Xác thực thông tin đăng nhập và trả về JWT tokens
-  * **Product Management**: Lấy menu cà phê từ DynamoDB
-  * **Order Processing**: Tạo đơn hàng mới và cập nhật inventory
-  * **Points System**: Tính toán và cập nhật điểm thưởng khách hàng
+• Nắm vững các khái niệm nền tảng về hạ tầng tính toán trên mây, phân biệt được sự khác nhau giữa mô hình cấp phát máy chủ ảo (EC2) và chạy hàm Serverless (Lambda).
 
-* Thiết lập API Gateway với các RESTful endpoints:
-  * POST /api/auth/register
-  * POST /api/auth/login
-  * GET /api/products
-  * POST /api/orders
-  * GET /api/points/{userId}
+• Hiểu rõ các kịch bản sử dụng (Use Cases) phù hợp cho từng dịch vụ để áp dụng vào các bài toán thực tế sau này.
 
-* Cấu hình quyền Lambda function và IAM roles cho truy cập DynamoDB
-
-* Test tất cả API endpoints sử dụng Postman và xác minh xử lý lỗi đúng cách
-
-* Tìm hiểu lợi ích của serverless architecture:
-  * Không cần quản lý server
-  * Tự động scale theo nhu cầu
-  * Mô hình giá pay-per-request
-  * Tính khả dụng cao trong giới hạn AWS Free Tier
-
-* Triển khai các biện pháp bảo mật cơ bản bao gồm cấu hình CORS và xác thực input
-
-
+• Tích lũy thêm tư duy phân tích hệ thống tổng quan, chuẩn bị tốt cho giai đoạn đóng gói bản Proposal kiến trúc chính thức.

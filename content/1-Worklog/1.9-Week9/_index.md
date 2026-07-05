@@ -1,56 +1,39 @@
 ---
-title: "Week 9 Worklog"
-weight: 1
+title: "Worklog Week 9"
+weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
 
 ### Week 9 Objectives:
 
-* Optimize Coffee Cloud application performance and security
-* Set up monitoring and logging for the application
-* Prepare for production deployment
+- Optimize source code security configurations and local database query efficiency for the Pet Shop & Invoice project.
+- Investigate theoretical concepts surrounding monitoring and logging tools available on the AWS platform.
+- Conduct extensive testing of edge-case scenarios in the local environment to prepare for broader application delivery.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Optimize DynamoDB tables for better performance <br> - Set up proper indexes for common queries <br> - Review and optimize Lambda function performance                                              | 26/08/2025 | 26/08/2025      | DynamoDB optimization guide               |
-| 2   | - Set up CloudWatch monitoring for all services <br> - Create custom metrics for business KPIs <br> - Configure log groups for Lambda functions                                                      | 27/08/2025 | 27/08/2025      | CloudWatch documentation                  |
-| 3   | - Implement proper IAM roles and policies <br> - Follow least privilege principle <br> - Remove unnecessary permissions                                                                               | 28/08/2025 | 28/08/2025      | IAM best practices                        |
-| 4   | - Set up CloudWatch dashboards <br> - Monitor application health and performance <br> - Create alarms for critical metrics                                                                          | 29/08/2025 | 29/08/2025      | CloudWatch dashboards                     |
-| 5   | - Conduct thorough testing of all features <br> - Test error scenarios and edge cases <br> - Document known issues and limitations                                                                  | 30/08/2025 | 30/08/2025      | Application testing guide                 |
+### Tasks carried out this week:
 
+| Day | Detailed Task                                                                                                                                                                                                                                                     | Start Date | Completion Date | Reference Material          |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | --------------------------- |
+| 1   | - Audit backend layer workflows within `ProductServiceImpl` and `BookingServiceImpl`.<br>- Inspect and optimize JPA/Hibernate query methodologies regarding orders and reservations to mitigate N+1 query bottlenecks.                                            | 15/06/2026 | 15/06/2026      | Spring Data JPA Guide       |
+| 2   | - Review foundational concepts of managed cloud monitoring via **Amazon CloudWatch**.<br>- Study baseline components: CloudWatch Metrics (CPU Utilization, Network In/Out), Log Groups, and CloudWatch Alarms execution behaviors.                                | 16/06/2026 | 16/06/2026      | Amazon CloudWatch Docs      |
+| 3   | - Harden the local `application.yml` layout by decoupling sensitive configurations (Database connection URL, Username, Password, and JWT Secret Keys) away from plain text code parameters.<br>- Migrate variables into system-level Environment Variables.       | 17/06/2026 | 17/06/2026      | AWS Security Best Practices |
+| 4   | - Read whitepapers detailing the default resource tracking dashboards within AWS Elastic Beanstalk (Beanstalk Dashboard).<br>- Study the structural operational statuses (Health Metrics: Green, Yellow, Red) for future system administration.                   | 18/06/2026 | 18/06/2026      | AWS Beanstalk Platform Docs |
+| 5   | - Utilize Postman utilities to run local error scenario simulations: issuing expired JWT bearer tokens and pushing invalid payload attributes to booking endpoints.<br>- Refine the centralized `GlobalExceptionHandler` filter layer and update Hugo registries. | 19/06/2026 | 19/06/2026      | Guide to API Error Handling |
 
 ### Week 9 Achievements:
 
-* Optimized Coffee Cloud application performance:
-  * **DynamoDB Optimization**: Added Global Secondary Indexes (GSI) for efficient queries by user ID and order status
-  * **Lambda Performance**: Optimized function code and reduced cold start times
-  * **Caching Strategy**: Implemented basic caching for frequently accessed product data
+- **Local Infrastructure Performance Tuning:**
+  - Successfully optimized relationship fetching configurations (FetchType properties) within persistent JPA entities (such as `Order` and `Booking` models), decreasing redundant database connection lookups.
+  - Enforced asset credential obfuscation: removed hardcoded database passwords and security keys from file directories, shifting configurations to dynamic runtime loads to guarantee asset safety on GitHub repositories.
 
-* Set up comprehensive monitoring and logging:
-  * **CloudWatch Metrics**: Custom metrics for orders per hour, user registrations, and error rates
-  * **Log Analysis**: Centralized logging for all Lambda functions with structured log format
-  * **Performance Monitoring**: Track API response times and database query performance
+- **Acquired Infrastructure Observability Fundamentals (Monitoring & Cloud Logging):**
+  - Conceptualized how **Amazon CloudWatch** polls real-time host compute capacity logs, allowing cloud administrators to evaluate scaling actions on underlying EC2 runtime hosts.
+  - Mastered the baseline logic of centralizing application operation logs (Log Groups framework), which acts as a crucial asset for trace execution analysis and debugging sequences once deployed to cloud networks.
 
-* Enhanced security posture:
-  * **IAM Optimization**: Created specific roles for each service with minimal required permissions
-  * **Security Review**: Removed overly permissive policies and hardened access controls
-  * **Secrets Management**: Moved sensitive configuration to environment variables
+- **Validated Robust System Fault-Tolerance & Exception Handling:**
+  - Upgraded the global error catch filter `GlobalExceptionHandler`: guaranteed all technical failures (invalid syntax structure, request payload formatting, missing indices, or custom `ResourceNotFoundException` entries) map neatly back to unified JSON response wrappers (`ApiResponse`).
+  - Verified backend system endurance via rigorous local Postman tests with anomalous runtime parameters, ensuring host processes remain resilient against corrupted external queries.
 
-* Created operational dashboards:
-  * **Business Metrics Dashboard**: Real-time view of orders, revenue, and user activity
-  * **Technical Health Dashboard**: System performance, error rates, and service availability
-  * **Cost Monitoring Dashboard**: Track AWS resource usage and costs
-
-* Completed comprehensive testing:
-  * **Functional Testing**: Verified all user flows work correctly
-  * **Error Handling**: Tested system behavior under various failure scenarios
-  * **Load Testing**: Basic testing of system performance under simulated load
-  * **Security Testing**: Verified authentication and authorization work properly
-
-* Documented application architecture and deployment process for future maintenance
-
-* Reviewed backup retention and cross-region copy options; documented cost/benefit trade-offs.
-
-* Next steps: monitoring and logging (CloudWatch & CloudTrail) and implementing alerting.
+- **Streamlined Environment Variables Mapping Documentation:**
+  - Documented the complete directory list of systemic variables required to seamlessly map identical execution environments onto the AWS Web Console in upcoming phases.

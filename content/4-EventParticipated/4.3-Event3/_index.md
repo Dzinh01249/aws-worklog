@@ -1,164 +1,87 @@
 ---
 title: "Event 3"
-weight: 1
+weight: 3
 chapter: false
 pre: " <b> 4.3. </b> "
 ---
 
-# Summary Report: "DevOps on AWS Workshop"
+# Executive Summary: "Enterprise Cloud Architectures & Industry Application"
 
 ### Event Details
-- **Date**: Monday, November 17, 2025
-- **Time**: 8:30 AM - 5:00 PM  
-- **Location**: AWS Vietnam Office
-- **Event Type**: Full-day DevOps Training Workshop
+- **Date**: Saturday, July 4, 2026
+- **Time**: 9:00 AM - 12:00 PM
+- **Location**: Saigon Campus - Level 26 Bitexco Financial Tower (Hybrid/Livestream)
+- **Event Type**: Deep-dive Technical Workshop & Career Orientation
 
 ### Event Objectives
+- Explore the potential of the Cloud market in Vietnam and practical Enterprise Cloud Architectures.
+- Bridge the 90% gap between academic theoretical knowledge and corporate reality in Data Engineering.
+- Equip future professionals with soft skills, the art of "small talk", and psychological resilience for the corporate environment.
+- Orient sustainable career development based on a core formula: Foundation, Action, and Consistency.
 
-- Understand DevOps culture and principles for modern software development
-- Learn AWS DevOps services for CI/CD pipeline implementation
-- Hands-on experience with Infrastructure as Code (IaC)
-- Implement container services and monitoring solutions
-- Apply DevOps best practices for enterprise environments
+### Morning Session (9:00 AM - 12:00 PM)
 
-### Morning Session (8:30 AM - 12:00 PM)
+#### Welcome & Kick-off (9:00 - 9:15 AM)
+- Check-in, initial networking, and introduction to AWS Study Group, Cloud Kinetics, and Renova Cloud communities.
 
-#### Welcome & DevOps Mindset (8:30 - 9:00 AM)
-- Recap of previous AI/ML session
-- DevOps culture and principles introduction
-- Benefits and key metrics (DORA, MTTR, deployment frequency)
+#### Cloud Market Overview & Career Opportunities (9:15 - 10:00 AM)
+- **AWS Vision & Real Projects:** The massive Cloud migration trend in the Banking and Finance sector (Core Banking).
+- **Career Development:** Building the "Value - Visibility - Consistency" mindset.
+- **Industry-first Thinking:** The importance of deep domain knowledge over pure coding skills.
+- *(Speaker: Mr. Hung)*
 
-#### AWS DevOps Services - CI/CD Pipeline (9:00 - 10:30 AM)
-- **Source Control**: AWS CodeCommit, Git strategies (GitFlow, Trunk-based)
-- **Build & Test**: CodeBuild configuration, testing pipelines
-- **Deployment**: CodeDeploy with Blue/Green, Canary, and Rolling updates
-- **Orchestration**: CodePipeline automation
-- **Demo**: Full CI/CD pipeline walkthrough
+#### Real-world Perspectives from a Data Engineer (10:00 - 10:45 AM)
+- **School vs. Reality:** The "harsh" contrast between theoretical exercises and actual enterprise projects.
+- **Enterprise Problems:** Deep dive into the 3 core pillars of Data Engineering: Data Security, Data Quality, and System Scalability.
+- *(Speaker: Mr. Vinh)*
 
-#### Infrastructure as Code (IaC) (10:45 AM - 12:00 PM)
-- **AWS CloudFormation**: Templates, stacks, and drift detection
-- **AWS CDK (Cloud Development Kit)**: Constructs, reusable patterns, and language support
-- **Demo**: Deploying with CloudFormation and CDK
-- **Discussion**: Choosing between IaC tools
+#### Break & Teabreak (10:45 - 11:00 AM)
 
-### Afternoon Session (1:00 - 5:00 PM)
+#### Soft Skills & Workplace Networking (11:00 - 11:30 AM)
+- **Workplace Psychology:** Overcoming peer pressure and the fear of disappointing parents.
+- **The Art of Communication:** The hidden power of "small talk" in building trust with bosses and colleagues.
+- *(Speaker: Ms. Nhu)*
 
-#### Container Services on AWS (1:00 - 2:30 PM)
-- **Docker Fundamentals**: Microservices and containerization
-- **Amazon ECR**: Image storage, scanning, lifecycle policies
-- **Amazon ECS & EKS**: Deployment strategies, scaling, and orchestration
-- **AWS App Runner**: Simplified container deployment
-- **Demo & Case Study**: Microservices deployment comparison
+#### Practical Experience: "Stay Hungry" & Q&A (11:30 AM - 12:00 PM)
+- **Coping with the AI Wave:** Leveraging standard foundational knowledge to master rapid technological changes.
+- **Stay Hungry:** The relentless learning spirit of a young engineer after 3 years in the industry.
+- Live Q&A and summarizing the event's overarching messages.
+- *(Speaker: Mr. Khang & Panel)*
 
-#### Monitoring & Observability (2:45 - 4:00 PM)
-- **CloudWatch**: Metrics, logs, alarms, and dashboards
-- **AWS X-Ray**: Distributed tracing and performance insights
-- **Demo**: Full-stack observability setup
-- **Best Practices**: Alerting, dashboards, and on-call processes
+### Key Speakers
+- **Mr. Hung:** Event Moderator, Representative of the *First Cloud AI Journey (FCAJ)* community.
+- **Mr. Vinh:** Data Engineer (5 YOE) at *Renova Cloud*, *AWS Community Builder*.
+- **Ms. Nhu:** Speaker from *AWS*, managing the Startup customer segment.
+- **Mr. Khang:** *Swinburne* Alumni, currently an Engineer at *Cloud Kinetics*.
 
-#### DevOps Best Practices & Case Studies (4:00 - 4:45 PM)
-- **Deployment strategies**: Feature flags, A/B testing
-- **Automated testing and CI/CD integration**
-- **Incident management and postmortems**
-- **Case Studies**: Startups and enterprise DevOps transformations
-
-#### Q&A & Wrap-up (4:45 - 5:00 PM)
-- DevOps career pathways
-- AWS certification roadmap
-- Networking and final discussions
+---
 
 ### Key Highlights
 
-#### DevOps Culture Transformation
-- **Cultural shift**: Breaking down silos between development and operations teams
-- **Automation-first mindset**: Reducing manual processes and human error
-- **Continuous improvement**: Metrics-driven optimization of development lifecycle
-- **Shared responsibility**: Everyone accountable for code quality and system reliability
+#### Career Mindset Transformation
+- **The 90% Difference:** What is taught in schools (e.g., writing SQL queries, building basic pipelines) accounts for only 10% of the actual job. The other 90% is dealing with garbage data, handling security, and scaling systems for millions of users.
+- **Industry Focus:** Technical skills are merely tools; understanding the business domain (e.g., understanding cash flow in Core Banking) is what truly defines the value of a Senior Cloud/Data Engineer.
 
-#### CI/CD Pipeline Mastery
-- **Source control strategies**: Understanding GitFlow vs trunk-based development
-- **Automated testing**: Unit, integration, and end-to-end testing in pipelines
-- **Deployment automation**: Blue/green, canary, and rolling deployment patterns
-- **Pipeline orchestration**: Connecting build, test, and deploy stages seamlessly
+#### Corporate Survival Skills
+- **The Value of "Small Talk":** Brief casual conversations during breaks are the invisible keys to breaking down barriers, fostering cohesion, and smoothing out teamwork processes.
+- **Managing Expectations:** Identifying and relieving psychological pressure from families to confidently build an independent career path.
 
-#### Infrastructure as Code Benefits
-- **Version control for infrastructure**: Tracking changes and rollback capabilities
-- **Consistent environments**: Eliminating configuration drift between stages
-- **Scalable provisioning**: Programmatic resource management
-- **Cost optimization**: Template reusability and resource lifecycle management
-
-#### Container Orchestration
-- **Microservices architecture**: Breaking monoliths into manageable services
-- **Container benefits**: Portability, scalability, and resource efficiency
-- **ECS vs EKS decision**: Understanding trade-offs between managed services
-- **Service mesh**: Advanced traffic management and security
-
-#### Observability Strategy
-- **Three pillars**: Metrics, logs, and traces for complete system visibility
-- **Proactive monitoring**: Preventing issues before they impact users
-- **Performance optimization**: Using data to identify bottlenecks
-- **Incident response**: Automated alerting and escalation procedures
-
-### Key Takeaways
-
-#### Technical Skills Gained
-- **CI/CD pipeline design**: End-to-end automation from code commit to production
-- **Infrastructure as Code**: CloudFormation templates and CDK constructs
-- **Container deployment**: Docker, ECR, ECS, and EKS hands-on experience
-- **Monitoring setup**: CloudWatch dashboards and X-Ray distributed tracing
-- **Best practices**: Security, scaling, and cost optimization patterns
-
-#### Strategic Understanding
-- **DevOps ROI**: Measuring success through DORA metrics and business impact
-- **Cultural transformation**: Leading organizational change toward DevOps adoption
-- **Technology selection**: Choosing right tools based on team size and requirements
-- **Career development**: DevOps skills roadmap and certification paths
-
-### Applying to Work
-
-#### Immediate Implementation
-- **Set up CI/CD pipelines** for current projects using CodePipeline
-- **Implement Infrastructure as Code** for environment consistency
-- **Containerize applications** using Docker and deploy via ECS
-- **Establish monitoring** with CloudWatch and X-Ray for better observability
-- **Adopt Git strategies** appropriate for team size and workflow
-
-#### Long-term Strategy
-- **Lead DevOps transformation** initiatives within organization
-- **Mentor teams** on DevOps best practices and cultural change
-- **Design scalable architectures** using learned container orchestration patterns
-- **Implement robust incident management** procedures and postmortem processes
-- **Pursue AWS certifications** in DevOps and Solutions Architecture
+---
 
 ### Event Experience
 
-Attending the **"DevOps on AWS"** full-day workshop provided comprehensive exposure to modern software development and operations practices. The experience was transformative in several key areas:
+Participating in this intensive 3-hour morning session gave me a profound awakening regarding the full picture of the IT industry. This experience has been transformative in several crucial areas for an upcoming graduate:
 
-#### Comprehensive Learning Journey
-- **Morning sessions** built solid foundations in DevOps culture and CI/CD principles
-- **Hands-on labs** provided practical experience with AWS DevOps tools
-- **Afternoon deep-dives** covered advanced topics like container orchestration and observability
-- **Real-world case studies** demonstrated successful DevOps transformations
+#### Strategic Awareness
+- **The "Value - Visibility - Consistency" message** from Mr. Hung completely reshaped how I plan my career. Instead of blindly coding, I realized I must create value, learn how to showcase it (visibility), and maintain long-term discipline.
 
-#### Practical Skills Development
-- **Built complete CI/CD pipelines** from source control to production deployment
-- **Deployed infrastructure** using both CloudFormation and CDK approaches  
-- **Containerized applications** and orchestrated them using ECS and EKS
-- **Implemented monitoring solutions** with comprehensive dashboards and alerting
+#### Practical Skill Development
+- Mr. Vinh's advice helped me stop superficially following online tutorials. Instead, I have started questioning the **Security** and **Data Quality** aspects of my own student projects.
+- Mr. Khang's lesson on maintaining a solid **Foundation** helped ease my anxiety amidst the AI explosion. I now understand that AI is just a tool; core computer science knowledge is what enables me to validate and control AI outputs.
 
-#### Strategic Insights
-- **Cultural transformation** understanding beyond just technical implementation
-- **Metrics-driven approach** to measuring DevOps success and ROI
-- **Enterprise considerations** for scaling DevOps across large organizations
-- **Career pathway clarity** for DevOps specialization and growth
+#### Behavioral & Communication Changes
+- **Action:** Thanks to Ms. Nhu's sharing, I understand that opportunities do not fall from the sky. I proactively engaged in "small talk" and networking right at the event to plant my first relational seeds in the industry.
+- This event provided not only knowledge about Cloud/Data but also hard-earned lessons on attitude, perseverance, and how to survive and thrive in the modern tech world.
 
-#### Networking and Community
-- **Connected with DevOps practitioners** from various industries and backgrounds
-- **Learned from AWS experts** about upcoming service features and roadmaps
-- **Participated in discussions** about real-world challenges and solutions
-- **Built professional network** for future collaboration and knowledge sharing
-
-#### Some workshop photos
-*Add your workshop photos here*  
-
-> This intensive workshop not only provided technical skills but also strategic thinking about DevOps transformation, making it invaluable for both current projects and career development in cloud-native software development.
+#### Event Photos
+*(Add check-in photos, speaker slides, or livestream screenshots here)*

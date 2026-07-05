@@ -1,67 +1,39 @@
 ---
-title: "Week 6 Worklog"
-weight: 1
+title: "Worklog Week 6"
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
 
 ### Week 6 Objectives:
+* Attend the office for self-study sessions and group discussions to resolve outstanding cloud infrastructure queries.
+* Review, audit, and systematize knowledge regarding the core service groups covered (IAM, S3, VPC, EC2).
+* Investigate theoretical static hosting solutions and draft the preliminary architecture diagram for the Pet Shop & Invoice project.
 
-* Set up AWS Amplify for Coffee Cloud frontend hosting
-* Create React.js frontend application
-* Configure CI/CD pipeline for automatic deployment
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
+### Tasks carried out this week:
+| Day | Task | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Learn AWS Amplify fundamentals <br> - Understand Amplify hosting and CI/CD features <br> - Review React.js basics for frontend development                                                        | 05/08/2025 | 05/08/2025      | Amplify documentation                     |
-| 2   | - Create new React.js application for Coffee Cloud <br> - Set up project structure with components for: login, menu, cart, orders                                                                   | 06/08/2025 | 06/08/2025      | React.js documentation                    |
-| 3   | - Initialize Git repository for the project <br> - Push initial code to GitHub repository <br> - Set up basic routing and navigation                                                                | 07/08/2025 | 07/08/2025      | Git documentation                         |
-| 4   | - Connect React app to AWS Amplify <br> - Configure automatic deployment from GitHub <br> - Set up custom domain (if available)                                                                     | 08/08/2025 | 08/08/2025      | Amplify console guide                     |
-| 5   | - Test CI/CD pipeline by making code changes <br> - Configure environment variables for API endpoints <br> - Verify deployment success                                                              | 09/08/2025 | 09/08/2025      | Amplify deployment guide                  |
-
+| 1 | Attend the office for self-study; audit and review all AWS account security configurations (Root Account & IAM Users), and optimize Password Policies. | 25/05/2026 | 25/05/2026 | AWS IAM Documentation |
+| 2 | Conduct a deep-dive review into Amazon S3 storage services; practice advanced security setups including S3 Block Public Access and Object Ownership. | 26/05/2026 | 26/05/2026 | Amazon S3 Guide |
+| 3 | Participate in office group discussions; re-examine VPC subnetting theories, inbound/outbound traffic flows through Public/Private Subnets, and Security Groups configurations. | 27/05/2026 | 27/05/2026 | Amazon VPC Documentation |
+| 4 | Study theoretical implementations for distributing static frontends; explore how to combine Amazon S3 with Amazon CloudFront (CDN) to optimize page loading speeds. | 28/05/2026 | 28/05/2026 | AWS Web Hosting Blog |
+| 5 | Practice drafting the preliminary system architecture for the Pet Shop & Invoice project using Draw.io; compile documentation for the upcoming Proposal week. | 29/05/2026 | 29/05/2026 | |
 
 ### Week 6 Achievements:
 
-* Successfully created React.js frontend application for Coffee Cloud with the following features:
-  * **Login/Registration page**: User authentication interface
-  * **Menu page**: Display coffee products with prices and descriptions
-  * **Shopping cart**: Add/remove items and calculate totals
-  * **Order history**: View past orders and track status
-  * **Points system**: Display customer loyalty points
+* **Comprehensive Core Knowledge Systematization:** Mastered the operational mechanics of core AWS service branches (Compute, Networking, Storage, Security) mid-internship, ensuring a solid foundation before major deployment phases.
 
-* Set up AWS Amplify hosting with automatic CI/CD pipeline:
-  * Connected GitHub repository to Amplify
-  * Configured automatic deployment on code commits
-  * Set up environment-specific builds (dev/prod)
-  * Custom domain configuration ready for future use
+* **Optimized Internship Account Security:**
+  * Verified successful Multi-Factor Authentication (MFA) activation for both Root and IAM User accounts.
+  * Implemented the Principle of Least Privilege across member IAM Users to enforce strict resource governance.
 
-* Implemented responsive design for mobile and desktop users
+* **Proficiency in AWS CLI Core Operations for Resource Auditing:**
+  * `aws sts get-caller-identity`: Verified and authenticated the current active IAM User identity.
+  * `aws s3 ls`: Listed running storage cluster repositories (S3 Buckets) within the environment.
+  * Practiced command-line asset bucket provisioning and termination sequences to adapt to terminal-based resource management.
 
-* Successfully tested the complete deployment process:
-  * Code changes trigger automatic builds
-  * Build logs show successful deployment
-  * Live application accessible via Amplify URL
+* **Refined Secure Network Architecture Design Thinking:** Understood how to position an Application Load Balancer (ALB) in Public Subnets to face internet entry points while shielding core resources (EC2 Spring Boot Backend, RDS MySQL) inside Private Subnets away from public exposure.
 
-* Configured environment variables for API Gateway endpoints connection
+* **Completed the Draft Architecture Diagram:** Formulated a distinct roadmap for the Pet Shop layout, tracing user requests from Route 53, fetching static UI components from CloudFront/S3 Frontend, up to API routing towards the backend layer.
 
-* Learned Amplify benefits for frontend developers:
-  * No server configuration required
-  * Automatic SSL certificate management
-  * Global CDN for fast content delivery
-  * Easy rollback to previous versions
-
-* Created and secured an AWS Free Tier account, including enabling MFA and creating an initial IAM user.
-
-* Navigated the AWS Management Console and located core services.
-
-* Installed and configured the AWS CLI (access key, secret key, default region, output format).
-
-* Performed basic CLI operations:
-  * aws sts get-caller-identity
-  * aws ec2 describe-instances
-  * aws s3 ls
-
-* Launched an EC2 instance, connected via SSH, and attached an EBS volume for practice.
-
-* Next steps: practice with S3 and IAM, and save CLI snippets for repeatable tasks.
+* **Enhanced Independent Study and Peer Collaboration:** Resolved remaining hands-on lab blocks through direct interaction and knowledge sharing with team members during office hours.

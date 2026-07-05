@@ -1,154 +1,101 @@
 ---
 title: "Sự kiện 2"
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Báo cáo Tóm tắt: "Hội thảo AI/ML trên AWS"
+# Báo cáo Tóm tắt: "FCAJ Community Day - June 2026: Kỷ nguyên AI và Ứng dụng Thực tiễn"
 
 ### Chi tiết Sự kiện
-- **Ngày**: Thứ Bảy, 15 tháng 11, 2025
-- **Thời gian**: 8:30 AM - 12:00 PM  
-- **Địa điểm**: Văn phòng AWS Việt Nam
-- **Loại sự kiện**: Hội thảo Kỹ thuật và Đào tạo
+- **Ngày**: Thứ Bảy, 27 tháng 6, 2026
+- **Thời gian**: 9:00 AM - 12:00 PM
+- **Địa điểm**: Saigon Campus - Tầng 26 Tòa nhà Bitexco, TP.HCM
+- **Loại sự kiện**: Hội thảo Kỹ thuật, Cập nhật Công nghệ AI và Networking
 
 ### Mục tiêu Sự kiện
+- Nắm bắt tư duy khởi nghiệp (Startup mindset) và chiến lược thực thi nhanh chóng trên nền tảng đám mây.
+- Khám phá kiến trúc và thách thức khi triển khai Voice AI tại thị trường Việt Nam.
+- Tìm hiểu cách tự động hóa quy trình DevOps và tối ưu hóa quản trị nhân sự (HR) bằng AI Agent (Amazon Q).
+- Nắm vững phương pháp tích hợp dữ liệu bên thứ ba và thiết lập bảo mật riêng tư (private security) cho ứng dụng AI.
 
-- Cung cấp tổng quan toàn diện về AI/ML landscape tại Việt Nam
-- Demo các dịch vụ và khả năng AWS AI/ML
-- Trải nghiệm thực hành với Amazon SageMaker và Amazon Bedrock
-- Học về triển khai Generative AI và best practices
-- Networking với các chuyên gia AI/ML và AWS
+### Lịch trình
 
-### Lịch trình Chi tiết
+#### Khởi động (9:00 AM - 9:30 AM)
+- **Khởi đầu và tư duy Startup** (bởi Anh Steve Trần - Cloud Thinker)
 
-#### Chào mừng & Giới thiệu (8:30 - 9:00 AM)
-- Đăng ký tham gia và networking
-- Tổng quan workshop và mục tiêu học tập
-- Hoạt động làm quen
-- Giới thiệu về AI/ML landscape tại Việt Nam
+#### Phần 1: Voice AI (9:30 AM - 10:15 AM)
+- **Voice AI và Ứng dụng thực tiễn** (bởi Anh Hiếu Nghị - Renova Cloud, Anh Trung - AWS Study Builder, và Anh Trung Đ - CEO R AI)
 
-#### Tổng quan Dịch vụ AWS AI/ML (9:00 - 10:30 AM)
-- **Amazon SageMaker** - Nền tảng ML end-to-end
-  - Chuẩn bị và labeling dữ liệu
-  - Model training, tuning, và deployment
-  - Khả năng MLOps tích hợp
-- **Live Demo**: Walkthrough SageMaker Studio
+#### Giải lao & Teabreak (10:15 AM - 10:30 AM)
 
-#### Generative AI với Amazon Bedrock (10:45 AM - 12:00 PM)
-- **Foundation Models**: So sánh và hướng dẫn lựa chọn Claude, Llama, Titan
-- **Prompt Engineering**: Techniques, Chain-of-Thought reasoning, Few-shot learning
-- **Retrieval-Augmented Generation (RAG)**: Architecture và tích hợp Knowledge Base
-- **Bedrock Agents**: Multi-step workflows và tool integrations
-- **Guardrails**: Safety và content filtering
-- **Live Demo**: Xây dựng Generative AI chatbot sử dụng Bedrock
+#### Phần 2: AI trong Vận hành & Nhân sự (10:30 AM - 11:30 AM)
+- **DevOps Agent: Tự động hóa xử lý sự cố** (bởi Chị Bảo & Anh Nguyên - Cloud Kinetis)
+- **AI và Nguồn nhân lực** (bởi Anh Trường & Chị Minh Anh - Noventis)
+
+#### Phần 3: Security & Q&A (11:30 AM - 12:00 PM)
+- **Tích hợp và bảo mật nâng cao với Amazon Q** (bởi Anh Trường - Noventis)
+- Giao lưu trực tiếp với các diễn giả và bế mạc sự kiện.
+
+### Diễn giả
+- **Anh Steve Trần** - Cloud Thinker
+- **Anh Hiếu Nghị** - Renova Cloud
+- **Anh Trung** - AWS Study Builder
+- **Anh Trung Đ** - CEO R AI
+- **Chị Bảo & Anh Nguyên** - Cloud Kinetis
+- **Anh Trường & Chị Minh Anh** - Noventis
+
+---
 
 ### Nội Dung Nổi Bật
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+#### 1. Khởi đầu và Tư duy Startup
+- **Tầm quan trọng của việc "Execution" (Thực thi):** Ý tưởng chỉ chiếm một phần nhỏ, khả năng triển khai nhanh chóng mới là chìa khóa. Anh Steve chia sẻ hành trình thực tế xây dựng hệ thống contact center và chuyển đổi số lên AWS.
+- **Chiến lược tiếp cận:** Hướng dẫn cách tìm kiếm "champion customers" (khách hàng tiên phong) để đưa ý tưởng công nghệ vào giải quyết trực tiếp bài toán doanh nghiệp.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+#### 2. Kiến trúc và Thách thức của Voice AI
+- **Cơ chế vận hành:** Làm rõ sự khác biệt giữa kiến trúc *Speech-to-Speech* thế hệ mới và mô hình 3 thành phần truyền thống (*Speech-to-Text -> LLM -> Text-to-Speech*).
+- **Bài toán đặc thù tại Việt Nam:** Thảo luận sâu về các thách thức kỹ thuật cực khó như xử lý giọng địa phương/vùng miền, tính năng ngắt lời tự nhiên (barge-in) của bot, và đáp ứng tiêu chuẩn bảo mật khắt khe trong ngành ngân hàng (như VBBank, VIP).
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+#### 3. Cách mạng hóa DevOps với AI Agent
+- **Tự động hóa điều tra sự cố:** Giới thiệu các AI Agent có khả năng hỗ trợ đội ngũ vận hành phân tích nguyên nhân gốc rễ (root cause analysis) khi hệ thống gặp lỗi.
+- **Giảm thiểu MTTR:** Đề xuất phương án khắc phục tự động để giảm tối đa thời gian phục hồi dịch vụ (Mean Time To Recovery), đồng thời tích hợp mượt mà vào quy trình CI/CD DevOps hiện tại.
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+#### 4. Giải quyết "Nỗi đau" của HR bằng Amazon Q
+- **Thực trạng HR:** Phân tích các khó khăn dai dẳng như tuyển dụng thủ công, giữ chân nhân tài và đánh giá dữ liệu ứng viên phi cấu trúc.
+- **Giải pháp AI:** Ứng dụng sức mạnh của Amazon Q để tự động hóa việc phân tích hàng ngàn CV, xây dựng bộ khung đánh giá năng lực nhân sự khách quan dựa trên AI mà vẫn đảm bảo tuyệt đối tính bảo mật dữ liệu cá nhân.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+#### 5. Tích hợp và Bảo mật Private với Amazon Q
+- **Kết nối dữ liệu an toàn:** Hướng dẫn kỹ thuật thiết lập Amazon Q trong nội bộ doanh nghiệp. Sử dụng *Model Context Protocol (MCP)* để kết nối trơn tru với các nguồn dữ liệu của bên thứ ba.
+- **Bảo mật tối đa:** Cấu hình luồng dữ liệu bảo mật hoàn toàn riêng tư (private security), đảm bảo AI có thể phân tích dữ liệu doanh nghiệp mà không cần định tuyến qua Internet công cộng.
 
-#### Domain-Driven Design (DDD)
-
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
-
-#### Event-Driven Architecture
-
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
-
-#### Amazon Q Developer
-
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+---
 
 ### Những Gì Học Được
 
-#### Tư Duy Thiết Kế
-
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+#### Tư Duy Hệ Thống
+- Việc ứng dụng AI không chỉ dừng lại ở các đoạn chat. Hệ thống AI thế hệ mới (như Voice AI hay DevOps Agent) yêu cầu tư duy quy hoạch luồng dữ liệu (Data Pipeline) cực kỳ chặt chẽ, đặc biệt là khi tích hợp vào môi trường bảo mật cao như Ngân hàng.
+- Startup cần tập trung vào việc tìm kiếm "champion customers" để kiểm chứng sản phẩm thay vì xây dựng hệ thống quá hoàn hảo ngay từ đầu.
 
 #### Kiến Trúc Kỹ Thuật
+- Hiểu được lợi thế về độ trễ (latency) của mô hình *Speech-to-Speech* so với mô hình 3 thành phần rời rạc trong các ứng dụng tổng đài AI.
+- Nắm bắt giao thức *Model Context Protocol (MCP)*, một chuẩn mới giúp AI Models kết nối an toàn với kho dữ liệu (Knowledge Base) của doanh nghiệp mà không làm lộ lọt dữ liệu ra ngoài Internet.
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+---
 
-#### Chiến Lược Hiện Đại Hóa
+### Ứng Dụng Vào Công Việc & Học Tập
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+- **Áp dụng AI vào DevOps:** Bắt đầu nghiên cứu tích hợp các AI Agent hoặc Amazon Q Developer vào quy trình kiểm tra log lỗi, giúp team giảm thiểu thời gian debug mỗi khi có tính năng mới bị crash.
+- **Thiết kế ứng dụng Voice:** Áp dụng kiến thức về xử lý ngắt lời (barge-in) để cải thiện trải nghiệm người dùng nếu có cơ hội phát triển các ứng dụng nhận diện giọng nói trong đồ án/dự án sắp tới.
+- **Nâng cao nhận thức bảo mật:** Khi triển khai các dự án có sử dụng API của AI, luôn ưu tiên thiết lập Private Network (như VPC Endpoints) thay vì gọi API qua Public Internet.
 
-### Ứng Dụng Vào Công Việc
+---
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+### Trải nghiệm trong event
 
-### Trải nghiệm Sự kiện
+Tham gia sự kiện FCAJ Community Day mang lại cho tôi góc nhìn thực tiễn và sắc bén về cách AI đang tái định hình mọi ngóc ngách của doanh nghiệp, từ khâu khởi nghiệp, vận hành hệ thống cho đến quản trị nhân sự. 
 
-Tham gia hội thảo **"AI/ML trên AWS"** là một trải nghiệm học tập chuyên sâu về trí tuệ nhân tạo và machine learning trên nền tảng AWS. Các trải nghiệm nổi bật bao gồm:
+Khác với những lý thuyết viển vông, các diễn giả đã đưa ra những bài toán rất "đời thực" (như việc AI phải nghe hiểu giọng vùng miền Việt Nam, hay cách cấu hình để AI không làm rò rỉ dữ liệu ra Internet). Đặc biệt, phần chia sẻ về Amazon Q và giao thức MCP thực sự mở ra cho tôi hướng đi mới trong việc xây dựng các ứng dụng GenAI bảo mật cho doanh nghiệp. Giờ giải lao cũng là cơ hội tuyệt vời để tôi được học hỏi tư duy "thực thi" mạnh mẽ từ các anh chị chuyên gia.
 
-#### Hành trình Học tập AI/ML Toàn diện
-- **Phiên sáng** xây dựng nền tảng vững chắc về SageMaker và MLOps pipeline
-- **Demo thực hành** cung cấp kinh nghiệm trực tiếp với SageMaker Studio và model training
-- **Phiên Bedrock** mở ra thế giới Generative AI với foundation models và RAG architecture
-- **Case studies thực tế** minh họa cách triển khai AI/ML trong production environments
-
-#### Phát triển Kỹ năng ML Engineering
-- **Thực hành SageMaker**: Từ data preparation đến model deployment và monitoring
-- **Foundation Models mastery**: Hiểu cách lựa chọn và fine-tune Claude, Llama, Titan
-- **Prompt Engineering**: Kỹ thuật tối ưu hóa prompts cho kết quả AI chất lượng cao
-- **RAG Implementation**: Architecture và best practices cho Retrieval-Augmented Generation
-- **MLOps Pipeline**: Automated training, testing, và deployment workflows
-
-#### Hiểu biết Generative AI sâu sắc
-- **Bedrock ecosystem**: Khám phá khả năng của các foundation models khác nhau
-- **Agent development**: Xây dựng AI agents với multi-step reasoning và tool integration
-- **Safety và Ethics**: Guardrails và content filtering cho responsible AI
-- **Business applications**: Cách áp dụng GenAI vào các use cases thực tế
-
-#### Networking với Cộng đồng AI/ML
-- **Kết nối với AWS experts**: Học từ các solution architects và technical specialists
-- **Trao đổi với practitioners**: Chia sẻ kinh nghiệm và challenges trong AI/ML projects
-- **Community building**: Tham gia AWS AI/ML community tại Việt Nam
-- **Future collaboration**: Xây dựng mối quan hệ cho các dự án AI/ML tương lai
-
-#### Bài học Chiến lược
-- **AI/ML strategy**: Phương pháp tiếp cận từng bước để triển khai AI trong doanh nghiệp
-- **Cost optimization**: Cách quản lý chi phí ML workloads hiệu quả trên AWS
-- **Scalability planning**: Thiết kế architecture có thể scale cho millions of users
-- **Ethics và Compliance**: Đảm bảo AI systems tuân thủ regulations và ethical guidelines
-
-#### Một số hình ảnh hội thảo
-*Thêm hình ảnh AI/ML workshop của bạn tại đây*
-
-> Tổng thể, hội thảo AI/ML này không chỉ cung cấp kiến thức kỹ thuật sâu rộng mà còn mở ra tầm nhìn về tương lai của AI/ML, giúp tôi định hướng rõ ràng hơn trong việc phát triển kỹ năng và ứng dụng AI vào các dự án thực tế.
+#### Một số hình ảnh khi tham gia sự kiện
+*(Chèn hình ảnh check-in, hình ảnh các slide thuyết trình của diễn giả hoặc ảnh chụp chung cùng cộng đồng FCAJ tại đây)*

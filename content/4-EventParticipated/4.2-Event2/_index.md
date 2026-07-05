@@ -1,147 +1,101 @@
 ---
 title: "Event 2"
-weight: 1
+weight: 2
 chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-
-
-# Summary Report: "AI/ML on AWS Workshop"
+# Executive Summary: "FCAJ Community Day - June 2026: AI Era and Practical Applications"
 
 ### Event Details
-- **Date**: Saturday, November 15, 2025
-- **Time**: 8:30 AM - 12:00 PM  
-- **Location**: AWS Vietnam Office
-- **Event Type**: Technical Workshop and Training
+- **Date**: Saturday, June 27, 2026
+- **Time**: 9:00 AM - 12:00 PM
+- **Location**: Saigon Campus - Level 26 Bitexco Financial Tower, HCMC
+- **Event Type**: Technical Workshop, Tech Updates, and Networking
 
 ### Event Objectives
+- Grasp the startup mindset and the importance of rapid execution on the cloud.
+- Explore the architecture and challenges of deploying Voice AI in the Vietnamese market.
+- Learn how to automate DevOps operations and optimize HR management using AI Agents (Amazon Q).
+- Master the methods of integrating third-party data and establishing private security for AI applications.
 
-- Provide comprehensive overview of AI/ML landscape in Vietnam
-- Demonstrate AWS AI/ML services and capabilities
-- Hands-on experience with Amazon SageMaker and Amazon Bedrock
-- Learn about Generative AI implementation and best practices
-- Network with AI/ML practitioners and AWS experts
+### Schedule
 
-### Agenda Highlights
+#### Kick-off (9:00 AM - 9:30 AM)
+- **Startup Mindset and Beginnings** (by Steve Tran - Cloud Thinker)
 
-#### Welcome & Introduction (8:30 - 9:00 AM)
-- Participant registration and networking
-- Workshop overview and learning objectives  
-- Ice-breaker activity
-- Overview of the AI/ML landscape in Vietnam
+#### Part 1: Voice AI (9:30 AM - 10:15 AM)
+- **Voice AI and Practical Applications** (by Hieu Nghi - Renova Cloud, Trung - AWS Study Builder, and Trung D - CEO R AI)
 
-#### AWS AI/ML Services Overview (9:00 - 10:30 AM)
-- **Amazon SageMaker** - End-to-end ML platform
-  - Data preparation and labeling
-  - Model training, tuning, and deployment
-  - Integrated MLOps capabilities
-- **Live Demo**: SageMaker Studio walkthrough
+#### Break & Teabreak (10:15 AM - 10:30 AM)
 
-#### Generative AI with Amazon Bedrock (10:45 AM - 12:00 PM)
-- **Foundation Models**: Claude, Llama, Titan comparison and selection guide
-- **Prompt Engineering**: Techniques, Chain-of-Thought reasoning, Few-shot learning
-- **Retrieval-Augmented Generation (RAG)**: Architecture and Knowledge Base integration
-- **Bedrock Agents**: Multi-step workflows and tool integrations
-- **Guardrails**: Safety and content filtering
-- **Live Demo**: Building a Generative AI chatbot using Bedrock
+#### Part 2: AI in Operations & HR (10:30 AM - 11:30 AM)
+- **DevOps Agent: Automating Incident Response** (by Bao & Nguyen - Cloud Kinetis)
+- **AI and Human Resources** (by Truong & Minh Anh - Noventis)
+
+#### Part 3: Security & Q&A (11:30 AM - 12:00 PM)
+- **Advanced Integration and Security with Amazon Q** (by Truong - Noventis)
+- Direct interaction with speakers and event closing.
+
+### Speakers
+- **Steve Tran** - Cloud Thinker
+- **Hieu Nghi** - Renova Cloud
+- **Trung** - AWS Study Builder
+- **Trung D** - CEO R AI
+- **Bao & Nguyen** - Cloud Kinetis
+- **Truong & Minh Anh** - Noventis
+
+---
 
 ### Key Highlights
 
-#### Identifying the drawbacks of legacy application architecture
+#### 1. Startup Mindset and Execution
+- **The Importance of "Execution":** Ideas only play a small part; rapid deployment capability is the true key to success. Steve shared his practical journey of building a contact center system and conducting digital transformation on AWS.
+- **Approach Strategy:** Guidance on finding "champion customers" to validate technology ideas by solving direct business pain points.
 
-- Long product release cycles → Lost revenue/missed opportunities  
-- Inefficient operations → Reduced productivity, higher costs  
-- Non-compliance with security regulations → Security breaches, loss of reputation  
+#### 2. Voice AI Architecture and Challenges
+- **Operational Mechanisms:** Clarified the differences between the new generation *Speech-to-Speech* architecture and the traditional 3-component model (*Speech-to-Text -> LLM -> Text-to-Speech*).
+- **Vietnam-Specific Challenges:** Deep dive into extreme technical hurdles such as processing regional accents, handling natural bot barge-in features, and meeting the strict security standards of the banking industry (e.g., VBBank, VIP).
 
-#### Transitioning to modern application architecture – Microservices
+#### 3. Revolutionizing DevOps with AI Agents
+- **Automated Incident Investigation:** Introduced AI Agents capable of assisting operations teams with root cause analysis when systems encounter failures.
+- **Minimizing MTTR:** Proposed automated remediation strategies to drastically reduce Mean Time To Recovery, while seamlessly integrating into existing DevOps CI/CD pipelines.
 
-Migrating to a modular system — each function is an **independent service** communicating via **events**, built on three core pillars:
+#### 4. Solving HR "Pain Points" with Amazon Q
+- **HR Reality:** Analyzed persistent challenges such as manual recruiting, talent retention, and evaluating unstructured candidate data.
+- **AI Solutions:** Leveraged the power of Amazon Q to automate the analysis of thousands of CVs, building an objective, AI-driven personnel evaluation framework while ensuring absolute data privacy.
 
-- **Queue Management**: Handle asynchronous tasks  
-- **Caching Strategy**: Optimize performance  
-- **Message Handling**: Flexible inter-service communication  
+#### 5. Integration and Private Security with Amazon Q
+- **Secure Data Connection:** Technical walkthrough on setting up Amazon Q within an enterprise. Utilized the *Model Context Protocol (MCP)* for seamless connection with third-party data sources.
+- **Maximum Security:** Configured a completely private security data flow, ensuring AI can analyze corporate data without routing traffic through the public internet.
 
-#### Domain-Driven Design (DDD)
-
-- **Four-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts  
-- **Bookstore case study**: Demonstrates real-world DDD application  
-- **Context mapping**: 7 patterns for integrating bounded contexts  
-
-#### Event-Driven Architecture
-
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming  
-- **Benefits**: Loose coupling, scalability, resilience  
-- **Sync vs async comparison**: Understanding the trade-offs  
-
-#### Compute Evolution
-
-- **Shared Responsibility Model**: EC2 → ECS → Fargate → Lambda  
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value  
-- **Functions vs Containers**: Criteria for appropriate choice  
-
-#### Amazon Q Developer
-
-- **SDLC automation**: From planning to maintenance  
-- **Code transformation**: Java upgrade, .NET modernization  
-- **AWS Transform agents**: VMware, Mainframe, .NET migration  
+---
 
 ### Key Takeaways
 
-#### Design Mindset
-
-- **Business-first approach**: Always start from the business domain, not the technology  
-- **Ubiquitous language**: Importance of a shared vocabulary between business and tech teams  
-- **Bounded contexts**: Identifying and managing complexity in large systems  
+#### Systems Thinking
+- Applying AI is no longer just about chat interfaces. Next-generation AI systems (like Voice AI or DevOps Agents) require extremely rigorous Data Pipeline planning, especially when integrated into high-security environments like banking.
+- Startups need to focus on finding "champion customers" to validate their products rather than aiming to build a flawless system from day one.
 
 #### Technical Architecture
+- Understood the latency advantages of the *Speech-to-Speech* model compared to the decoupled 3-component model in AI call center applications.
+- Grasped the *Model Context Protocol (MCP)*, a new standard that securely connects AI Models to corporate Knowledge Bases without exposing data to the external Internet.
 
-- **Event storming technique**: Practical method for modeling business processes  
-- Use **event-driven communication** instead of synchronous calls  
-- **Integration patterns**: When to use sync, async, pub/sub, streaming  
-- **Compute spectrum**: Criteria for choosing between VM, containers, and serverless  
+---
 
-#### Modernization Strategy
+### Application in Work & Study
 
-- **Phased approach**: No rushing — follow a clear roadmap  
-- **7Rs framework**: Multiple modernization paths depending on the application  
-- **ROI measurement**: Cost reduction + business agility  
+- **Applying AI in DevOps:** Start researching the integration of AI Agents or Amazon Q Developer into error log checking workflows, helping the team reduce debugging time whenever a new feature crashes.
+- **Designing Voice Applications:** Apply knowledge of barge-in handling to improve user experience if given the opportunity to develop voice-recognition applications in upcoming projects.
+- **Enhancing Security Awareness:** When deploying projects utilizing AI APIs, always prioritize configuring Private Networks (such as VPC Endpoints) instead of calling APIs over the Public Internet.
 
-### Applying to Work
-
-- **Apply DDD** to current projects: Event storming sessions with business teams  
-- **Refactor microservices**: Use bounded contexts to define service boundaries  
-- **Implement event-driven patterns**: Replace some sync calls with async messaging  
-- **Adopt serverless**: Pilot AWS Lambda for suitable use cases  
-- **Try Amazon Q Developer**: Integrate into the dev workflow to boost productivity  
+---
 
 ### Event Experience
 
-Attending the **“GenAI-powered App-DB Modernization”** workshop was extremely valuable, giving me a comprehensive view of modernizing applications and databases using advanced methods and tools. Key experiences included:
+Attending the FCAJ Community Day provided me with a practical and sharp perspective on how AI is reshaping every corner of business, from startup execution and system operations to HR management.
 
-#### Learning from highly skilled speakers
-- Experts from AWS and major tech organizations shared **best practices** in modern application design.  
-- Through real-world case studies, I gained a deeper understanding of applying **DDD** and **Event-Driven Architecture** to large projects.  
+Unlike theoretical fluff, the speakers presented highly "realistic" problems (such as AI needing to comprehend Vietnamese regional accents, or configuring AI to prevent data leaks to the Internet). In particular, the session on Amazon Q and the MCP protocol truly opened a new direction for me in building secure GenAI applications for enterprises. The break time was also an excellent opportunity to learn a strong "execution" mindset from industry experts.
 
-#### Hands-on technical exposure
-- Participating in **event storming** sessions helped me visualize how to **model business processes** into domain events.  
-- Learned how to **split microservices** and define **bounded contexts** to manage large-system complexity.  
-- Understood trade-offs between **synchronous and asynchronous communication** and integration patterns like **pub/sub, point-to-point, streaming**.  
-
-#### Leveraging modern tools
-- Explored **Amazon Q Developer**, an AI tool for SDLC support from planning to maintenance.  
-- Learned to **automate code transformation** and pilot serverless with **AWS Lambda** to improve productivity.  
-
-#### Networking and discussions
-- The workshop offered opportunities to exchange ideas with experts, peers, and business teams, enhancing the **ubiquitous language** between business and tech.  
-- Real-world examples reinforced the importance of the **business-first approach** rather than focusing solely on technology.  
-
-#### Lessons learned
-- Applying DDD and event-driven patterns reduces **coupling** while improving **scalability** and **resilience**.  
-- Modernization requires a **phased approach** with **ROI measurement**; rushing the process can be risky.  
-- AI tools like Amazon Q Developer can significantly **boost productivity** when integrated into the current workflow.  
-
-#### Some event photos
-*Add your event photos here*  
-
-> Overall, the event not only provided technical knowledge but also helped me reshape my thinking about application design, system modernization, and cross-team collaboration.
+#### Event Photos
+*(Insert check-in photos, speakers' presentation slides, or FCAJ community group photos here)*

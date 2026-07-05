@@ -1,67 +1,38 @@
 ---
 title: "Worklog Tuần 10"
-weight: 2
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
 ### Mục tiêu tuần 10:
-
-* Hoàn thiện ứng dụng Coffee Cloud và chuẩn bị cho demo
-* Tiến hành final testing và sửa lỗi
-* Tạo tài liệu và materials cho presentation
+* Tập trung phân tích, phác thảo và hiệu chỉnh sơ đồ kiến trúc hệ thống (Architecture Diagram) cho dự án Pet Shop & Invoice.
+* Nghiên cứu và tham khảo các bài viết, nhận xét (Comments) của các Admin trên cộng đồng AWS Study Group để tối ưu hóa thiết kế.
+* Rà soát toàn bộ luồng đi của dữ liệu trên sơ đồ, đảm bảo tính nhất quán với định hướng hạ tầng đơn giản đã nghiên cứu ở Tuần 8 và Tuần 9.
 
 ### Nhiệm vụ thực hiện trong tuần:
-| Ngày | Nhiệm vụ                                                                                                                                                                                               | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo                        |
+| Ngày | Nhiệm vụ chi tiết | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Tiến hành final end-to-end testing của Coffee Cloud <br> - Sửa các bugs hoặc issues còn lại <br> - Xác minh tất cả features hoạt động như mong đợi                                              | 02/09/2025 | 02/09/2025      | Testing checklist                         |
-| 2   | - Tối ưu ứng dụng cho demo presentation <br> - Chuẩn bị sample data và test scenarios <br> - Đảm bảo hiệu suất ổn định trong demo                                                            | 03/09/2025 | 03/09/2025      | Demo preparation guide                    |
-| 3   | - Tạo tài liệu toàn diện: <br>&emsp; + Architecture diagrams <br>&emsp; + User guides <br>&emsp; + Technical documentation                                                              | 04/09/2025 | 04/09/2025      | Documentation templates                   |
-| 4   | - Chuẩn bị presentation materials <br> - Tạo demo script và walkthrough <br> - Luyện tập presentation delivery                                                                                     | 05/09/2025 | 05/09/2025      | Presentation guidelines                    |
-| 5   | - Final review và cleanup <br> - Xác minh tất cả AWS resources được cấu hình đúng <br> - Chuẩn bị cho project handover và demo                                                                    | 06/09/2025 | 06/09/2025      | Project review checklist                  |
-
+| 1 | - Phân tích cấu trúc thư mục mã nguồn thực tế của dự án để phác thảo các phân lớp chức năng (Frontend ReactJS, Backend Spring Boot, Database MySQL).<br>- Vẽ bản nháp đầu tiên của sơ đồ trên Draw.io. | 22/06/2026 | 22/06/2026 | Sơ đồ khối hệ thống |
+| 2 | - Lên văn phòng và truy cập cộng đồng AWS Study Group để đọc các bài đánh giá kiến trúc của các khóa trước.<br>- Tổng hợp các lỗi thiết kế hệ thống thường gặp thông qua các comment review của Admin. | 23/06/2026 | 23/06/2026 | Cộng đồng AWS Study Group |
+| 3 | - Đối chiếu sơ đồ kiến trúc của nhóm với phần mã nguồn thực tế; rà soát xem luồng kết nối có bị quá sức hoặc xuất hiện các dịch vụ không có trong code hay không.<br>- Kiểm tra tính logic của các mũi tên chỉ luồng API. | 24/06/2026 | 24/06/2026 | |
+| 4 | - Thực hiện chỉnh sửa, tối ưu hóa sơ đồ: Phân tách rõ ràng phân vùng mạng ảo VPC, vị trí đặt máy chủ và cơ sở dữ liệu quan hệ RDS MySQL Single-AZ nhằm bám sát định hướng tối ưu chi phí ở Tuần 8 & 9. | 25/06/2026 | 25/06/2026 | AWS Architecture Icon Set |
+| 5 | - Hoàn thiện bản vẽ kiến trúc tổng quan (Architecture Blueprint) cấp độ nhóm.<br>- Viết tài liệu mô tả ngắn gọn luồng tương tác giữa các thành viên, rà soát lại toàn bộ hệ thống và cập nhật tiến độ tuần lên Hugo. | 26/06/2026 | 26/06/2026 | |
 
 ### Kết quả đạt được tuần 10:
 
-* Hoàn thành final testing toàn diện của ứng dụng Coffee Cloud:
-  * **Functional Testing**: Xác minh tất cả user flows hoạt động chính xác
-  * **Performance Testing**: Đảm bảo response times chấp nhận được
-  * **Security Testing**: Kiểm tra authentication và data protection
-  * **Bug Fixes**: Giải quyết tất cả issues criticals được phát hiện
+#### A. Nghiên cứu và tối ưu hóa sơ đồ kiến trúc hệ thống (Architecture Blueprinting)
+* **Chuẩn hóa luồng phân phối dữ liệu thực tế:**
+  * Trực quan hóa thành công luồng đi của ứng dụng: Người dùng truy cập tên miền qua Route 53 -> Tải giao diện tĩnh từ phân vùng lưu trữ S3/CloudFront -> Gọi các RESTful API xuống tầng xử lý máy chủ.
+  * Phân tách rõ ràng ranh giới bảo mật mạng (Network Isolation): Đặt các cổng tiếp nhận lưu lượng công cộng ở Public Subnet và cô lập hoàn toàn tầng xử lý mã nguồn backend cùng cơ sở dữ liệu RDS MySQL trong Private Subnet.
+* **Đối chiếu và sửa đổi lỗi logic hệ thống:**
+  * Loại bỏ các thành phần kiến trúc bị vẽ thừa hoặc quá phức tạp (như các dịch vụ Serverless tự động Lambda, DynamoDB của bài mẫu) không khớp với mã nguồn Spring Boot truyền thống của nhóm, tránh rủi ro bị Admin chất vấn khi bảo vệ tiến độ.
 
-* Chuẩn bị demo presentation chuyên nghiệp:
-  * **Sample Data**: Tạo realistic test data cho demo scenarios
-  * **Demo Script**: Walkthrough từng tính năng một cách mạch lạc
-  * **Performance Optimization**: Đảm bảo ứng dụng chạy mượt mà trong demo
+#### B. Tiếp thu kiến thức từ phản hồi cộng đồng (Community Review Insights)
+* **Học hỏi từ các bài đánh giá thực chiến:**
+  * Nghiên cứu kỹ lưỡng các comment góp ý của Admin AWS Study Group trên các sơ đồ hạ tầng tương tự để rút kinh nghiệm cho dự án nhóm.
+  * Nắm rõ các lỗi chí mạng thường gặp khi vẽ sơ đồ: Mũi tên chỉ ngược luồng dữ liệu, đặt cơ sở dữ liệu quan hệ ở Public Subnet, hoặc cấu hình sai quy tắc điều hướng của tường lửa Security Groups.
 
-* Tạo documentation hoàn chỉnh cho dự án:
-  * **Architecture Diagrams**: Sơ đồ hệ thống và data flow 
-  * **User Manual**: Hướng dẫn sử dụng cho end-users
-  * **Technical Documentation**: API specs và deployment guide
-  * **Project Report**: Tổng hợp achievements và lessons learned
-
-* Presentation materials và delivery skills:
-  * **Slide Deck**: Professional presentation với clear messaging
-  * **Live Demo**: Prepared demo scenarios với backup plans
-  * **Q&A Preparation**: Sẵn sàng trả lời technical questions
-
-* Project finalization và handover:
-  * **Code Organization**: Clean, well-documented codebase
-  * **AWS Resources**: Proper tagging và documentation
-  * **Knowledge Transfer**: Comprehensive handover materials
-  * **Post-Demo Plan**: Cleanup strategy và next steps
-
-* Key achievements summary:
-  * Thành công deploy full-stack web application trên AWS
-  * Sử dụng hiệu quả AWS Free Tier services
-  * Đạt được serverless architecture với high availability
-  * Tích hợp multiple AWS services seamlessly
-  * Tạo ra một sản phẩm thực tế có thể sử dụng được
-
-* Tạo IAM role cho EC2 và role cho automation với quyền giới hạn.
-
-* Soạn và thử nghiệm policy S3 read-only, điều chỉnh quyền để tuân theo least-privilege.
-
-* Ghi chú: tiếp tục ghi IaC để tự động hóa các cấu hình này.
-
-
+#### C. Định hình phương án triển khai thực tế (Deployment Alignment)
+* Đảm bảo sự liên kết chặt chẽ giữa lý thuyết hạ tầng đám mây và cấu trúc code local hiện tại của dự án. 
+* Giữ vững tiêu chí thiết kế hệ thống tối giản, thực tế, tập trung vào việc lưu trữ ảnh thú cưng/hóa đơn qua S3 và chạy ứng dụng Spring Boot ổn định, giúp nhóm tự tin làm chủ cấu trúc hệ thống mà không bị quá tải về mặt kiến thức.

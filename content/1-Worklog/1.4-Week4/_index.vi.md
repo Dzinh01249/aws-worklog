@@ -1,48 +1,27 @@
 ---
 title: "Worklog Tuần 4"
-weight: 1
+weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
-### Mục tiêu tuần 4:
+Mục tiêu tuần 4:
+- Tìm hiểu về hạ tầng mạng ảo cô lập (VPC) để làm môi trường triển khai hệ thống an toàn.
+- Khởi tạo cơ sở dữ liệu quan hệ Amazon RDS MySQL cho dự án Pet Shop & Invoice.
+- Thiết lập các nhóm bảo mật (Security Groups) ban đầu để bảo vệ dữ liệu.
 
-* Thiết lập database DynamoDB cho dự án Coffee Cloud
-* Tìm hiểu cơ bản về DynamoDB và tạo bảng cho dữ liệu người dùng và đơn hàng
-* Thiết lập AWS Cognito cho xác thực người dùng
+| Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
+|------|----------|--------------|---------------|-------------------|
+| 1 | Tìm hiểu khái niệm cơ bản về Amazon VPC, cách phân chia Public Subnet (đón khách) và Private Subnet (giấu Database). | 11/05/2026 | 11/05/2026 | Tài liệu Amazon VPC |
+| 2 | Nghiên cứu về dịch vụ cơ sở dữ liệu quan hệ Amazon RDS, so sánh ưu điểm giữa tự cài MySQL trên EC2 và dùng RDS quản lý sẵn. | 12/05/2026 | 12/05/2026 | Tài liệu Amazon RDS |
+| 3 | Thực hành khởi tạo một cơ sở dữ liệu Amazon RDS MySQL (lựa chọn cấu hình Single-AZ Free Tier để tối ưu chi phí thực tập). | 13/05/2026 | 13/05/2026 | AWS RDS Console |
+| 4 | Cấu hình Security Group cho Database: Chỉ cho phép các dải IP nội bộ hoặc máy chủ được chỉ định truy cập, chặn hoàn toàn Internet bên ngoài. | 14/05/2026 | 14/05/2026 | AWS Security Best Practices |
+| 5 | Kiểm tra thông tin kết nối (Endpoint URL) của Database; chuẩn bị cấu hình các bảng dữ liệu mẫu (User, Pet, Order) cho backend. | 15/05/2026 | 15/05/2026 | |
 
-### Nhiệm vụ thực hiện trong tuần:
-| Ngày | Nhiệm vụ                                                                                                                                                                                               | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1   | - Tìm hiểu cơ bản DynamoDB <br> - Hiểu khái niệm NoSQL, primary keys, và indexes                                                                                                                     | 22/07/2025 | 22/07/2025      | Tài liệu DynamoDB                         |
-| 2   | - Tạo bảng DynamoDB cho Coffee Cloud: <br>&emsp; + Bảng Users <br>&emsp; + Bảng Products <br>&emsp; + Bảng Orders <br>&emsp; + Bảng Points                                                        | 23/07/2025 | 23/07/2025      | Hướng dẫn DynamoDB console                |
-| 3   | - Cấu hình schema bảng và indexes <br> - Thêm dữ liệu mẫu để test <br> - Thực hành các thao tác CRUD cơ bản                                                                                        | 24/07/2025 | 24/07/2025      | Tài liệu DynamoDB SDK                     |
-| 4   | - Tìm hiểu AWS Cognito cho xác thực người dùng <br> - Hiểu User Pools và Identity Pools                                                                                                              | 25/07/2025 | 25/07/2025      | Tài liệu Cognito                          |
-| 5   | - Tạo Cognito User Pool cho Coffee Cloud <br> - Cấu hình thiết lập sign-up/sign-in <br> - Thiết lập user groups (Customer, Shipper, Admin)                                                        | 26/07/2025 | 26/07/2025      | Hướng dẫn Cognito console                 |
+Thành tích tuần 4:
 
-### Thành tích tuần 4:
+• Nắm vững tư duy thiết kế mạng an toàn trên Cloud thông qua mô hình VPC và phân tách Subnet bảo mật.
 
-* Thành công tạo các bảng DynamoDB cho dự án Coffee Cloud:
-  * **Bảng Users**: Lưu thông tin customer, shipper, và admin
-  * **Bảng Products**: Menu cà phê với giá cả và mô tả
-  * **Bảng Orders**: Chi tiết đơn hàng và theo dõi trạng thái
-  * **Bảng Points**: Hệ thống điểm thưởng khách hàng
+• Khởi tạo thành công máy chủ Database MySQL trên nền tảng Amazon RDS ở chế độ Single-AZ để tiết kiệm ngân sách credit.
 
-* Cấu hình primary keys và secondary indexes phù hợp để query hiệu quả
-
-* Thêm dữ liệu mẫu vào tất cả bảng để phục vụ testing
-
-* Thành công thiết lập AWS Cognito User Pool với cấu hình:
-  * Đăng nhập bằng email
-  * Chính sách mật khẩu bảo mật
-  * Ba user groups: Customer, Shipper, Admin
-  * Xác thực email cho tài khoản mới
-
-* Test các thao tác DynamoDB cơ bản sử dụng AWS console:
-  * Thao tác tạo, đọc, cập nhật, xóa
-  * Query và scan operations
-  * Hiểu về capacity units và billing
-
-* Học DynamoDB best practices để tối ưu chi phí trong giới hạn Free Tier
-
-
+• Thiết lập thành công lớp tường lửa Security Group cơ bản để bảo vệ Database khỏi các truy cập trái phép từ Internet.
