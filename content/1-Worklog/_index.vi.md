@@ -5,7 +5,9 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-Worklog này ghi lại hành trình thực tập 12 tuần tại **AWS First Cloud Journey** (tháng 4 - tháng 7 năm 2026). Trong suốt quá trình này, nhóm đã xây dựng và triển khai hệ thống **Pet Resort & Care** — ứng dụng web kết hợp thương mại điện tử thú cưng và đặt lịch spa — lên nền tảng AWS Cloud.
+Worklog này được viết theo dạng prompt: mỗi tuần tôi học một kiến thức AWS khác nhau, rồi hướng kiến thức đó về dự án nhóm.
+
+Mỗi tuần là một chủ đề mới—từ tạo tài khoản, lưu trữ, mạng, compute, bảo mật, triển khai đến FinOps—và tất cả đều được áp dụng cho hệ thống **Pet Resort & Care**.
 
 **Tuần 1:** [Làm quen AWS, tạo tài khoản & cài đặt Hugo](1.1-week1/)
 
@@ -30,3 +32,5 @@ Worklog này ghi lại hành trình thực tập 12 tuần tại **AWS First Clo
 **Tuần 11:** [Chốt kiến trúc & triển khai toàn bộ lên cloud](1.11-week11/)
 
 **Tuần 12:** [Load testing, giám sát, FinOps & tổng kết dự án](1.12-week12/)
+
+Cuối mỗi tuần, kiến thức mới đều được nhập vào các quyết định nhóm, giúp dự án tiến về phía sản phẩm chung một cách thực tế.

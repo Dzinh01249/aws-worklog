@@ -5,18 +5,9 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-> In this section, you need to list and describe in detail the events you have participated in during your internship or work. 
-> 
-> Each event should be presented in the format of Event 1, Event 2, Event 3..., including the following information:
-> * Event Name
-> * Time
-> * Location (if any)
-> * Your role in the event (attendee, organizer, speaker, etc.)
-> * Brief description of the main content and activities
-> * Results or values gained (lessons learned, new skills, contributions to the team/project)
-> * Listing these helps to clearly demonstrate your actual participation, as well as the soft skills and experience you have accumulated through each event.
+> Prompt: Attend technical events, capture diverse knowledge, then bring those lessons back to improve the team project.
 
-During my internship, I participated in 3 technical events. Each event was a memorable experience providing fresh, practical knowledge, along with networking opportunities and deep insights into Cloud & AI technologies.
+During my internship, I joined 3 technical events. Each event gave me practical insights that I immediately used to refine the **Pet Resort & Care System** as a team.
 
 ### [Event 1](4.1-Event1/)
 &emsp;**Event Name:** Tech Meetup: Cloud Architecture, Security & Engineering Career Roadmap
@@ -26,6 +17,10 @@ During my internship, I participated in 3 technical events. Each event was a mem
 &emsp;**Location:** Saigon Campus - Level 26 Bitexco Financial Tower, HCMC
 
 &emsp;**Role in the event:** Attendee
+
+&emsp;**What I learned:** Security design patterns for cloud infrastructure, practical advice on IAM and shared services.
+
+&emsp;**Project impact:** I shared the security insights with the team, helping us tighten IAM roles and improve our VPC/ALB structure.
 
 ---
 
@@ -38,6 +33,10 @@ During my internship, I participated in 3 technical events. Each event was a mem
 
 &emsp;**Role in the event:** Attendee
 
+&emsp;**What I learned:** AI service use cases, cloud-native workflows, and how teams use data-driven features in production.
+
+&emsp;**Project impact:** I proposed a team discussion on adding smarter recommendation flows for the pet booking interface.
+
 ---
 
 ### [Event 3](4.3-Event3/)
@@ -48,3 +47,7 @@ During my internship, I participated in 3 technical events. Each event was a mem
 &emsp;**Location:** Saigon Campus - Level 26 Bitexco Financial Tower (Hybrid/Livestream)
 
 &emsp;**Role in the event:** Attendee
+
+&emsp;**What I learned:** Best practices for large-scale deployment, monitoring, and multi-tier architecture in enterprise clouds.
+
+&emsp;**Project impact:** I used these lessons to help the team define our monitoring and deployment checklist for the final project delivery.
