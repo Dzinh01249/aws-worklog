@@ -26,13 +26,13 @@ pre: " <b> 4.1. </b> "
 - Tổng quan về mục tiêu sự kiện và giới thiệu các diễn giả.
 - AWS study group cùng nhau chụp hình cho buổi event cùng với ban tổ chức
 
-#### Phần 1: Soft Skills & Career Roadmap (9:15 AM - 10:00 AM)
-- **Từ IT Helpdesk lên Senior Sysadmin: Hành trình tự học và Lộ trình** (bởi Vinh Trần)
-- **Topic: Cách làm việc nhóm hiệu quả** (bởi Trương Phước)
+#### Phần 1: Giới thiệu Game Day & Nhận Architecture (9:15 AM - 10:00 AM)
+- Phổ biến luật thi đấu AWS GameDay và chia bảng 8 đội tranh tài.
+- Các đội nhận AWS account, tìm hiểu kiến trúc hệ thống giả lập và lên chiến thuật.
 
-#### Phần 2: Core Infrastructure & Security (10:00 AM - 10:45 AM)
-- **Docker - A containerization technology** (bởi Bảo Huỳnh)
-- **Combining AWS WAF with Machine Learning for Cyber Attacks** (bởi Lê Hoàng Gia Đại)
+#### Phần 2: Bắt đầu thi đấu - Triển khai và Phòng thủ (10:00 AM - 10:45 AM)
+- Các đội bắt đầu triển khai hệ thống theo yêu cầu của ban tổ chức.
+- Đối phó với các kịch bản sự cố hạ tầng và bảo mật (Chaos Engineering) được kích hoạt ngẫu nhiên.
 
 #### Giải lao & Teabreak (10:45 AM - 11:00 AM)
 

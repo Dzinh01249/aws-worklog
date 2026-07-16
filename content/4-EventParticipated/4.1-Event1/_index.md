@@ -25,13 +25,13 @@ pre: " <b> 4.1. </b> "
 - Registration, check-in, and early networking.
 - Overview of event objectives and speaker introductions.
 - The AWS study group poses for a photo together with the organizers at the event.
-#### Part 1: Soft Skills & Career Roadmap (9:15 AM - 10:00 AM)
-- **From IT Helpdesk to Senior Sysadmin: Self-study Journey and Roadmap** (by Vinh Tran)
-- **Topic: Effective Teamwork** (by Truong Phuoc)
+#### Part 1: GameDay Introduction & Architecture Briefing (9:15 AM - 10:00 AM)
+- Overview of AWS GameDay rules and grouping of the 8 competing teams.
+- Teams receive AWS accounts, review the simulated system architecture, and strategize.
 
-#### Part 2: Core Infrastructure & Security (10:00 AM - 10:45 AM)
-- **Docker - A containerization technology** (by Bao Huynh)
-- **Combining AWS WAF with Machine Learning for Cyber Attacks** (by Le Hoang Gia Dai)
+#### Part 2: Competition Kick-off - Deployment & Defense (10:00 AM - 10:45 AM)
+- Teams start deploying the required infrastructure.
+- Responding to randomly triggered infrastructure and security incidents (Chaos Engineering scenarios).
 
 #### Break & Teabreak (10:45 AM - 11:00 AM)
 
