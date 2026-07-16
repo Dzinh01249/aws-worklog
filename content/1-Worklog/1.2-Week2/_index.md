@@ -5,19 +5,17 @@ chapter: false
 pre: " <b> 1.2. </b> "
 ---
 
-### Week 2 Objectives:
-- Enhance communication, discuss project directions, and allocate tasks within the internship group.
-- Dive deeper into AWS technical documentation and begin practicing cloud-domain translation skills.
+Week 2 Objectives:
+- Develop and configure the ReactJS frontend for Pet Resort & Care.
 
-### Tasks carried out this week:
-| Day | Task | Start Date | Completion Date | Reference Material |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 1 | Gain a deeper understanding of the cloud migration roadmap through AWS supplementary resources. | 24/04/2026 | 27/04/2026 | |
-| 2 | Survey, select, and comprehend relevant technical articles (AWS Blogs) on the official AWS website. | 28/04/2026 | 28/04/2026 | <https://aws.amazon.com/blogs/> |
-| 3 | Filter content and proceed with the draft translation of the first technical article for future Hugo integration. | 29/04/2026 | 29/04/2026 | |
+| Date | Tasks | Start Date | End Date | References |
+|------|-------|------------|----------|------------|
+| 24/04 | Initialize ReactJS project (Vite), build frontend directory structure. | 24/04 | 25/04 | |
+| 26/04 | Develop homepage, spa services list, and pet shopping cart. | 26/04 | 28/04 | |
+| 29/04 | Test UI/UX, ensure responsiveness across devices. | 29/04 | 29/04 | |
+| 30/04 | Research AWS S3 Static Website Hosting for deployment preparation. | 30/04 | 30/04 | |
 
-### Week 2 Achievements:
+Week 2 Achievements:
 
-* Mastered the general process and core phases involved when an enterprise migrates its infrastructure to the cloud platform.
-* Became familiar with the technical tone of AWS Blogs and completed the raw translation for the first technology article.
-* Aligned on several key conceptual baselines with group members to prepare for the upcoming project Proposal.
+- Completed the basic UI of Pet Resort & Care.
+- Grasped the concept of static hosting on Amazon S3.

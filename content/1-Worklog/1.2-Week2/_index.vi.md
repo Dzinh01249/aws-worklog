@@ -6,19 +6,16 @@ pre: " <b> 1.2. </b> "
 ---
 
 Mục tiêu tuần 2:
-- Tăng cường trao đổi, thảo luận định hướng và phân chia công việc trong nhóm thực tập.
-- Nghiên cứu sâu hơn về các tài liệu kỹ thuật trên AWS và bắt đầu tiếp cận kỹ năng dịch thuật chuyên ngành Cloud.
+- Phát triển và cấu hình giao diện ReactJS cho Pet Resort & Care.
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 1 | Tìm hiểu sâu hơn về lộ trình chuyển dịch hạ tầng lên mây (Cloud Migration) qua các tài liệu bổ trợ của AWS. | 24/04/2026 | 27/04/2026 | |
-| 2 | Khảo sát, lựa chọn và đọc hiểu các bài viết công nghệ (AWS Blogs) phù hợp trên trang chủ AWS. | 28/04/2026 | 28/04/2026 | <https://aws.amazon.com/blogs/> |
-| 3 | Chọn lọc nội dung và tiến hành dịch thuật bản nháp bài viết đầu tiên để chuẩn bị tích hợp vào Hugo. | 29/04/2026 | 29/04/2026 | |
+| 24/04 | Khởi tạo dự án ReactJS (Vite), xây dựng cấu trúc thư mục frontend. | 24/04 | 25/04 | |
+| 26/04 | Phát triển trang chủ, danh sách dịch vụ spa và giỏ hàng thú cưng. | 26/04 | 28/04 | |
+| 29/04 | Kiểm tra giao diện, đảm bảo responsive trên các thiết bị. | 29/04 | 29/04 | |
+| 30/04 | Tìm hiểu về AWS S3 Static Website Hosting để chuẩn bị deploy. | 30/04 | 30/04 | |
 
 Thành tích tuần 2:
 
-• Nắm được quy trình tổng quan và các giai đoạn cốt lõi khi một doanh nghiệp thực hiện dịch chuyển hệ thống lên nền tảng đám mây.
-
-• Làm quen với văn phong kỹ thuật của AWS Blogs và hoàn thành bản dịch thô cho bài viết công nghệ đầu tiên.
-
-• Thống nhất được một số ý tưởng chung với các thành viên để chuẩn bị xây dựng bản Proposal cho dự án.
+- Hoàn thành giao diện cơ bản của Pet Resort & Care.
+- Nắm được khái niệm lưu trữ tĩnh trên Amazon S3.
