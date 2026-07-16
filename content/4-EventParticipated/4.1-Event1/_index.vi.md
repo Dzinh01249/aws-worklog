@@ -5,13 +5,13 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Báo cáo Tóm tắt: "Tech Meetup: Cloud Architecture, Security & Engineering Career Roadmap"
+# Báo cáo Tóm tắt: "Event Game Day 8 Đội Tranh Hùng"
 
 ### Chi tiết Sự kiện
-- **Ngày**: Thứ Bảy, 6 tháng 6, 2026
+- **Ngày**: Thứ Bảy, 20 tháng 6, 2026
 - **Thời gian**: 9:00 AM - 12:00 PM
 - **Địa điểm**: Saigon Campus - Tầng 26 Tòa nhà Bitexco, TP.HCM
-- **Loại sự kiện**: Hội thảo Kỹ thuật, Chia sẻ định hướng nghề nghiệp và Networking
+- **Loại sự kiện**: Game Day và Networking
 
 ### Mục tiêu Sự kiện
 - Khám phá các công nghệ Cloud tiên tiến trên AWS (AWS WAF, AWS Neptune).
