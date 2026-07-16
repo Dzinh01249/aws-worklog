@@ -28,17 +28,17 @@ pre: " <b> 4.1. </b> "
 
 #### Phần 1: Giới thiệu Game Day & Nhận Architecture (9:15 AM - 10:00 AM)
 - Phổ biến luật thi đấu AWS GameDay và chia bảng 8 đội tranh tài.
-- Các đội nhận AWS account, tìm hiểu kiến trúc hệ thống giả lập và lên chiến thuật.
+- Khởi tạo môi trường AWS, tiếp nhận quyền quản lý hệ thống giả lập và phân công nhiệm vụ trong đội.
 
 #### Phần 2: Bắt đầu thi đấu - Triển khai và Phòng thủ (10:00 AM - 10:45 AM)
 - Các đội bắt đầu triển khai hệ thống theo yêu cầu của ban tổ chức.
-- Đối phó với các kịch bản sự cố hạ tầng và bảo mật (Chaos Engineering) được kích hoạt ngẫu nhiên.
+- Giám sát hệ thống, phát hiện và khắc phục nhanh chóng các sự cố (server sập, nghẽn mạng) do ban tổ chức tạo ra.
 
 #### Giải lao & Teabreak (10:45 AM - 11:00 AM)
 
-#### Phần 3: Advanced Cloud Applications (11:00 AM - 11:45 AM)
-- **AWS Neptune for Building a Graph Knowledge Base** (bởi Việt Phát)
-- **Multiplayer in the Cloud: Connecting Godot Clients** (bởi Nguyễn Quốc Bảo)
+#### Phần 3: Tổng kết điểm số & Phân tích chiến thuật (11:00 AM - 11:45 AM)
+- Ban tổ chức công bố bảng xếp hạng và đánh giá hiệu năng hệ thống của từng đội.
+- Các chuyên gia AWS phân tích những sai lầm phổ biến và hướng dẫn giải pháp tối ưu.
 
 #### Q&A và Networking (11:45 AM - 12:00 PM)
 - Giao lưu trực tiếp với các diễn giả và bế mạc sự kiện.

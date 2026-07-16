@@ -27,17 +27,17 @@ pre: " <b> 4.1. </b> "
 - The AWS study group poses for a photo together with the organizers at the event.
 #### Part 1: GameDay Introduction & Architecture Briefing (9:15 AM - 10:00 AM)
 - Overview of AWS GameDay rules and grouping of the 8 competing teams.
-- Teams receive AWS accounts, review the simulated system architecture, and strategize.
+- Initialize AWS environments, take over the simulated system, and assign roles within the team.
 
 #### Part 2: Competition Kick-off - Deployment & Defense (10:00 AM - 10:45 AM)
 - Teams start deploying the required infrastructure.
-- Responding to randomly triggered infrastructure and security incidents (Chaos Engineering scenarios).
+- Monitor the system, detect, and quickly resolve incidents (like server crashes or network bottlenecks) triggered by organizers.
 
 #### Break & Teabreak (10:45 AM - 11:00 AM)
 
-#### Part 3: Advanced Cloud Applications (11:00 AM - 11:45 AM)
-- **AWS Neptune for Building a Graph Knowledge Base** (by Viet Phat)
-- **Multiplayer in the Cloud: Connecting Godot Clients** (by Nguyen Quoc Bao)
+#### Part 3: Scoring Summary & Strategy Analysis (11:00 AM - 11:45 AM)
+- Organizers announce the leaderboard and evaluate the system performance of each team.
+- AWS experts analyze common mistakes and provide guidance on best practices.
 
 #### Q&A and Networking (11:45 AM - 12:00 PM)
 - Direct interaction with speakers and event closing.
