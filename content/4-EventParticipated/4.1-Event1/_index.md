@@ -86,7 +86,7 @@ pre: " <b> 4.1. </b> "
 The GameDay event on June 20, 2026, was a "breathtaking" yet incredibly exciting experience. Completely different from typical seminars, this was a place where I got to "steer" the system firsthand.
 
 #### Thrilling and Engaging
-- Watching the real-time leaderboard fluctuate created a huge sense of excitement. The feeling of scoring points after fixing a major bug or bringing a server back to life was truly rewarding.
+- Watching the real-time leaderboard fluctuate created a huge sense of excitement. The feeling of scoring points when teams had to brainstorm intensely, take risks, and rely on a bit of luck to earn points was truly rewarding.
 
 #### Networking and Learning
 - Despite being a competition, the spirit of learning was very high. The feedback and strategy analysis from AWS experts at the end of the program helped me realize many things I overlooked during the rush of the competition.

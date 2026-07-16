@@ -87,7 +87,7 @@ pre: " <b> 4.1. </b> "
 Sự kiện GameDay ngày 20/06/2026 thực sự là một trải nghiệm "nghẹt thở" nhưng cũng cực kỳ thú vị. Khác biệt hoàn toàn với các hội thảo nghe-nhìn thông thường, đây là nơi tôi được tự tay "cầm lái" hệ thống.
 
 #### Kịch tính và Hấp dẫn
-- Nhìn bảng xếp hạng điểm số (leaderboard) nhảy liên tục tạo ra một cảm giác phấn khích. Cảm giác đạt được điểm khi fix xong một bug lớn hay cứu sống lại server thật sự rất tuyệt vời.
+- Nhìn bảng xếp hạng điểm số (leaderboard) nhảy liên tục tạo ra một cảm giác phấn khích. Cảm giác đạt được điểm khi các đội phải gồng mình căng não, mạo hiểm và sử dụng sự may mắn để dành điểm số thật sự rất tuyệt vời.
 
 #### Kết nối và Học hỏi
 - Dù là thi đấu, nhưng tính giao lưu học hỏi rất cao. Những nhận xét và phân tích chiến thuật từ các chuyên gia AWS ở phần cuối chương trình đã giúp tôi vỡ lẽ ra rất nhiều điều mà trong lúc thi đấu vì vội vàng nên không nhận ra.
