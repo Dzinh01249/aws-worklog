@@ -70,7 +70,7 @@ pre: " <b> 4.1. </b> "
 
 #### Soft Skills
 - **Risk and Time Management:** Knowing how to prioritize fixing the most critical errors first, rather than wasting time on minor issues that don't yield many points.
-- **Team Spirit:** Overcoming challenges together, avoiding blame when the system fails, and focusing entirely on finding solutions.
+- **Team Spirit:** Overcoming challenges together, avoiding blame when making a wrong decision, and focusing entirely on finding solutions.
 
 ---
 

@@ -71,7 +71,7 @@ pre: " <b> 4.1. </b> "
 
 #### Kỹ Năng Mềm (Soft Skills)
 - **Quản trị rủi ro và thời gian:** Biết cách ưu tiên sửa các lỗi nghiêm trọng nhất (critical) trước, thay vì tốn thời gian vào các vấn đề nhỏ lẻ không mang lại nhiều điểm số.
-- **Tinh thần đồng đội:** Cùng nhau vượt qua khó khăn, không đổ lỗi khi hệ thống gặp lỗi mà tập trung tìm giải pháp.
+- **Tinh thần đồng đội:** Cùng nhau vượt qua khó khăn, không đổ lỗi khi đưa ra một quyết định sai mà tập trung tìm giải pháp.
 
 ---
 
