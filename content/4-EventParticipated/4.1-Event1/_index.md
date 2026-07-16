@@ -1,5 +1,5 @@
 ---
-title: "AWS GameDay"
+title: "Event 1"
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
