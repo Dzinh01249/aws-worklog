@@ -1,34 +1,34 @@
 ---
-title: "Nguyen Hoang Son - Internship Report"
+title: "Ho Dinh Vinh - Internship Report"
 weight: 1
 chapter: false
 ---
 
     
-# Nguyen Hoang Son Internship Report
+# Ho Dinh Vinh Internship Report
 
 
 
 ### Student Information:
-&emsp; **Họ và tên:** Nguyễn Hoàng Sơn
+&emsp; **Họ và tên:** Hồ Đình Vinh
 
-&emsp; **Số điện thoại:** 0961346562
+&emsp; **Số điện thoại:** 0898428506
 
-&emsp; **Email:** nguyenhson692@gmail.com
+&emsp; **Email:** hodinhvinh09122004@gmail.com
 
 &emsp; **Trường:** Đại học công nghệ TP.HCM (HUTECH)
 
 &emsp; **Ngành:** Công nghệ thông tin
 
-&emsp; **Mã sinh viên:** 2280602754
+&emsp; **Mã sinh viên:** 2280603678
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
 &emsp; **Vị trí thực tập:** FCJ Cloud Intern
 
-&emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 10/07/2026
+&emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 20/07/2026
 
-![Ảnh đại diện của bạn](/images/HoangSOn.jpg)
+![Ảnh đại diện](/images/DinhVinh.jpg)
 
 ### Report Content
 
