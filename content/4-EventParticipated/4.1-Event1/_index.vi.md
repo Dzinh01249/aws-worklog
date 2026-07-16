@@ -5,95 +5,125 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Báo cáo Tóm tắt: "Event Game Day 8 Đội Tranh Hùng"
+# Báo cáo Tóm tắt: "Tech Meetup: Cloud Architecture, Security & Engineering Career Roadmap"
 
 ### Chi tiết Sự kiện
-- **Ngày**: Thứ Bảy, 20 tháng 6, 2026
+- **Ngày**: Thứ Bảy, 6 tháng 6, 2026
 - **Thời gian**: 9:00 AM - 12:00 PM
 - **Địa điểm**: Saigon Campus - Tầng 26 Tòa nhà Bitexco, TP.HCM
-- **Loại sự kiện**: Game Day và Networking
+- **Loại sự kiện**: Hội thảo Kỹ thuật, Chia sẻ định hướng nghề nghiệp và Networking
 
 ### Mục tiêu Sự kiện
-- Trau dồi kỹ năng làm việc nhóm và phối hợp giải quyết sự cố kỹ thuật thực tế trên môi trường AWS.
-- Trải nghiệm thực chiến với các dịch vụ AWS thông qua các bài toán giả lập sát với thực tế doanh nghiệp.
-- Thi đấu tranh tài cùng 8 đội thi, rèn luyện kỹ năng ra quyết định nhanh chóng dưới áp lực thời gian.
-- Giao lưu, học hỏi kinh nghiệm từ các chuyên gia AWS và các đội thi khác.
+- Khám phá các công nghệ Cloud tiên tiến trên AWS (AWS WAF, AWS Neptune).
+- Hiểu rõ về công nghệ ảo hóa (Containerization) với Docker và cách vận hành Game Server trên Cloud.
+- Trang bị kỹ năng mềm làm việc nhóm và định hướng lộ trình thăng tiến sự nghiệp trong ngành IT.
+- Kết nối và học hỏi từ kinh nghiệm thực chiến của các diễn giả đi trước.
 
 ### Lịch trình
 
 #### Chào mừng & Định hướng (9:00 AM - 9:15 AM)
 - Đăng ký tham gia, check-in và networking đầu giờ.
-- Tổng quan về mục tiêu sự kiện và giới thiệu các người dẫn chương trình.
+- Tổng quan về mục tiêu sự kiện và giới thiệu các diễn giả.
 - AWS study group cùng nhau chụp hình cho buổi event cùng với ban tổ chức
 
-#### Phần 1: Giới thiệu Game Day & Nhận Architecture (9:15 AM - 10:00 AM)
-- Phổ biến luật thi đấu AWS GameDay và chia bảng 8 đội tranh tài.
-- Tiếp nhận tài khoản AWS thực tế, lên chiến thuật thi đấu và phân công nhiệm vụ cho các thành viên trong đội.
+#### Phần 1: Soft Skills & Career Roadmap (9:15 AM - 10:00 AM)
+- **Từ IT Helpdesk lên Senior Sysadmin: Hành trình tự học và Lộ trình** (bởi Vinh Trần)
+- **Topic: Cách làm việc nhóm hiệu quả** (bởi Trương Phước)
 
-#### Phần 2: Bắt đầu thi đấu - Triển khai và Phòng thủ (10:00 AM - 10:45 AM)
-- Các đội bắt đầu triển khai hệ thống theo yêu cầu của ban tổ chức.
-- Trực tiếp xử lý các bài toán kỹ thuật thực tế và đối phó với những thử thách bất ngờ từ ban tổ chức.
+#### Phần 2: Core Infrastructure & Security (10:00 AM - 10:45 AM)
+- **Docker - A containerization technology** (bởi Bảo Huỳnh)
+- **Combining AWS WAF with Machine Learning for Cyber Attacks** (bởi Lê Hoàng Gia Đại)
 
 #### Giải lao & Teabreak (10:45 AM - 11:00 AM)
 
-#### Phần 3: Tổng kết điểm số & Phân tích chiến thuật (11:00 AM - 11:45 AM)
-- Ban tổ chức công bố bảng xếp hạng và đánh giá hiệu năng hệ thống của từng đội.
-- Các chuyên gia AWS phân tích những sai lầm phổ biến và hướng dẫn giải pháp tối ưu.
+#### Phần 3: Advanced Cloud Applications (11:00 AM - 11:45 AM)
+- **AWS Neptune for Building a Graph Knowledge Base** (bởi Việt Phát)
+- **Multiplayer in the Cloud: Connecting Godot Clients** (bởi Nguyễn Quốc Bảo)
 
 #### Q&A và Networking (11:45 AM - 12:00 PM)
-- Giao lưu trực tiếp với các người dẫn chương trình và bế mạc sự kiện.
+- Giao lưu trực tiếp với các diễn giả và bế mạc sự kiện.
 
 ### Diễn giả
-- **Huỳnh Hoàng Long** - Người dẫn chương trình
+- **Vinh Trần** - Junior Sysadmin / student , fresher IT helpdesk 
+- **Trương Phước** - phát triển phần mềm & Quản lý dự án
+- **Bảo Huỳnh** - Cloud & DevOps Engineer
+- **Lê Hoàng Gia Đại** - Cloud Security Specialist
+- **Việt Phát** - Data & Cloud Architect
+- **Nguyễn Quốc Bảo** - Game Developer / Cloud Infrastructure Engineer
 
 ---
 
 ### Nội Dung Nổi Bật
 
-#### 1. Trải nghiệm thực chiến môi trường AWS
-- **Quản lý hạ tầng thực tế:** Không còn dừng lại ở lý thuyết, sự kiện mang đến cơ hội trực tiếp thao tác trên các dịch vụ cốt lõi của AWS (như EC2, RDS, VPC) trong một kịch bản doanh nghiệp được mô phỏng hoàn chỉnh.
-- **Xử lý sự cố (Incident Response):** Liên tục đối mặt với các tình huống bất ngờ từ ban tổ chức như lỗi kết nối, quá tải hệ thống, hay rò rỉ bảo mật.
+#### 1. Định hướng sự nghiệp và Kỹ năng làm việc nhóm
+- **Lộ trình thăng tiến (Vinh Trần):** Phác họa bức tranh thực tế từ một IT Helpdesk hỗ trợ người dùng cơ bản tiến lên vị trí Senior Sysadmin. Nhấn mạnh tầm quan trọng của việc tự học các kiến thức nền tảng (Linux, Networking), kỹ năng scripting (Bash/Python) và sự chuyển dịch tất yếu sang Cloud/DevOps.
+- **Kỹ năng làm việc nhóm (Trương Phước):** Cách giải quyết xung đột (conflict resolution), quy trình làm việc với Git chuẩn xác trong team, và tầm quan trọng của giao tiếp minh bạch. Kỹ thuật tốt là chưa đủ, một kỹ sư giỏi phải biết phối hợp và thấu hiểu đồng đội.
 
-#### 2. Kỹ năng làm việc nhóm dưới áp lực
-- **Phân công công việc:** Tám đội thi phải nhanh chóng hiểu điểm mạnh của từng thành viên để chia việc (người lo Network, người lo Database, người lo Code).
-- **Giao tiếp hiệu quả:** Dưới áp lực thời gian đếm ngược, việc giao tiếp ngắn gọn, rõ ràng và phối hợp nhịp nhàng là chìa khóa để giành điểm số.
+#### 2. Kỷ nguyên Ảo hóa với Docker (Bảo Huỳnh)
+- Giải quyết triệt để vấn đề *"Code chạy trên máy tôi nhưng lỗi trên server"*.
+- **Kiến trúc Docker:** Phân biệt rõ ràng giữa Image (bản thiết kế) và Container (phiên bản đang chạy).
+- **Lợi ích cốt lõi:** Tính cô lập (Isolation), khả năng di động (Portability) và khởi động siêu nhanh so với máy ảo (VM) truyền thống. 
+- Ứng dụng Docker vào quy trình CI/CD để tự động hóa việc triển khai mã nguồn.
 
-#### 3. Tư duy giải quyết vấn đề linh hoạt
-- Học cách tiếp cận bài toán theo nhiều hướng khác nhau. Khi một dịch vụ không hoạt động như mong đợi, đội phải tìm ra work-around hoặc cấu hình lại các thông số một cách nhanh nhất có thể thay vì hoảng loạn.
+#### 3. Bảo mật Web nâng cao: AWS WAF + Machine Learning (Lê Hoàng Gia Đại)
+- **Giới hạn của WAF truyền thống:** Các rules tĩnh dựa trên IP hoặc chuỗi định sẵn không còn đủ sức chống lại các cuộc tấn công Zero-day hoặc Botnet tinh vi.
+- **Sức mạnh của Machine Learning:** Cách tích hợp ML vào AWS WAF để phân tích hành vi người dùng, phát hiện các mẫu truy cập bất thường (anomaly traffic) và tự động cập nhật rule chặn đứng các cuộc tấn công chưa từng có tiền lệ.
+
+#### 4. Cơ sở dữ liệu đồ thị: AWS Neptune (Việt Phát)
+- **Graph Database vs Relational Database:** Phân tích lý do tại sao CSDL quan hệ (SQL) gặp thắt nút cổ chai khi xử lý dữ liệu có tính liên kết chéo phức tạp.
+- **AWS Neptune:** Dịch vụ CSDL đồ thị được quản lý hoàn toàn. Ứng dụng thực tế trong việc xây dựng Knowledge Base, hệ thống gợi ý (Recommendation System) và phát hiện gian lận (Fraud Detection) bằng cách truy vấn các "Đỉnh" (Nodes) và "Cạnh" (Edges).
+
+#### 5. Giải pháp Máy chủ Game trên Đám mây (Nguyễn Quốc Bảo)
+- Giải quyết bài toán độ trễ (latency) và đồng bộ trạng thái (state synchronization) cho game nhiều người chơi (Multiplayer).
+- Hướng dẫn cách kết nối client phát triển bằng **Godot Engine** với các cụm máy chủ game được tự động mở rộng (Auto-scaling) trên hạ tầng Cloud, đảm bảo trải nghiệm mượt mà dù lượng người chơi tăng đột biến.
 
 ---
 
 ### Những Gì Học Được
 
-#### Kỹ Năng Cốt Lõi (Hard Skills)
-- **Troubleshooting thực tế:** Cải thiện đáng kể kỹ năng đọc log, phân tích nguyên nhân gốc rễ (root cause analysis) và khôi phục dịch vụ AWS khi có sự cố.
-- **Best Practices:** Nhận ra tầm quan trọng của việc thiết lập hạ tầng tuân theo các tiêu chuẩn bảo mật và tính sẵn sàng cao (High Availability) ngay từ đầu.
+#### Tư Duy Hệ Thống & Bảo Mật
+- **Bảo mật là một quá trình động:** Không thể chỉ dựa vào cấu hình tĩnh. Việc áp dụng Machine Learning vào Firewall (AWS WAF) mở ra tư duy phòng thủ chủ động trước các mối đe dọa mạng.
+- **Chọn đúng công cụ lưu trữ:** Không phải bài toán nào cũng dùng MySQL/PostgreSQL. Với dữ liệu có tính liên kết mạng lưới cao, AWS Neptune (Graph DB) mới là chìa khóa để tối ưu hiệu suất truy vấn.
 
-#### Kỹ Năng Mềm (Soft Skills)
-- **Quản trị rủi ro và thời gian:** Biết cách ưu tiên sửa các lỗi nghiêm trọng nhất (critical) trước, thay vì tốn thời gian vào các vấn đề nhỏ lẻ không mang lại nhiều điểm số.
-- **Tinh thần đồng đội:** Cùng nhau vượt qua khó khăn, không đổ lỗi khi đưa ra một quyết định sai mà tập trung tìm giải pháp.
+#### Kiến Trúc Kỹ Thuật
+- **Containerization là kỹ năng bắt buộc:** Hiểu sâu về Docker không chỉ giúp ích cho việc deploy mà còn tối ưu hóa môi trường phát triển ứng dụng ở máy local.
+- **Real-time scaling:** Việc thiết kế server cho Game đòi hỏi kỹ thuật tối ưu kết nối mạng (UDP/TCP) và khả năng auto-scale linh hoạt hơn rất nhiều so với Web app thông thường.
+
+#### Phát Triển Bản Thân
+- Lộ trình sự nghiệp trong ngành IT không phải lúc nào cũng là đường thẳng. Việc bắt đầu từ Helpdesk hoàn toàn có thể tiến xa đến Senior Sysadmin/DevOps nếu có kế hoạch tự học rõ ràng và bền bỉ.
 
 ---
 
 ### Ứng Dụng Vào Công Việc & Học Tập
 
-- **Xây dựng tư duy phòng thủ:** Luôn tính đến các rủi ro, sử dụng phán đoán một cách chính xác cho các dự án sau này.
-- **Tối ưu quy trình làm việc:** Áp dụng cách phân chia task rõ ràng và cập nhật tiến độ liên tục như khi thi đấu vào các đồ án nhóm ở trường hoặc dự án công ty.
+- **Áp dụng Docker vào dự án thực tế:** Sử dụng Docker và `docker-compose` để đóng gói database và các services backend/frontend, giúp các thành viên trong nhóm đồng bộ môi trường lập trình chỉ với một lệnh.
+- **Cải thiện quy trình làm việc nhóm:** Áp dụng ngay các tips giao tiếp và quản lý task từ diễn giả Trương Phước để tối ưu hiệu suất khi chạy dự án đồ án môn học hoặc dự án thực tế.
+- **Thiết kế hạ tầng an toàn hơn:** Lưu ý tích hợp cấu hình WAF cơ bản khi có cơ hội triển khai ứng dụng web lên AWS để chống lại các luồng traffic độc hại.
+- **Vạch ra lộ trình học tập dài hạn:** Lấy cảm hứng từ bài chia sẻ của anh Vinh Trần để xác định rõ chứng chỉ và kỹ năng cần học trong 1-3 năm tới để bước chân vào mảng System/Cloud.
 
 ---
 
 ### Trải nghiệm trong event
 
-Sự kiện GameDay ngày 20/06/2026 thực sự là một trải nghiệm "nghẹt thở" nhưng cũng cực kỳ thú vị. Khác biệt hoàn toàn với các hội thảo nghe-nhìn thông thường, đây là nơi tôi được tự tay "cầm lái" hệ thống.
+Tham gia sự kiện công nghệ ngày 6/6/2026 thực sự là một trải nghiệm mở mang tầm mắt, cung cấp cho tôi một bức tranh toàn cảnh từ những kỹ năng mềm cốt lõi cho đến các công nghệ Cloud chuyên sâu. Một số trải nghiệm nổi bật:
 
-#### Kịch tính và Hấp dẫn
-- Nhìn bảng xếp hạng điểm số (leaderboard) nhảy liên tục tạo ra một cảm giác phấn khích. Cảm giác đạt được điểm khi các đội phải gồng mình căng não, mạo hiểm và sử dụng sự may mắn để dành điểm số thật sự rất tuyệt vời.
+#### Học hỏi từ đa dạng góc nhìn
+- Các chủ đề được thiết kế rất thông minh, đi từ nền tảng con người (làm việc nhóm, lộ trình nghề nghiệp) đến hạ tầng (Docker), bảo mật (WAF), lưu trữ (Neptune) và ứng dụng thực tiễn (Game Cloud). Điều này giúp người nghe không bị ngợp mà vẫn tiếp thu được nhiều khía cạnh của ngành IT.
 
-#### Kết nối và Học hỏi
-- Dù là thi đấu, nhưng tính giao lưu học hỏi rất cao. Những nhận xét và phân tích chiến thuật từ các chuyên gia AWS ở phần cuối chương trình đã giúp tôi vỡ lẽ ra rất nhiều điều mà trong lúc thi đấu vì vội vàng nên không nhận ra.
-- Sự kiện cũng giúp tôi kết nối với nhiều sinh viên và kỹ sư tài năng từ các đội khác, mở rộng mạng lưới quan hệ trong ngành IT.
+#### Trải nghiệm kỹ thuật chuyên sâu
+- Ấn tượng nhất với tôi là cách anh Lê Hoàng Gia Đại trình bày về việc kết hợp Machine Learning vào AWS WAF. Nó thay đổi hoàn toàn suy nghĩ của tôi về cách một hệ thống tự động học hỏi và phản ứng lại với các cuộc tấn công mạng.
+- Các demo và kiến thức về cấu trúc dữ liệu đồ thị của AWS Neptune giúp tôi mở rộng tư duy về cách cấu trúc cơ sở dữ liệu ngoài mô hình RDBMS truyền thống.
 
-![Thi đấu AWS GameDay](/images/4-EventParticipated/event1-1.jpg)
-![Đội ngũ AWS GameDay](/images/4-EventParticipated/event1-2.jpg)
+#### Cải thiện Kỹ năng mềm
+- Những chia sẻ thực tế, đôi khi là những "vấp ngã" trong quá trình làm việc nhóm và tự học của các diễn giả giúp tôi nhận ra: Kỹ thuật tốt mới chỉ là điều kiện cần, khả năng giao tiếp, làm việc nhóm và tinh thần không ngừng học hỏi mới là điều kiện đủ để tiến xa.
 
-> Tổng thể, AWS GameDay không chỉ là một cuộc thi mà là một khóa đào tạo thực chiến vô giá, giúp tôi tự tin hơn rất nhiều khi làm việc với hệ thống Cloud sau này.
+#### Kết nối và trao đổi
+- Giờ giải lao và phần Q&A là cơ hội tuyệt vời để tôi được đặt câu hỏi trực tiếp. Gặp gỡ những anh chị giàu kinh nghiệm và những sinh viên/lập trình viên cùng chí hướng giúp tôi có thêm nhiều động lực và định hướng rõ ràng hơn.
+
+#### Bài học rút ra
+- Công nghệ liên tục thay đổi (từ máy chủ vật lý sang Cloud, từ SQL sang Graph DB, từ cấu hình Firewall thủ công sang AI/ML). Để không bị bỏ lại phía sau, bản thân phải liên tục cập nhật kiến thức, đồng thời xây dựng một môi trường làm việc nhóm vững chắc để cùng nhau phát triển.
+
+![Vinh Trần - Từ IT Helpdesk lên Senior Sysadmin](/images/4-EventParticipated/event1-1.png)
+![Kiến trúc AWS cho Godot Game Server](/images/4-EventParticipated/event1-2.png)
+
+> Tổng thể, sự kiện không chỉ cung cấp những kiến thức kỹ thuật chuyên sâu trên nền tảng AWS mà còn tiếp thêm năng lượng, truyền cảm hứng mạnh mẽ cho hành trình phát triển sự nghiệp kỹ sư phần mềm và Cloud của tôi.
