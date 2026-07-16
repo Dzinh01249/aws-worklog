@@ -44,17 +44,17 @@ Dưới lăng kính tự phản biện (self-reflection) khách quan, tôi nhậ
 
 ---
 
-### Những hạn chế và lĩnh vực cần cải thiện
+### Tồn tại và Định hướng phát triển
 
-**Kỹ năng Kỹ thuật:**
-* **Tư duy tối ưu Code & Database:** Code xử lý logic (ví dụ: giỏ hàng, đặt lịch) chưa thực sự tốt, vẫn xảy ra lỗi đồng bộ. Chưa biết cách đánh index cho Database để truy vấn nhanh hơn.
-* **Xử lý sự cố (Troubleshooting) còn kém:** Khi hệ thống sập, tôi thường mất rất nhiều thời gian để mò mẫm trong CloudWatch Logs vì chưa biết cách thiết lập log tập trung.
-* **Thiếu sót về CI/CD:** Hệ thống vẫn phải deploy khá thủ công. Việc chưa tích hợp được luồng CI/CD tự động chuyên nghiệp (như Jenkins, GitHub Actions) là một thiếu sót lớn.
-* **Bảo mật:** Dù đã dùng IAM và Secrets Manager, nhưng đôi lúc vì sợ lỗi nên nhóm vẫn cấp quyền (Role) hơi rộng so với tiêu chuẩn Đặc quyền tối thiểu (Least Privilege).
+**Hạn chế về Kỹ thuật:**
+* **Tối ưu hóa Thuật toán và Cơ sở dữ liệu:** Cấu trúc logic nghiệp vụ chưa đạt độ trơn tru tối đa, tiềm ẩn rủi ro bất đồng bộ trạng thái (race condition). Tư duy thiết kế chỉ mục (Database Indexing) phục vụ truy vấn tốc độ cao còn hạn chế.
+* **Năng lực chẩn đoán lỗi (Troubleshooting):** Quá trình truy vết nguyên nhân gốc rễ (Root Cause Analysis) qua CloudWatch Logs còn thiếu tính hệ thống do chưa triển khai giải pháp quản trị log tập trung (Centralized Logging).
+* **Khuyết thiếu Tự động hóa CI/CD:** Quy trình triển khai (Deployment) mang tính thủ công cao. Việc chưa tích hợp đường ống CI/CD liên tục (GitHub Actions, Jenkins) là một điểm nghẽn nghiêm trọng trong vận hành.
+* **Chính sách An toàn thông tin:** Việc cấu hình phân quyền thông qua IAM chưa tuân thủ triệt để nguyên tắc Đặc quyền tối thiểu (Least Privilege), tiềm ẩn nguy cơ bảo mật hệ thống.
 
-**Kỹ năng Mềm & Tác phong:**
-* **Giao tiếp và Trình bày:** Tôi hay bị mất tự tin và giải thích khá dài dòng khi gặp các câu hỏi vặn ngược lại từ mentor về lý do chọn dịch vụ này thay vì dịch vụ khác.
-* **Quản lý thời gian:** Thường đánh giá sai thời gian cần thiết để fix bug (nghĩ là 1 tiếng nhưng thực tế mất cả ngày), dẫn đến tình trạng chạy nước rút sát deadline.
-* **Sự kiên nhẫn:** Đôi lúc còn nóng vội muốn ra kết quả ngay (như việc ép Auto Scaling phải chạy nhanh) mà chưa hiểu sâu nguyên lý cấu hình bên dưới của AWS.
+**Tồn tại về Kỹ năng & Tác phong:**
+* **Bảo vệ luận điểm Kỹ thuật:** Kỹ năng biện luận và trình bày nguyên lý thiết kế hệ thống còn lúng túng khi đối diện với các luồng phản biện từ chuyên gia (mentors).
+* **Quản trị rủi ro Thời gian:** Năng lực ước lượng nỗ lực giải quyết sự cố (Effort Estimation) chưa chuẩn xác, dẫn đến áp lực quá tải cục bộ tại các điểm nút thời gian (deadlines).
+* **Nóng vội trong Cấu hình Hạ tầng:** Xu hướng kỳ vọng hệ thống phản hồi tức thì (như Auto Scaling) thay vì tập trung nghiên cứu nguyên lý vận hành tầng đáy (underlying mechanics) của các dịch vụ AWS.
 
-> **Kết luận:** Kỳ thực tập này giống như một "gáo nước lạnh" giúp tôi tỉnh táo nhận ra mình đang đứng ở đâu trong ngành IT. Những gì làm được mới chỉ là những viên gạch vỡ lòng. Hành trình phía trước đòi hỏi tôi phải học hỏi nghiêm túc hơn nữa, đặc biệt là về Containerization (Docker), tự động hóa CI/CD và tư duy thiết kế hệ thống chuyên sâu.
+> **Tổng kết:** Kỳ thực tập đóng vai trò như một bài kiểm tra thực chứng, phản ánh chính xác vị thế năng lực hiện tại. Dù đã xây dựng được nền tảng sơ khởi, hành trình sắp tới đòi hỏi sự đầu tư nghiên cứu chuyên sâu hơn vào các lĩnh vực như Ảo hóa ở cấp độ nhân (Containerization/Docker), Tự động hóa quy trình phân phối (CI/CD) và Kiến trúc hệ thống quy mô lớn.

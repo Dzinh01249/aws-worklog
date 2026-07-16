@@ -44,17 +44,17 @@ Through the lens of objective self-reflection, I am profoundly aware that the cu
 
 ---
 
-### Limitations and Areas for Improvement
+### Existing Limitations and Development Trajectory
 
-**Technical Skills:**
-* **Code & Database Optimization Mindset:** The business logic code (e.g., cart handling, scheduling) is not yet optimal, still causing sync errors. I do not yet know how to properly index the Database for faster querying.
-* **Weak Troubleshooting:** When the system crashes, I often spend way too much time fumbling through CloudWatch Logs because I haven't learned how to set up centralized logging.
-* **Lack of CI/CD:** Deployments are still quite manual. The failure to integrate a professional automated CI/CD pipeline (like Jenkins or GitHub Actions) is a major shortcoming.
-* **Security:** Although we used IAM and Secrets Manager, out of fear of breaking the app, the team sometimes granted overly broad IAM Roles that violate the Least Privilege principle.
+**Technical Shortcomings:**
+* **Algorithm and Database Optimization:** The business logic structure has yet to achieve maximum fluidity, harboring potential risks of state inconsistency (race conditions). Expertise in Database Indexing for high-speed querying remains limited.
+* **Troubleshooting Competence:** The Root Cause Analysis process via CloudWatch Logs lacks a systematic approach due to the absence of a Centralized Logging solution.
+* **Absence of CI/CD Automation:** The deployment process remains heavily manual. The failure to integrate continuous integration/continuous deployment pipelines (e.g., GitHub Actions, Jenkins) is a critical operational bottleneck.
+* **Information Security Policies:** Access control configuration via IAM has not strictly adhered to the Principle of Least Privilege, introducing latent system security vulnerabilities.
 
-**Soft Skills & Work Habits:**
-* **Communication and Presentation:** I tend to lose confidence and over-explain when mentors challenge my technical decisions (e.g., why choose this service over another).
-* **Time Management:** I often underestimate the time needed to fix a bug (thinking it takes 1 hour, but it actually takes a whole day), leading to last-minute sprints near the deadline.
-* **Patience:** Sometimes I am too eager to see immediate results (like forcing Auto Scaling to run instantly) without deeply understanding the underlying AWS configuration principles.
+**Professional Skills & Habits Limitations:**
+* **Defending Technical Arguments:** Argumentation and presentation skills regarding system design principles are still faltering when facing counter-arguments from experts (mentors).
+* **Time Risk Management:** The ability to estimate effort for incident resolution (Effort Estimation) is inaccurate, leading to localized overload pressures near critical deadlines.
+* **Impatience in Infrastructure Configuration:** A tendency to expect instantaneous system responses (e.g., Auto Scaling) rather than focusing on researching the underlying mechanics of AWS services.
 
-> **Conclusion:** This internship was like a "wake-up call" that helped me soberly realize exactly where I stand in the IT industry. What I have achieved is just the ABCs. The journey ahead requires me to study much more seriously, particularly focusing on Containerization (Docker), CI/CD automation, and advanced system design thinking.
+> **Summary:** The internship serves as an empirical validation, accurately reflecting my current capability baseline. While a preliminary foundation has been established, the forthcoming journey demands more profound research into domains such as Kernel-level Virtualization (Containerization/Docker), Delivery Pipeline Automation (CI/CD), and Large-scale System Architecture.
