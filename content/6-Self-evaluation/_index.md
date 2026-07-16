@@ -9,7 +9,7 @@ This capstone essay summarizing my 12-week internship at the **AWS First Cloud J
 
 Within the framework of researching and developing the **'Pet Resort & Care System'**—a multi-service platform integrating e-commerce and pet care scheduling management—I collaborated with a team of 5 members to design and implement a distributed system based on a 3-Tier Architecture. The interactive frontend interface was developed using ReactJS, while the backend business logic micro-architecture was built on the Spring Boot (Java) platform. The system operates on the Amazon Web Services (AWS) infrastructure, utilizing core services such as Virtual Private Cloud (VPC) to ensure network spatial isolation, Elastic Compute Cloud (EC2) combined with an Application Load Balancer for workload orchestration, alongside a relational database Amazon RDS (Multi-AZ configuration) and ElastiCache (Redis) to enhance High Availability and optimize data retrieval performance. Through project practice, I have consolidated my mindset on network structural design, information security methodologies (Cloud Security), and particularly the strategic awareness of operational cost optimization (FinOps) in a distributed environment.
 
-In addition to highly specialized technical activities, I actively participated in **three academic seminars and technology symposia** revolving around Cloud Architecture, Voice Artificial Intelligence (Voice AI), and Career Development Orientation. These forums not only served as catalysts in expanding my technological horizon but also helped me explicitly quantify the disparity between the academic environment and the rigorous technical demands of corporate enterprises.
+In addition to highly specialized technical activities, I actively participated in **an academic seminar and technology symposium** revolving around Cloud Architecture and Distributed Systems. This forum not only served as a catalyst in expanding my technological horizon but also helped me explicitly quantify the disparity between the academic environment and the rigorous technical demands of corporate enterprises.
 
 Through the lens of objective self-reflection, I am profoundly aware that the current system architecture remains constrained to the limits of a Minimum Viable Product (MVP). The source code still possesses substantial room for refactoring to attain a higher degree of algorithmic optimization, and the system necessitates more comprehensive security auditing measures. In order to transparently present my competencies and provide a multidimensional perspective on the achievements obtained post-internship, I would like to outline my self-analysis and capability assessment based on the following system of practical criteria:
 
@@ -30,17 +30,17 @@ Through the lens of objective self-reflection, I am profoundly aware that the cu
 
 ---
 
-### What I Have Achieved During the Internship
+### Achievements During the Internship
 
-**Technical Learning:**
-* **Curing "Cloud Blindness":** Manually configured virtual networks (VPC), subnetting, and load balancers instead of merely learning theories on paper.
-* **Architectural Lessons:** Understood the harsh difference between code running smoothly on Localhost versus code crashing when thrown onto an EC2 instance (hidden behind a Private Subnet).
-* **Cost Awareness (FinOps):** Developed a healthy "fear of costs", learned how to clean up unused Snapshots, shut down idle NAT Gateways, and set up Billing Alarms.
+**Technical Competencies:**
+* **Cloud Practicality:** Transformed theory into practical infrastructure by independently designing virtual networks (VPC), subnetting, and configuring Load Balancers.
+* **Distributed Architecture Mindset:** Understood the core differences between the Localhost environment and the Cloud, particularly in resolving conflicts when operating source code on EC2 instances within a Private Subnet.
+* **Cloud Financial Management (FinOps):** Cultivated a strategic cost optimization mindset by setting up Billing Alarms and standardizing the release of idle resources (Snapshots, NAT Gateways).
 
-**Attitude & Experience:**
-* **Community Engagement:** Attended 3 AWS technical events/meetups, expanding my network and getting exposed to large-scale problems faced by real enterprises.
-* **Documentation Discipline:** Maintained weekly Worklogs and learned how to package project documentation (even though it was time-consuming and sometimes tedious).
-* **Honesty with Myself:** Dared to face the reality that our system still risks crashing under heavy load spam, rather than writing a report with inflated results.
+**Professional Attitude and Discipline:**
+* **AWS Ecosystem Integration:** Participated in a community technical forum, expanding my professional network and directly engaging with architectural challenges from real enterprises.
+* **Documentation Discipline:** Strictly adhered to the weekly progress reporting (Worklog) process and honed the methodology of standardizing technical documentation under time pressure.
+* **Academic Integrity and Objectivity:** Directly acknowledged architectural flaws, notably the bottleneck risks during traffic spikes, rather than fabricating performance reports.
 
 ---
 
