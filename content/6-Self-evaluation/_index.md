@@ -16,14 +16,14 @@ Through the lens of objective self-reflection, I am profoundly aware that the cu
 | No. | Criteria | Description | Good | Fair | Average |
 | --- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --- | --- | ---------- |
 | 1 | **Technical Knowledge and Skills** | Understand the flow of a 3-Tier architecture, know how to configure basic VPC, EC2, and RDS, but lack deep performance optimization skills. | ☐ | ✅ | ☐ |
-| 2 | **Learning Ability** | Quickly adapted to new concepts on the AWS Console, proactively searched for documentation when facing network drops or permission errors. | ✅ | ☐ | ☐ |
-| 3 | **Proactiveness** | Voluntarily researched how to set up S3 Pre-signed URLs and updated the Architecture Diagram when receiving feedback from mentors. | ☐ | ✅ | ☐ |
-| 4 | **Sense of Responsibility** | Maintained a complete 12-week worklog, closely followed assigned tasks in the team to avoid delaying the overall progress. | ✅ | ☐ | ☐ |
-| 5 | **Discipline** | Attended team meetings and workshops regularly; however, sometimes tasks were piled up close to the deadline. | ☐ | ✅ | ☐ |
-| 6 | **Progressive Attitude** | Willing to scrap the old architecture diagram and redraw it when realizing the flow was wrong; unafraid to admit the system's weaknesses. | ✅ | ☐ | ☐ |
+| 2 | **Learning Ability** | Quickly adapted to new concepts on the AWS Console, proactively searched for documentation when facing network drops or permission errors. | ☐ | ✅ | ☐ |
+| 3 | **Proactiveness** | Voluntarily researched how to set up S3 Pre-signed URLs and updated the Architecture Diagram when receiving feedback from mentors. | ☐ | ☐ | ✅ |
+| 4 | **Sense of Responsibility** | Maintained a complete 12-week worklog, closely followed assigned tasks in the team to avoid delaying the overall progress. | ☐ | ✅ | ☐ |
+| 5 | **Discipline** | Attended team meetings and workshops regularly; however, sometimes tasks were piled up close to the deadline. | ✅ | ☐ | ☐ |
+| 6 | **Progressive Attitude** | Willing to scrap the old architecture diagram and redraw it when realizing the flow was wrong; unafraid to admit the system's weaknesses. | ☐ | ✅ | ☐ |
 | 7 | **Communication** | Conveying technical ideas is sometimes awkward; public speaking and presentation skills with mentors need significant improvement. | ☐ | ☐ | ✅ |
-| 8 | **Teamwork** | Coordinated smoothly with the other 4 members, knew how to share AWS resources to avoid stepping on each other's toes during deployment. | ✅ | ☐ | ☐ |
-| 9 | **Professional Conduct** | Respected the rules of the AWS community, listened to feedback, and maintained a proper attitude in a team environment. | ✅ | ☐ | ☐ |
+| 8 | **Teamwork** | Coordinated smoothly with the other 4 members, knew how to share AWS resources to avoid stepping on each other's toes during deployment. | ☐ | ✅ | ☐ |
+| 9 | **Professional Conduct** | Respected the rules of the AWS community, listened to feedback, and maintained a proper attitude in a team environment. | ☐ | ✅ | ☐ |
 | 10 | **Problem-Solving Mindset** | Debugging skills on the Cloud via CloudWatch are still slow; handling backend bugs like "double-booking" is not yet thoroughly resolved. | ☐ | ☐ | ✅ |
 | 11 | **Contribution to the Project** | Completed assigned tasks regarding infrastructure architecture and wrote the deployment guidelines (README) for the Pet Resort project. | ☐ | ✅ | ☐ |
 | 12 | **Overall** | Completed the internship with many hard-earned lessons; the system runs but needs a lot of refinement to meet actual production standards. | ☐ | ✅ | ☐ |

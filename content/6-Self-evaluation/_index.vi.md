@@ -16,14 +16,14 @@ Dưới lăng kính tự phản biện (self-reflection) khách quan, tôi nhậ
 | STT | Tiêu chí                            | Mô tả                                                                                                                            | Tốt | Khá | Trung bình |
 | --- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --- | --- | ---------- |
 | 1   | **Kiến thức và kỹ năng chuyên môn** | Nắm được luồng của kiến trúc 3-Tier, biết cấu hình VPC, EC2, RDS cơ bản nhưng chưa tối ưu sâu về mặt hiệu năng.                  | ☐   | ✅  | ☐          |
-| 2   | **Khả năng học hỏi**                | Nhanh chóng làm quen với các khái niệm mới trên AWS Console, chủ động tìm tài liệu khi gặp lỗi rớt mạng/phân quyền.              | ✅  | ☐   | ☐          |
-| 3   | **Chủ động**                        | Tự giác tìm hiểu cách thiết lập S3 Pre-signed URL và cập nhật tài liệu Architecture Diagram khi có góp ý từ mentor.              | ☐   | ✅  | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Duy trì nhật ký công việc (worklog) 12 tuần đầy đủ, bám sát các task được giao trong nhóm để không làm trễ tiến độ chung.        | ✅  | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tham gia các buổi họp nhóm và workshop đầy đủ, tuy nhiên đôi lúc vẫn bị dồn task vào sát ngày deadline.                          | ☐   | ✅  | ☐          |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng đập bỏ sơ đồ kiến trúc cũ để vẽ lại khi biết mình thiết kế sai luồng, không ngại thừa nhận điểm yếu của hệ thống.       | ✅  | ☐   | ☐          |
+| 2   | **Khả năng học hỏi**                | Nhanh chóng làm quen với các khái niệm mới trên AWS Console, chủ động tìm tài liệu khi gặp lỗi rớt mạng/phân quyền.              | ☐   | ✅  | ☐          |
+| 3   | **Chủ động**                        | Tự giác tìm hiểu cách thiết lập S3 Pre-signed URL và cập nhật tài liệu Architecture Diagram khi có góp ý từ mentor.              | ☐   | ☐   | ✅         |
+| 4   | **Tinh thần trách nhiệm**           | Duy trì nhật ký công việc (worklog) 12 tuần đầy đủ, bám sát các task được giao trong nhóm để không làm trễ tiến độ chung.        | ☐   | ✅  | ☐          |
+| 5   | **Kỷ luật**                         | Tham gia các buổi họp nhóm và workshop đầy đủ, tuy nhiên đôi lúc vẫn bị dồn task vào sát ngày deadline.                          | ✅  | ☐   | ☐          |
+| 6   | **Tính cầu tiến**                   | Sẵn sàng đập bỏ sơ đồ kiến trúc cũ để vẽ lại khi biết mình thiết kế sai luồng, không ngại thừa nhận điểm yếu của hệ thống.       | ☐   | ✅  | ☐          |
 | 7   | **Giao tiếp**                       | Truyền đạt ý tưởng kỹ thuật đôi khi còn lúng túng, kỹ năng trình bày/thuyết trình trước đám đông hoặc với mentor cần cải thiện.  | ☐   | ☐   | ✅         |
-| 8   | **Hợp tác nhóm**                    | Phối hợp nhịp nhàng với 4 thành viên còn lại, biết cách chia sẻ tài nguyên AWS để không giẫm chân lên nhau khi deploy.           | ✅  | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng quy tắc của cộng đồng AWS, biết lắng nghe feedback và giữ thái độ đúng mực trong môi trường làm việc nhóm.             | ✅  | ☐   | ☐          |
+| 8   | **Hợp tác nhóm**                    | Phối hợp nhịp nhàng với 4 thành viên còn lại, biết cách chia sẻ tài nguyên AWS để không giẫm chân lên nhau khi deploy.           | ☐   | ✅  | ☐          |
+| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng quy tắc của cộng đồng AWS, biết lắng nghe feedback và giữ thái độ đúng mực trong môi trường làm việc nhóm.             | ☐   | ✅  | ☐          |
 | 10  | **Tư duy giải quyết vấn đề**        | Khả năng debug (tìm lỗi) trên Cloud qua CloudWatch còn chậm, xử lý các lỗi như "double-booking" ở backend vẫn chưa triệt để.     | ☐   | ☐   | ✅         |
 | 11  | **Đóng góp vào dự án/tổ chức**      | Hoàn thành phần việc được giao trong kiến trúc hạ tầng và viết tài liệu hướng dẫn (README) cho dự án Pet Resort.                 | ☐   | ✅  | ☐          |
 | 12  | **Tổng thể**                        | Hoàn thành kỳ thực tập với nhiều bài học xương máu; hệ thống chạy được nhưng cần hoàn thiện thêm rất nhiều để đạt chuẩn thực tế. | ☐   | ✅  | ☐          |
