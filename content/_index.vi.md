@@ -1,33 +1,32 @@
 ---
-title: "Báo cáo thực tập - Hồ Đình Vinh"
+title: "Báo cáo thực tập - Nguyễn Hoàng Sơn"
 weight: 1
 chapter: false
 ---
 
     
-# Báo cáo thực tập - Hồ Đình Vinh
-
+# Báo cáo thực tập - Nguyễn Hoàng Sơn
 
 
 
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Hồ Đình Vinh
+&emsp; **Họ và tên:** Nguyễn Hoàng Sơn
 
-&emsp; **Số điện thoại:** 0898428506
+&emsp; **Số điện thoại:** 0961346562
 
-&emsp; **Email:** hodinhvinh09122004@gmail.com
+&emsp; **Email:** nguyenhson692@gmail.com
 
 &emsp; **Trường:** Đại học công nghệ TP.HCM (HUTECH)
 
 &emsp; **Ngành:** Công nghệ thông tin
 
-&emsp; **Mã sinh viên:** 2280603678
+&emsp; **Mã sinh viên:** 2280602754
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 
 &emsp; **Vị trí thực tập:** FCJ Cloud Intern
 
-&emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 20/07/2026
+&emsp; **Thời gian thực tập:** Từ ngày 17/04/2026 đến ngày 10/07/2026
 
 ![Ảnh đại diện của bạn](/images/HoangSOn.jpg)
 

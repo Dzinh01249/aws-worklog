@@ -5,9 +5,7 @@ chapter: false
 pre: " <b> 1. </b> "
 ---
 
-This worklog is written as a prompt: each week I learn a different AWS concept, then steer that knowledge directly into our team project.
-
-Each weekly entry focuses on a new cloud domain—account setup, storage, networking, compute, security, deployment, and FinOps—while always connecting what I learned back to the **Pet Resort & Care System**.
+This worklog documents a 12-week internship journey at **AWS First Cloud Journey** (April - July 2026). Throughout this period, our team built and deployed the **Pet Resort & Care System** — a web application combining pet e-commerce and spa booking — onto the AWS Cloud platform.
 
 **Week 1:** [Getting familiar with AWS, account setup & Hugo environment](1.1-week1/)
 
@@ -32,5 +30,3 @@ Each weekly entry focuses on a new cloud domain—account setup, storage, networ
 **Week 11:** [Architecture finalization & full cloud deployment](1.11-week11/)
 
 **Week 12:** [Load testing, monitoring setup, FinOps & project wrap-up](1.12-week12/)
-
-At the end of every week, the new knowledge is folded back into the team’s project decisions, making each learning step practical and collaborative.

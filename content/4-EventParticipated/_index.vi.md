@@ -5,9 +5,18 @@ chapter: false
 pre: " <b> 4. </b> "
 ---
 
-> Prompt: Tham gia sự kiện kỹ thuật, học các kiến thức khác nhau, rồi đưa bài học đó về hỗ trợ dự án nhóm.
+> Trong phần này, các bạn cần liệt kê và mô tả chi tiết các sự kiện (event) mà mình đã tham gia trong suốt quá trình thực tập hoặc làm việc. 
+> 
+> Mỗi sự kiện nên được trình bày theo định dạng Event 1, Event 2, Event 3…, kèm theo các thông tin:
+> * Tên sự kiện
+> * Thời gian tổ chức
+> * Địa điểm (nếu có)
+> * Vai trò của bạn trong sự kiện (người tham dự, hỗ trợ tổ chức, diễn giả, v.v.)
+> * Mô tả ngắn gọn nội dung và hoạt động chính trong sự kiện
+> * Kết quả hoặc giá trị đạt được (bài học, kỹ năng mới, đóng góp cho nhóm/dự án)
+> * Việc liệt kê này giúp thể hiện rõ sự tham gia thực tế của bạn, cũng như các kỹ năng mềm và kinh nghiệm bạn đã tích lũy qua từng sự kiện.
 
-Trong quá trình thực tập, em đã tham gia 3 event kỹ thuật. Mỗi event là một nguồn kiến thức mới và đều được áp dụng để cải thiện nhóm dự án **Pet Resort & Care**.
+Trong quá trình thực tập, em đã tham gia 3 events kỹ thuật, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với cơ hội networking và hiểu biết sâu sắc về công nghệ Cloud & AI.
 
 ### [Event 1](4.1-Event1/)
 &emsp;**Tên sự kiện:** Tech Meetup: Cloud Architecture, Security & Engineering Career Roadmap
@@ -17,10 +26,6 @@ Trong quá trình thực tập, em đã tham gia 3 event kỹ thuật. Mỗi eve
 &emsp;**Địa điểm:** Saigon Campus - Tầng 26 Tòa nhà Bitexco, TP.HCM
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
-
-&emsp;**Điều rút ra:** Hiểu rõ hơn về thiết kế bảo mật, IAM và cấu trúc mạng trên cloud.
-
-&emsp;**Áp dụng cho dự án:** Những kiến thức này giúp em góp ý rõ ràng hơn cho cách nhóm thiết kế VPC và phân quyền dịch vụ.
 
 ---
 
@@ -33,10 +38,6 @@ Trong quá trình thực tập, em đã tham gia 3 event kỹ thuật. Mỗi eve
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
 
-&emsp;**Điều rút ra:** Nắm được các xu hướng AI và cách tích hợp dữ liệu thực tế vào ứng dụng.
-
-&emsp;**Áp dụng cho dự án:** Em đề xuất thêm ý tưởng tính năng gợi ý và cải thiện trải nghiệm người dùng cho phần đặt lịch.
-
 ---
 
 ### [Event 3](4.3-Event3/)
@@ -47,7 +48,3 @@ Trong quá trình thực tập, em đã tham gia 3 event kỹ thuật. Mỗi eve
 &emsp;**Địa điểm:** Saigon Campus - Tầng 26 Tòa nhà Bitexco (Kết hợp Livestream)
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự
-
-&emsp;**Điều rút ra:** Hiểu các tiêu chí triển khai quy mô lớn, giám sát và chuẩn hoá kiến trúc.
-
-&emsp;**Áp dụng cho dự án:** Em giúp nhóm hình thành checklist triển khai cuối cùng và xác định các bước giám sát hệ thống.

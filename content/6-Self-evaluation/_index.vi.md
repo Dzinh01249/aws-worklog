@@ -1,60 +1,60 @@
+---
 title: "Tự đánh giá"
 weight: 6
 chapter: false
 pre: " <b> 6. </b> "
 ---
 
-Phần tự đánh giá này được viết theo dạng prompt: tôi nhìn lại các kiến thức đã học, rồi xác định cách mỗi kiến thức đó hỗ trợ dự án nhóm.
+Trong suốt 12 tuần thực tập tại **AWS First Cloud Journey** (từ tháng 04/2026 đến tháng 07/2026), tôi đã có cơ hội học hỏi, rèn luyện và nếm trải những thử thách thực tế khi áp dụng kiến thức điện toán đám mây vào việc triển khai hệ thống phần mềm.
 
-Trong suốt 12 tuần thực tập tại **AWS First Cloud Journey** (từ tháng 04/2026 đến tháng 07/2026), tôi cùng nhóm 5 người phát triển dự án **Pet Resort & Care System** — một ứng dụng kết hợp thương mại điện tử và đặt lịch spa thú cưng. Ứng dụng dùng ReactJS và Spring Boot (Java), triển khai trên AWS theo mô hình Kiến trúc 3 lớp với VPC, EC2, Application Load Balancer, Amazon RDS (Multi-AZ) và ElastiCache (Redis). Qua dự án này, tôi đã luyện tập thiết kế hạ tầng mạng, cấu hình bảo mật cơ bản và học cách tối ưu chi phí cloud (FinOps).
+Tôi đã cùng nhóm 5 người tham gia phát triển dự án **Pet Resort & Care System** – một ứng dụng kết hợp thương mại điện tử và đặt lịch spa thú cưng. Ứng dụng được xây dựng bằng ReactJS và Spring Boot (Java), triển khai trên AWS theo mô hình Kiến trúc 3 lớp (3-Tier) với các dịch vụ cốt lõi như VPC, EC2, Application Load Balancer, Amazon RDS (Multi-AZ) và ElastiCache (Redis). Qua dự án này, tôi đã bước đầu làm quen với việc thiết kế hạ tầng mạng, cấu hình bảo mật cơ bản và nhận thức sâu sắc về việc tối ưu chi phí (FinOps) trên môi trường Cloud.
 
-Tôi cũng đã tham gia **3 sự kiện kỹ thuật cộng đồng** về Kiến trúc Cloud, Voice AI và Định hướng nghề nghiệp. Những sự kiện này giúp tôi nhìn rõ hơn khoảng cách giữa kiến thức trên lớp và yêu cầu thực tế của dự án nhóm.
+Ngoài ra, tôi cũng đã tham gia **3 sự kiện kỹ thuật cộng đồng** về Kiến trúc Cloud, Voice AI và Định hướng nghề nghiệp. Những sự kiện này giúp tôi mở rộng tầm nhìn, hiểu rõ hơn về khoảng cách giữa kiến thức trường lớp và thực tế doanh nghiệp.
 
-Tôi nhận ra hệ thống mình làm ra vẫn chỉ ở mức MVP, code cần tối ưu hơn và còn nhiều điểm cần hoàn thiện. Để đánh giá khách quan, tôi tự chấm dựa trên các tiêu chí sau:
+Tự nhìn nhận lại bản thân, tôi biết hệ thống mình làm ra vẫn chỉ ở mức MVP (sản phẩm thử nghiệm), code chưa tối ưu và còn nhiều lỗ hổng. Để phản ánh một cách khách quan nhất quá trình thực tập, tôi xin tự đánh giá bản thân dựa trên các tiêu chí dưới đây:
 
 | STT | Tiêu chí                            | Mô tả                                                                                                                            | Tốt | Khá | Trung bình |
 | --- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --- | --- | ---------- |
-| 1   | **Kiến thức và kỹ năng chuyên môn** | Hiểu kiến trúc 3-Tier, biết cấu hình VPC, EC2, RDS cơ bản, nhưng cần nâng cao hiệu năng cho dự án.                               | ☐   | ✅  | ☐          |
-| 2   | **Khả năng học hỏi**                | Nhanh chóng tiếp thu khái niệm mới trên AWS Console và chủ động tìm tài liệu khi gặp lỗi phân quyền hoặc kết nối.               | ✅  | ☐   | ☐          |
-| 3   | **Chủ động**                        | Tự tìm hiểu S3 Pre-signed URL và cập nhật sơ đồ kiến trúc sau phản hồi từ mentor.                                                  | ☐   | ✅  | ☐          |
-| 4   | **Tinh thần trách nhiệm**           | Duy trì nhật ký công việc 12 tuần và bám sát task nhóm để không làm trễ tiến độ chung.                                             | ✅  | ☐   | ☐          |
-| 5   | **Kỷ luật**                         | Tham gia họp nhóm và workshop đều đặn, nhưng đôi khi vẫn dồn task vào sát deadline.                                               | ☐   | ✅  | ☐          |
-| 6   | **Tính cầu tiến**                   | Sẵn sàng vẽ lại kiến trúc khi thấy thiết kế sai và thừa nhận sai sót để cải thiện dự án.                                          | ✅  | ☐   | ☐          |
-| 7   | **Giao tiếp**                       | Trình bày kỹ thuật còn lúng túng; cần cải thiện cách giải thích với mentor và đồng đội.                                           | ☐   | ☐   | ✅         |
-| 8   | **Hợp tác nhóm**                    | Phối hợp tốt với 4 thành viên và chia sẻ tài nguyên AWS để tránh xung đột khi deploy.                                            | ✅  | ☐   | ☐          |
-| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng quy tắc cộng đồng AWS, lắng nghe feedback và giữ thái độ đúng mực khi làm việc nhóm.                                  | ✅  | ☐   | ☐          |
-| 10  | **Tư duy giải quyết vấn đề**        | Khả năng debug trên Cloud còn chậm; lỗi backend như double-booking cần xử lý kỹ hơn.                                             | ☐   | ☐   | ✅         |
-| 11  | **Đóng góp vào dự án**              | Hoàn thành phần việc hạ tầng và viết tài liệu triển khai cho dự án Pet Resort.                                                    | ☐   | ✅  | ☐          |
-| 12  | **Tổng thể**                        | Hoàn thành kỳ thực tập với nhiều bài học; hệ thống chạy nhưng cần hoàn thiện để đạt chuẩn thực tế.                               | ☐   | ✅  | ☐          |
+| 1   | **Kiến thức và kỹ năng chuyên môn** | Nắm được luồng của kiến trúc 3-Tier, biết cấu hình VPC, EC2, RDS cơ bản nhưng chưa tối ưu sâu về mặt hiệu năng.                  | ☐   | ✅  | ☐          |
+| 2   | **Khả năng học hỏi**                | Nhanh chóng làm quen với các khái niệm mới trên AWS Console, chủ động tìm tài liệu khi gặp lỗi rớt mạng/phân quyền.              | ✅  | ☐   | ☐          |
+| 3   | **Chủ động**                        | Tự giác tìm hiểu cách thiết lập S3 Pre-signed URL và cập nhật tài liệu Architecture Diagram khi có góp ý từ mentor.              | ☐   | ✅  | ☐          |
+| 4   | **Tinh thần trách nhiệm**           | Duy trì nhật ký công việc (worklog) 12 tuần đầy đủ, bám sát các task được giao trong nhóm để không làm trễ tiến độ chung.        | ✅  | ☐   | ☐          |
+| 5   | **Kỷ luật**                         | Tham gia các buổi họp nhóm và workshop đầy đủ, tuy nhiên đôi lúc vẫn bị dồn task vào sát ngày deadline.                          | ☐   | ✅  | ☐          |
+| 6   | **Tính cầu tiến**                   | Sẵn sàng đập bỏ sơ đồ kiến trúc cũ để vẽ lại khi biết mình thiết kế sai luồng, không ngại thừa nhận điểm yếu của hệ thống.       | ✅  | ☐   | ☐          |
+| 7   | **Giao tiếp**                       | Truyền đạt ý tưởng kỹ thuật đôi khi còn lúng túng, kỹ năng trình bày/thuyết trình trước đám đông hoặc với mentor cần cải thiện.  | ☐   | ☐   | ✅         |
+| 8   | **Hợp tác nhóm**                    | Phối hợp nhịp nhàng với 4 thành viên còn lại, biết cách chia sẻ tài nguyên AWS để không giẫm chân lên nhau khi deploy.           | ✅  | ☐   | ☐          |
+| 9   | **Ứng xử chuyên nghiệp**            | Tôn trọng quy tắc của cộng đồng AWS, biết lắng nghe feedback và giữ thái độ đúng mực trong môi trường làm việc nhóm.             | ✅  | ☐   | ☐          |
+| 10  | **Tư duy giải quyết vấn đề**        | Khả năng debug (tìm lỗi) trên Cloud qua CloudWatch còn chậm, xử lý các lỗi như "double-booking" ở backend vẫn chưa triệt để.     | ☐   | ☐   | ✅         |
+| 11  | **Đóng góp vào dự án/tổ chức**      | Hoàn thành phần việc được giao trong kiến trúc hạ tầng và viết tài liệu hướng dẫn (README) cho dự án Pet Resort.                 | ☐   | ✅  | ☐          |
+| 12  | **Tổng thể**                        | Hoàn thành kỳ thực tập với nhiều bài học xương máu; hệ thống chạy được nhưng cần hoàn thiện thêm rất nhiều để đạt chuẩn thực tế. | ☐   | ✅  | ☐          |
 
 ---
 
 ### Những gì tôi đã làm được trong thời gian thực tập
 
-**Học tập kỹ thuật:**
-* **Hết mù mờ về Cloud:** Tự tay cấu hình VPC, subnets và load balancers, rồi áp dụng ngay vào dự án nhóm.
-* **Bài học kiến trúc:** Nhận ra app chạy tốt trên Localhost nhưng có thể lỗi khi triển khai trên EC2, giúp điều chỉnh thiết kế mạng và deployment.
-* **Nhận thức chi phí:** Học cách quản lý chi phí cloud bằng cách dọn dẹp resource không dùng, tắt dịch vụ idle và cài cảnh báo billing.
+**Học tập Kỹ thuật:**
+* **Hết "mù mờ" về Cloud:** Tự tay cấu hình mạng ảo (VPC), chia Subnet, mở Load Balancer thay vì chỉ học lý thuyết suông trên giấy.
+* **Bài học về kiến trúc:** Hiểu được sự khác biệt giữa việc code chạy mượt trên Localhost và việc code bị lỗi sập nguồn khi ném lên EC2 (được giấu sau Private Subnet).
+* **Nhận thức về chi phí (FinOps):** Hình thành thói quen "sợ tốn tiền", biết cách dọn dẹp Snapshot, tắt NAT Gateway không dùng tới và cài đặt cảnh báo chi phí (Billing Alarms).
 
-**Thái độ & trải nghiệm:**
-* **Gắn kết cộng đồng:** Tham gia 3 event kỹ thuật giúp mở rộng tầm nhìn và đưa ý tưởng thực tế vào dự án.
-* **Kỷ luật ghi chép:** Giữ worklog hàng tuần giúp nhóm có tài liệu tham khảo và theo dõi tiến độ rõ ràng.
-* **Thành thật với bản thân:** Nhận rõ dự án còn giai đoạn đầu và tập trung vào cải tiến thực tế thay vì thổi phồng kết quả.
+**Thái độ & Trải nghiệm:**
+* **Gắn kết cộng đồng:** Đã tham gia 3 sự kiện kỹ thuật/meetup của AWS, mở rộng networking và được tiếp xúc với những bài toán lớn của các doanh nghiệp thực tế.
+* **Kỷ luật ghi chép:** Duy trì việc viết Worklog hàng tuần, học cách đóng gói tài liệu dự án (dù việc này tốn rất nhiều thời gian và đôi khi khá nhàm chán).
+* **Thành thật với bản thân:** Dám nhìn thẳng vào việc hệ thống mình làm ra vẫn còn rủi ro sập khi bị spam tải, thay vì báo cáo thổi phồng kết quả.
 
 ---
 
-### Hạn chế và lĩnh vực cần cải thiện
+### Những hạn chế và lĩnh vực cần cải thiện
 
-**Kỹ năng kỹ thuật:**
-* **Tối ưu code & database:** Logic giỏ hàng và đặt lịch vẫn chưa mượt, cần học thêm cách index DB và tối ưu truy vấn.
-* **Xử lý sự cố:** Khi dự án lỗi, tôi vẫn mất nhiều thời gian trên CloudWatch vì chưa xây dựng thói quen log tập trung.
-* **CI/CD:** Triển khai còn thủ công; nhóm cần đưa pipeline tự động như GitHub Actions để giảm rủi ro.
-* **Bảo mật:** Dù đã dùng IAM và Secrets Manager, đôi khi nhóm vẫn cấp quyền rộng hơn so với least privilege.
+**Kỹ năng Kỹ thuật:**
+* **Tư duy tối ưu Code & Database:** Code xử lý logic (ví dụ: giỏ hàng, đặt lịch) chưa thực sự tốt, vẫn xảy ra lỗi đồng bộ. Chưa biết cách đánh index cho Database để truy vấn nhanh hơn.
+* **Xử lý sự cố (Troubleshooting) còn kém:** Khi hệ thống sập, tôi thường mất rất nhiều thời gian để mò mẫm trong CloudWatch Logs vì chưa biết cách thiết lập log tập trung.
+* **Thiếu sót về CI/CD:** Hệ thống vẫn phải deploy khá thủ công. Việc chưa tích hợp được luồng CI/CD tự động chuyên nghiệp (như Jenkins, GitHub Actions) là một thiếu sót lớn.
+* **Bảo mật:** Dù đã dùng IAM và Secrets Manager, nhưng đôi lúc vì sợ lỗi nên nhóm vẫn cấp quyền (Role) hơi rộng so với tiêu chuẩn Đặc quyền tối thiểu (Least Privilege).
 
-**Kỹ năng mềm & tác phong:**
-* **Giao tiếp:** Cần tự tin hơn khi trình bày lý do chọn giải pháp kỹ thuật với mentor và đồng đội.
-* **Quản lý thời gian:** Thường đánh giá thấp thời gian fix bug, dẫn đến chạy nước rút trước deadline.
-* **Kiên nhẫn:** Đôi lúc nôn nóng muốn ra kết quả ngay thay vì hiểu kỹ cấu hình AWS.
+**Kỹ năng Mềm & Tác phong:**
+* **Giao tiếp và Trình bày:** Tôi hay bị mất tự tin và giải thích khá dài dòng khi gặp các câu hỏi vặn ngược lại từ mentor về lý do chọn dịch vụ này thay vì dịch vụ khác.
+* **Quản lý thời gian:** Thường đánh giá sai thời gian cần thiết để fix bug (nghĩ là 1 tiếng nhưng thực tế mất cả ngày), dẫn đến tình trạng chạy nước rút sát deadline.
+* **Sự kiên nhẫn:** Đôi lúc còn nóng vội muốn ra kết quả ngay (như việc ép Auto Scaling phải chạy nhanh) mà chưa hiểu sâu nguyên lý cấu hình bên dưới của AWS.
 
-> **Kết luận:** Kỳ thực tập này là một gáo nước lạnh giúp tôi thấy rõ vị trí của mình trong ngành. Những gì đạt được mới chỉ là bước đầu; dự án nhóm cần thêm kiến thức về Docker, CI/CD và thiết kế hệ thống chuyên sâu.
 > **Kết luận:** Kỳ thực tập này giống như một "gáo nước lạnh" giúp tôi tỉnh táo nhận ra mình đang đứng ở đâu trong ngành IT. Những gì làm được mới chỉ là những viên gạch vỡ lòng. Hành trình phía trước đòi hỏi tôi phải học hỏi nghiêm túc hơn nữa, đặc biệt là về Containerization (Docker), tự động hóa CI/CD và tư duy thiết kế hệ thống chuyên sâu.
