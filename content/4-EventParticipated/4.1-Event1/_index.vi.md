@@ -44,12 +44,7 @@ pre: " <b> 4.1. </b> "
 - Giao lưu trực tiếp với các người dẫn chương trình và bế mạc sự kiện.
 
 ### Diễn giả
-- **Vinh Trần** - Junior Sysadmin / student , fresher IT helpdesk 
-- **Trương Phước** - phát triển phần mềm & Quản lý dự án
-- **Bảo Huỳnh** - Cloud & DevOps Engineer
-- **Lê Hoàng Gia Đại** - Cloud Security Specialist
-- **Việt Phát** - Data & Cloud Architect
-- **Nguyễn Quốc Bảo** - Game Developer / Cloud Infrastructure Engineer
+- **Huỳnh Hoàng Long** - Người dẫn chương trình
 
 ---
 
