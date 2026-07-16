@@ -23,7 +23,7 @@ pre: " <b> 4.1. </b> "
 
 #### Welcome & Orientation (9:00 AM - 9:15 AM)
 - Registration, check-in, and early networking.
-- Overview of event objectives and speaker introductions.
+- Overview of event objectives and host introductions.
 - The AWS study group poses for a photo together with the organizers at the event.
 #### Part 1: GameDay Introduction & Architecture Briefing (9:15 AM - 10:00 AM)
 - Overview of AWS GameDay rules and grouping of the 8 competing teams.

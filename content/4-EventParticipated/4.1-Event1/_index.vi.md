@@ -23,7 +23,7 @@ pre: " <b> 4.1. </b> "
 
 #### Chào mừng & Định hướng (9:00 AM - 9:15 AM)
 - Đăng ký tham gia, check-in và networking đầu giờ.
-- Tổng quan về mục tiêu sự kiện và giới thiệu các diễn giả.
+- Tổng quan về mục tiêu sự kiện và giới thiệu các người dẫn chương trình.
 - AWS study group cùng nhau chụp hình cho buổi event cùng với ban tổ chức
 
 #### Phần 1: Giới thiệu Game Day & Nhận Architecture (9:15 AM - 10:00 AM)
