@@ -14,10 +14,10 @@ pre: " <b> 4.1. </b> "
 - **Event Type**: Game Day and Networking
 
 ### Event Objectives
-- Explore advanced Cloud technologies on AWS (AWS WAF, AWS Neptune).
-- Understand containerization with Docker and how to operate Game Servers on the Cloud.
-- Equip attendees with teamwork soft skills and roadmap orientations for advancing an IT career.
-- Connect and learn from the practical experiences of industry expert speakers.
+- Hone teamwork skills and collaborate to solve real-world technical incidents in an AWS environment.
+- Gain hands-on experience with AWS services through simulated challenges reflecting actual enterprise scenarios.
+- Compete among 8 teams, practicing quick decision-making under time pressure.
+- Network and learn from AWS experts and other competing teams.
 
 ### Schedule
 
