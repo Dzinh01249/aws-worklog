@@ -77,7 +77,7 @@ pre: " <b> 4.1. </b> "
 
 ### Ứng Dụng Vào Công Việc & Học Tập
 
-- **Xây dựng tư duy phòng thủ:** Luôn tính đến các rủi ro hệ thống (server sập, database lỗi) khi thiết kế kiến trúc phần mềm cho các dự án sau này.
+- **Xây dựng tư duy phòng thủ:** Luôn tính đến các rủi ro, sử dụng phán đoán một cách chính xác cho các dự án sau này.
 - **Tối ưu quy trình làm việc:** Áp dụng cách phân chia task rõ ràng và cập nhật tiến độ liên tục như khi thi đấu vào các đồ án nhóm ở trường hoặc dự án công ty.
 
 ---

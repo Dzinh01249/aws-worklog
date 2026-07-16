@@ -76,7 +76,7 @@ pre: " <b> 4.1. </b> "
 
 ### Application in Work & Study
 
-- **Building a Defensive Mindset:** Always accounting for system risks (server crashes, database failures) when designing software architectures for future projects.
+- **Building a Defensive Mindset:** Always accounting for risks and using accurate judgment for future projects.
 - **Optimizing Workflows:** Applying clear task delegation and continuous progress updates—similar to the competition—to group assignments at school or company projects.
 
 ---
