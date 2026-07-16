@@ -8,12 +8,12 @@ pre: " <b> 1.7. </b> "
 Week 7 Objectives:
 - Deploy Backend to Amazon EC2.
 
-| Date | Tasks | Start Date | End Date | References |
+| Day | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 29/05 | Initialize EC2 instance (Ubuntu), SSH into the server. | 29/05 | 30/05 | |
-| 31/05 | Install Java Runtime Environment (JRE) on EC2. | 31/05 | 01/06 | |
-| 02/06 | Build Spring Boot .jar file and upload to EC2 via SCP. | 02/06 | 03/06 | |
-| 04/06 | Run Backend application as a background service on EC2. | 04/06 | 04/06 | |
+| 1 | Initialize EC2 instance (Ubuntu), SSH into the server. | 04/06/2026 | 05/06/2026 | |
+| 2 | Install Java Runtime Environment (JRE) on EC2. | 06/06/2026 | 08/06/2026 | |
+| 3 | Build Spring Boot .jar file and upload to EC2 via SCP. | 09/06/2026 | 10/06/2026 | |
+| 4 | Run Backend application as a background service on EC2. | 11/06/2026 | 11/06/2026 | |
 
 Week 7 Achievements:
 

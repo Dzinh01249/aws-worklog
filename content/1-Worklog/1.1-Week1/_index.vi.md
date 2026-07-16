@@ -10,11 +10,10 @@ Mục tiêu tuần 1:
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 17/04 | Gặp gỡ mentor, thảo luận yêu cầu dự án Pet Resort & Care, phân tích các tính năng chính. | 17/04 | 17/04 | |
-| 18/04 | Đăng ký tài khoản AWS Free Tier, thiết lập bảo mật cơ bản với IAM (tạo user, group, MFA). | 18/04 | 18/04 | |
-| 20/04 | Nghiên cứu kiến trúc Cloud cơ bản, chọn AWS S3 và EC2 làm nền tảng chính. | 20/04 | 20/04 | |
-| 21/04 | Thiết lập môi trường local (Node.js, Java JDK 17, Git) để chuẩn bị code. | 21/04 | 21/04 | |
-| 22/04 | Tìm hiểu về Hugo framework để xây dựng trang báo cáo thực tập. | 22/04 | 23/04 | |
+| 1 | Gặp gỡ mentor, thảo luận yêu cầu dự án Pet Resort & Care, phân tích các tính năng chính. | 17/04/2026 | 17/04/2026 | |
+| 2 | Đăng ký tài khoản AWS Free Tier, thiết lập bảo mật cơ bản với IAM (tạo user, group, MFA). | 19/04/2026 | 19/04/2026 | |
+| 3 | Nghiên cứu kiến trúc Cloud cơ bản, chọn AWS S3 và EC2 làm nền tảng chính. | 21/04/2026 | 21/04/2026 | |
+| 4 | Thiết lập môi trường local (Node.js, Java JDK 17, Git) để chuẩn bị code và tìm hiểu về Hugo framework. | 23/04/2026 | 24/04/2026 | |
 
 Thành tích tuần 1:
 

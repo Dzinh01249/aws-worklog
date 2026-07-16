@@ -10,10 +10,10 @@ Mục tiêu tuần 8:
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 05/06 | Tìm hiểu Amazon ElastiCache và cơ chế caching. | 05/06 | 06/06 | |
-| 07/06 | Tạo Redis cluster trên AWS và cấu hình Security Group cho phép EC2 truy cập. | 07/06 | 08/06 | |
-| 09/06 | Cập nhật mã nguồn Spring Boot để cache danh sách dịch vụ Spa. | 09/06 | 10/06 | |
-| 11/06 | Deploy lại Backend và kiểm tra hiệu năng cải thiện khi dùng Redis. | 11/06 | 11/06 | |
+| 1 | Tìm hiểu Amazon ElastiCache và cơ chế caching. | 12/06/2026 | 13/06/2026 | |
+| 2 | Tạo Redis cluster trên AWS và cấu hình Security Group cho phép EC2 truy cập. | 14/06/2026 | 16/06/2026 | |
+| 3 | Cập nhật mã nguồn Spring Boot để cache danh sách dịch vụ Spa. | 17/06/2026 | 18/06/2026 | |
+| 4 | Deploy lại Backend và kiểm tra hiệu năng cải thiện khi dùng Redis. | 19/06/2026 | 19/06/2026 | |
 
 Thành tích tuần 8:
 

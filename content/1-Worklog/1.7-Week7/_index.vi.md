@@ -10,10 +10,10 @@ Mục tiêu tuần 7:
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 29/05 | Khởi tạo EC2 instance (Ubuntu), SSH vào server. | 29/05 | 30/05 | |
-| 31/05 | Cài đặt môi trường chạy Java (JRE) trên EC2. | 31/05 | 01/06 | |
-| 02/06 | Build file .jar của Spring Boot và upload lên EC2 bằng SCP. | 02/06 | 03/06 | |
-| 04/06 | Chạy ứng dụng Backend dưới dạng background service trên EC2. | 04/06 | 04/06 | |
+| 1 | Khởi tạo EC2 instance (Ubuntu), cấu hình key pair và SSH vào server. | 04/06/2026 | 05/06/2026 | |
+| 2 | Cài đặt môi trường chạy Java (JRE) trên EC2. | 06/06/2026 | 08/06/2026 | |
+| 3 | Build file .jar của Spring Boot và upload lên EC2 bằng SCP. | 09/06/2026 | 10/06/2026 | |
+| 4 | Chạy ứng dụng Backend dưới dạng background service trên EC2. | 11/06/2026 | 11/06/2026 | |
 
 Thành tích tuần 7:
 

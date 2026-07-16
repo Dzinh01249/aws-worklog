@@ -8,12 +8,12 @@ pre: " <b> 1.4. </b> "
 Week 4 Objectives:
 - Set up CI/CD using GitHub Actions for Frontend.
 
-| Date | Tasks | Start Date | End Date | References |
+| Day | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 08/05 | Learn about GitHub Actions and automated CI/CD workflows. | 08/05 | 09/05 | |
-| 10/05 | Write YAML workflow to automatically build and upload files to S3 upon new commits. | 10/05 | 11/05 | |
-| 12/05 | Configure automated CloudFront cache invalidation in the workflow. | 12/05 | 13/05 | |
-| 14/05 | Test the automated deployment process from local to production. | 14/05 | 14/05 | |
+| 1 | Learn about GitHub Actions and automated CI/CD workflows. | 11/05/2026 | 12/05/2026 | |
+| 2 | Write YAML workflow to automatically build and upload files to S3 upon new commits. | 13/05/2026 | 14/05/2026 | |
+| 3 | Configure automated CloudFront cache invalidation in the workflow. | 15/05/2026 | 16/05/2026 | |
+| 4 | Test the automated deployment process from local to production. | 18/05/2026 | 18/05/2026 | |
 
 Week 4 Achievements:
 

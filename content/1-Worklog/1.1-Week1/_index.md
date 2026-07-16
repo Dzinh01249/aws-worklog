@@ -8,13 +8,12 @@ pre: " <b> 1.1. </b> "
 Week 1 Objectives:
 - Meet with mentors, setup AWS account, and prepare the development environment for the Pet Resort & Care project.
 
-| Date | Tasks | Start Date | End Date | References |
+| Day | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 17/04 | Meet mentors, discuss Pet Resort & Care project requirements, analyze main features. | 17/04 | 17/04 | |
-| 18/04 | Register AWS Free Tier account, set up basic security with IAM (users, groups, MFA). | 18/04 | 18/04 | |
-| 20/04 | Research basic Cloud architecture, select AWS S3 and EC2 as core platforms. | 20/04 | 20/04 | |
-| 21/04 | Set up local environment (Node.js, Java JDK 17, Git) for coding. | 21/04 | 21/04 | |
-| 22/04 | Learn about the Hugo framework to build the internship report website. | 22/04 | 23/04 | |
+| 1 | Meet mentors, discuss Pet Resort & Care project requirements, analyze main features. | 17/04/2026 | 17/04/2026 | |
+| 2 | Register AWS Free Tier account, set up basic security with IAM (users, groups, MFA). | 19/04/2026 | 19/04/2026 | |
+| 3 | Research basic Cloud architecture, select AWS S3 and EC2 as core platforms. | 21/04/2026 | 21/04/2026 | |
+| 4 | Set up local environment (Node.js, Java JDK 17, Git) and learn the Hugo framework. | 23/04/2026 | 24/04/2026 | |
 
 Week 1 Achievements:
 

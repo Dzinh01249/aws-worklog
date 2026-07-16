@@ -6,16 +6,16 @@ pre: " <b> 1.12. </b> "
 ---
 
 Week 12 Objectives:
-- Write Workshop Documentation: Frontend Deployment.
+- Project wrap-up and finalize internship report.
 
-| Date | Tasks | Start Date | End Date | References |
+| Day | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 03/07 | Compile steps taken to deploy ReactJS to S3 and CloudFront. | 03/07 | 04/07 | |
-| 05/07 | Take illustrative screenshots of actions on AWS Console. | 05/07 | 06/07 | |
-| 07/07 | Write detailed Markdown tutorials for beginners. | 07/07 | 08/07 | |
-| 09/07 | Publish the tutorial on the personal report website. | 09/07 | 09/07 | |
+| 1 | Document deployment steps for ReactJS on S3 and Backend on EC2. | 14/07/2026 | 15/07/2026 | |
+| 2 | Review all sections on the report website (Blogs, Events, Worklogs). | 16/07/2026 | 17/07/2026 | |
+| 3 | Write Self-evaluation, assessing pros/cons during the internship. | 18/07/2026 | 19/07/2026 | |
+| 4 | Complete the internship and submit the report to mentors and university. | 20/07/2026 | 20/07/2026 | |
 
 Week 12 Achievements:
 
-- Finished Frontend Workshop documentation.
-- Reinforced knowledge on S3 and CloudFront configurations.
+- Finalized a professional internship report website.
+- Accumulated significant practical experience with AWS deployments.

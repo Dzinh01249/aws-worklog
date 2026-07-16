@@ -10,10 +10,10 @@ Mục tiêu tuần 5:
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 15/05 | Khởi tạo dự án Java Spring Boot, thiết lập cấu trúc API cho hệ thống đặt lịch. | 15/05 | 16/05 | |
-| 17/05 | Tìm hiểu và thiết lập Amazon VPC, Subnet (Public/Private), Route Table. | 17/05 | 18/05 | |
-| 19/05 | Cấu hình Security Group cho Backend và Database. | 19/05 | 20/05 | |
-| 21/05 | Chuẩn bị database schema cho ứng dụng (User, Service, Booking). | 21/05 | 21/05 | |
+| 1 | Khởi tạo dự án Java Spring Boot, thiết lập cấu trúc API cho hệ thống đặt lịch. | 19/05/2026 | 20/05/2026 | |
+| 2 | Tìm hiểu và thiết lập Amazon VPC, Subnet (Public/Private), Route Table. | 21/05/2026 | 23/05/2026 | |
+| 3 | Cấu hình Security Group cho Backend và Database. | 24/05/2026 | 25/05/2026 | |
+| 4 | Chuẩn bị database schema cho ứng dụng (User, Service, Booking). | 26/05/2026 | 26/05/2026 | |
 
 Thành tích tuần 5:
 

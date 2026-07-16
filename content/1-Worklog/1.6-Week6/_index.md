@@ -8,12 +8,12 @@ pre: " <b> 1.6. </b> "
 Week 6 Objectives:
 - Set up Amazon RDS and connect Backend.
 
-| Date | Tasks | Start Date | End Date | References |
+| Day | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 22/05 | Create database instance on Amazon RDS (MySQL) in Private Subnet. | 22/05 | 23/05 | |
-| 24/05 | Connect Spring Boot backend to RDS, test CRUD operations. | 24/05 | 25/05 | |
-| 26/05 | Optimize queries for fetching pet services information. | 26/05 | 27/05 | |
-| 28/05 | Handle connection errors and secure database info using environment variables. | 28/05 | 28/05 | |
+| 1 | Create database instance on Amazon RDS (MySQL) in Private Subnet. | 27/05/2026 | 28/05/2026 | |
+| 2 | Connect Spring Boot backend to RDS, test CRUD operations. | 29/05/2026 | 31/05/2026 | |
+| 3 | Optimize queries for fetching pet services information. | 01/06/2026 | 02/06/2026 | |
+| 4 | Handle connection errors and secure database info using environment variables. | 03/06/2026 | 03/06/2026 | |
 
 Week 6 Achievements:
 

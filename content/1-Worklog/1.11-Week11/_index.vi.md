@@ -10,12 +10,12 @@ Mục tiêu tuần 11:
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 26/06 | Thực hiện luồng đặt lịch hẹn spa từ Frontend qua Backend, lưu vào RDS. | 26/06 | 27/06 | |
-| 28/06 | Kiểm tra cơ chế phân quyền Admin/Customer. | 28/06 | 29/06 | |
-| 30/06 | Sử dụng CloudWatch để giám sát log hệ thống và sửa lỗi phát sinh. | 30/06 | 01/07 | |
-| 02/07 | Đánh giá lại chi phí sử dụng AWS theo Free Tier và tối ưu tài nguyên. | 02/07 | 02/07 | |
+| 1 | Thực hiện luồng đặt lịch hẹn spa từ Frontend qua Backend, lưu vào RDS. | 06/07/2026 | 07/07/2026 | |
+| 2 | Kiểm tra cơ chế phân quyền Admin/Customer và đăng nhập bảo mật. | 08/07/2026 | 09/07/2026 | |
+| 3 | Sử dụng CloudWatch để giám sát log hệ thống và sửa lỗi phát sinh. | 10/07/2026 | 12/07/2026 | |
+| 4 | Đánh giá lại chi phí sử dụng AWS theo Free Tier và tối ưu tài nguyên. | 13/07/2026 | 13/07/2026 | |
 
 Thành tích tuần 11:
 
 - Hệ thống hoạt động trơn tru từ Frontend đến Backend và Database.
-- Tối ưu hóa chi phí vận hành.
+- Tối ưu hóa chi phí vận hành cho dự án thực tế.

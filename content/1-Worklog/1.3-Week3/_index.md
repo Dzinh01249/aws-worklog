@@ -8,12 +8,12 @@ pre: " <b> 1.3. </b> "
 Week 3 Objectives:
 - Deploy Frontend to AWS S3 and CloudFront.
 
-| Date | Tasks | Start Date | End Date | References |
+| Day | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 01/05 | Build ReactJS project, create S3 bucket and upload static files. | 01/05 | 02/05 | |
-| 03/05 | Configure S3 bucket policy for public read access. | 03/05 | 04/05 | |
-| 05/05 | Create CloudFront distribution connecting to S3 to optimize loading speed. | 05/05 | 06/05 | |
-| 07/05 | Test website access through the CloudFront domain. | 07/05 | 07/05 | |
+| 1 | Build ReactJS project, create S3 bucket and upload static files. | 03/05/2026 | 04/05/2026 | |
+| 2 | Configure S3 bucket policy for public read access. | 05/05/2026 | 07/05/2026 | |
+| 3 | Create CloudFront distribution connecting to S3 to optimize loading speed. | 08/05/2026 | 09/05/2026 | |
+| 4 | Test website access through the CloudFront domain. | 10/05/2026 | 10/05/2026 | |
 
 Week 3 Achievements:
 

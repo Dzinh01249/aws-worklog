@@ -6,16 +6,16 @@ pre: " <b> 1.12. </b> "
 ---
 
 Mục tiêu tuần 12:
-- Viết tài liệu Workshop: Triển khai Frontend.
+- Tổng kết dự án và hoàn thiện báo cáo thực tập.
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 03/07 | Tập hợp các bước đã làm để deploy ReactJS lên S3 và CloudFront. | 03/07 | 04/07 | |
-| 05/07 | Chụp ảnh minh họa các thao tác trên AWS Console (S3, CloudFront). | 05/07 | 06/07 | |
-| 07/07 | Viết nội dung Markdown hướng dẫn chi tiết từng bước cho người mới bắt đầu. | 07/07 | 08/07 | |
-| 09/07 | Đưa bài hướng dẫn lên trang web báo cáo cá nhân. | 09/07 | 09/07 | |
+| 1 | Tập hợp các bước đã làm để deploy ReactJS lên S3 và Backend lên EC2 để viết tài liệu. | 14/07/2026 | 15/07/2026 | |
+| 2 | Rà soát toàn bộ các mục trong trang báo cáo (Blogs, Events, Worklogs). | 16/07/2026 | 17/07/2026 | |
+| 3 | Viết mục Self-evaluation, tự đánh giá ưu/nhược điểm và tổng hợp phản hồi từ mentor. | 18/07/2026 | 19/07/2026 | |
+| 4 | Hoàn thành kỳ thực tập và nộp báo cáo cho mentor cùng nhà trường. | 20/07/2026 | 20/07/2026 | |
 
 Thành tích tuần 12:
 
-- Hoàn thiện tài liệu Workshop phần Frontend.
-- Củng cố lại kiến thức cấu hình S3 và CloudFront.
+- Hoàn thiện trang web báo cáo thực tập chuyên nghiệp.
+- Tích lũy được nhiều kinh nghiệm thực tế về triển khai ứng dụng trên AWS.

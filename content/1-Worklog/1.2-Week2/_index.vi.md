@@ -10,10 +10,10 @@ Mục tiêu tuần 2:
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 24/04 | Khởi tạo dự án ReactJS (Vite), xây dựng cấu trúc thư mục frontend. | 24/04 | 25/04 | |
-| 26/04 | Phát triển trang chủ, danh sách dịch vụ spa và giỏ hàng thú cưng. | 26/04 | 28/04 | |
-| 29/04 | Kiểm tra giao diện, đảm bảo responsive trên các thiết bị. | 29/04 | 29/04 | |
-| 30/04 | Tìm hiểu về AWS S3 Static Website Hosting để chuẩn bị deploy. | 30/04 | 30/04 | |
+| 1 | Khởi tạo dự án ReactJS (Vite), xây dựng cấu trúc thư mục frontend. | 25/04/2026 | 26/04/2026 | |
+| 2 | Phát triển trang chủ, danh sách dịch vụ spa và giỏ hàng thú cưng. | 27/04/2026 | 29/04/2026 | |
+| 3 | Kiểm tra giao diện, đảm bảo responsive trên các thiết bị. | 30/04/2026 | 30/04/2026 | |
+| 4 | Tìm hiểu về AWS S3 Static Website Hosting để chuẩn bị deploy. | 02/05/2026 | 02/05/2026 | |
 
 Thành tích tuần 2:
 
