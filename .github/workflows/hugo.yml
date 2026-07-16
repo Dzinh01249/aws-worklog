@@ -32,4 +32,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+          cname: 
           force_orphan: true
