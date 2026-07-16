@@ -92,7 +92,7 @@ The GameDay event on June 20, 2026, was a "breathtaking" yet incredibly exciting
 - Despite being a competition, the spirit of learning was very high. The feedback and strategy analysis from AWS experts at the end of the program helped me realize many things I overlooked during the rush of the competition.
 - The event also helped me connect with many talented students and engineers from other teams, expanding my network in the IT industry.
 
-![AWS GameDay Competition](/images/4-EventParticipated/event1-1.png)
-![AWS GameDay Team](/images/4-EventParticipated/event1-2.png)
+![AWS GameDay Competition](/images/4-EventParticipated/event1-1.jpg)
+![AWS GameDay Team](/images/4-EventParticipated/event1-2.jpg)
 
 > Overall, AWS GameDay was not just a competition but an invaluable practical training course, giving me much more confidence in working with Cloud systems in the future.
