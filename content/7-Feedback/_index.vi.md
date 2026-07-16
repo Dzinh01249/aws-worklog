@@ -10,23 +10,23 @@ pre: " <b> 7. </b> "
 
 ### Đánh giá chung
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+**1. Môi trường làm việc (Working Environment):**  
+Môi trường vận hành mang tính khai phóng, đề cao văn hóa kỹ thuật liên kết (cross-functional support) và tối ưu hóa không gian tập trung. Để gia tăng hiệu suất dài hạn, việc tích hợp thêm các điểm chạm tương tác nội bộ (team bonding) sẽ thúc đẩy dòng chảy thông tin thông suốt hơn.
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+**2. Hỗ trợ từ Cố vấn & Quản trị (Mentorship & Admin):**  
+Đội ngũ Cố vấn (Mentors) áp dụng triệt để phương pháp tư duy gợi mở, chuyển giao quyền tự chủ quyết định cho các kỹ sư trẻ thay vì áp đặt giải pháp. Đồng thời, bộ máy vận hành (Admin) đã chuẩn hóa xuất sắc các quy trình nghiệp vụ hành chính, giảm thiểu độ trễ khi tiếp cận tài nguyên.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+**3. Tương thích Học thuật (Academic Alignment):**  
+Cấu trúc dự án có độ hội tụ cao với các xu hướng công nghệ lõi, đóng vai trò như một môi trường thực chứng lý tưởng để chuyển hóa các lý thuyết phân tán thành năng lực sản xuất phần mềm thực tế.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+**4. Cơ hội Phát triển (Skill Advancement):**  
+Khung làm việc tại FCJ đóng vai trò như một bệ phóng chuẩn hóa năng lực quản trị vòng đời phần mềm (SDLC), phương pháp phối hợp Agile và tư duy giao tiếp chuyên nghiệp, tạo cơ sở vững chắc cho định hướng phát triển Kỹ sư Đám mây dài hạn.
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+**5. Văn hóa & Tinh thần đồng đội (Culture & Synergy):**  
+Tổ chức xây dựng thành công văn hóa bình đẳng và tôn trọng ý kiến kỹ thuật độc lập. Ranh giới cấp bậc được xóa bỏ hoàn toàn trong các giai đoạn cao điểm (production deployment), hình thành một khối hiệp đồng tác chiến vững chắc.
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+**6. Chính sách & Phúc lợi (Welfare & Policies):**  
+Hệ thống chính sách được thiết kế minh bạch với độ linh hoạt cao về thời gian. Đặc quyền tiếp cận các phiên chia sẻ kỹ thuật chuyên sâu (internal tech-talks) là một giá trị thặng dư chiến lược, vượt xa khuôn khổ của một lộ trình hội nhập thông thường.
 
 
 ### Một số câu hỏi khác

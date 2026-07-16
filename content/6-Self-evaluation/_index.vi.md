@@ -58,19 +58,4 @@ Dưới lăng kính tự phản biện (self-reflection) khách quan, tôi nhậ
 * **Nóng vội trong Cấu hình Hạ tầng:** Xu hướng kỳ vọng hệ thống phản hồi tức thì (như Auto Scaling) thay vì tập trung nghiên cứu nguyên lý vận hành tầng đáy (underlying mechanics) của các dịch vụ AWS.
 
 > **Tổng kết:** Kỳ thực tập đóng vai trò như một bài kiểm tra thực chứng, phản ánh chính xác vị thế năng lực hiện tại. Dù đã xây dựng được nền tảng sơ khởi, hành trình sắp tới đòi hỏi sự đầu tư nghiên cứu chuyên sâu hơn vào các lĩnh vực như Ảo hóa ở cấp độ nhân (Containerization/Docker), Tự động hóa quy trình phân phối (CI/CD) và Kiến trúc hệ thống quy mô lớn.
-
----
-
-### Đánh giá tổng quan về Chương trình Thực tập (AWS FCJ)
-
-**1. Môi trường làm việc (Working Environment):** Môi trường vận hành mang tính khai phóng, đề cao văn hóa kỹ thuật liên kết (cross-functional support) và tối ưu hóa không gian tập trung. Để gia tăng hiệu suất dài hạn, việc tích hợp thêm các điểm chạm tương tác nội bộ (team bonding) sẽ thúc đẩy dòng chảy thông tin thông suốt hơn.
-
-**2. Hỗ trợ từ Cố vấn & Quản trị (Mentorship & Admin):** Đội ngũ Cố vấn (Mentors) áp dụng triệt để phương pháp tư duy gợi mở, chuyển giao quyền tự chủ quyết định cho các kỹ sư trẻ thay vì áp đặt giải pháp. Đồng thời, bộ máy vận hành (Admin) đã chuẩn hóa xuất sắc các quy trình nghiệp vụ hành chính, giảm thiểu độ trễ khi tiếp cận tài nguyên.
-
-**3. Tương thích Học thuật (Academic Alignment):** Cấu trúc dự án có độ hội tụ cao với các xu hướng công nghệ lõi, đóng vai trò như một môi trường thực chứng lý tưởng để chuyển hóa các lý thuyết phân tán thành năng lực sản xuất phần mềm thực tế.
-
-**4. Cơ hội Phát triển (Skill Advancement):** Khung làm việc tại FCJ đóng vai trò như một bệ phóng chuẩn hóa năng lực quản trị vòng đời phần mềm (SDLC), phương pháp phối hợp Agile và tư duy giao tiếp chuyên nghiệp, tạo cơ sở vững chắc cho định hướng phát triển Kỹ sư Đám mây dài hạn.
-
-**5. Văn hóa & Tinh thần đồng đội (Culture & Synergy):** Tổ chức xây dựng thành công văn hóa bình đẳng và tôn trọng ý kiến kỹ thuật độc lập. Ranh giới cấp bậc được xóa bỏ hoàn toàn trong các giai đoạn cao điểm (production deployment), hình thành một khối hiệp đồng tác chiến vững chắc.
-
-**6. Chính sách & Phúc lợi (Welfare & Policies):** Hệ thống chính sách được thiết kế minh bạch với độ linh hoạt cao về thời gian. Đặc quyền tiếp cận các phiên chia sẻ kỹ thuật chuyên sâu (internal tech-talks) là một giá trị thặng dư chiến lược, vượt xa khuôn khổ của một lộ trình hội nhập thông thường.
+
