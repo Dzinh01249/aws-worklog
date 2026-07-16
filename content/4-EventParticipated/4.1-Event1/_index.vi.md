@@ -28,7 +28,7 @@ pre: " <b> 4.1. </b> "
 
 #### Phần 1: Giới thiệu Game Day & Nhận Architecture (9:15 AM - 10:00 AM)
 - Phổ biến luật thi đấu AWS GameDay và chia bảng 8 đội tranh tài.
-- Tiếp nhận tài khoản AWS thực tế, nghiên cứu kiến trúc hạ tầng và phân công nhiệm vụ cho các thành viên trong đội.
+- Tiếp nhận tài khoản AWS thực tế, lên chiến thuật thi đấu và phân công nhiệm vụ cho các thành viên trong đội.
 
 #### Phần 2: Bắt đầu thi đấu - Triển khai và Phòng thủ (10:00 AM - 10:45 AM)
 - Các đội bắt đầu triển khai hệ thống theo yêu cầu của ban tổ chức.

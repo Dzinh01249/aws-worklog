@@ -27,7 +27,7 @@ pre: " <b> 4.1. </b> "
 - The AWS study group poses for a photo together with the organizers at the event.
 #### Part 1: GameDay Introduction & Architecture Briefing (9:15 AM - 10:00 AM)
 - Overview of AWS GameDay rules and grouping of the 8 competing teams.
-- Access the live AWS account, study the infrastructure architecture, and assign tasks to team members.
+- Access the live AWS accounts, strategize for the competition, and assign tasks to team members.
 
 #### Part 2: Competition Kick-off - Deployment & Defense (10:00 AM - 10:45 AM)
 - Teams start deploying the required infrastructure.
