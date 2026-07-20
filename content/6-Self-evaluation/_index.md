@@ -5,57 +5,35 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-This capstone essay summarizing my 12-week internship at the **AWS First Cloud Journey** program (04/2026 – 07/2026) serves as empirical evidence of the transformation from theoretical cloud computing concepts into highly practical technological solutions.
+This final report concludes the entire 13-week Workshop series (17/04/2026 – 30/07/2026) within the **AWS First Cloud Journey** program. It stands as a clear demonstration of applying Cloud Computing theory into real-world practice through the **Pet Resort & Care System** project.
 
-Within the framework of researching and developing the **'Pet Resort & Care System'**—a multi-service platform integrating e-commerce and pet care scheduling management—I collaborated with a team of 5 members to design and implement a distributed system based on a 3-Tier Architecture. The interactive frontend interface was developed using ReactJS, while the backend business logic micro-architecture was built on the Spring Boot (Java) platform. The system operates on the Amazon Web Services (AWS) infrastructure, utilizing core services such as Virtual Private Cloud (VPC) to ensure network spatial isolation, Elastic Compute Cloud (EC2) combined with an Application Load Balancer for workload orchestration, alongside a relational database Amazon RDS (Multi-AZ configuration) and ElastiCache (Redis) to enhance High Availability and optimize data retrieval performance. Through project practice, I have consolidated my mindset on network structural design, information security methodologies (Cloud Security), and particularly the strategic awareness of operational cost optimization (FinOps) in a distributed environment.
+Over the 13 weeks of practical labs, our 5-member team collaborated to build a complete 3-Tier architecture. The frontend was built with ReactJS, and the backend logic was handled by Java Spring Boot. The entire platform was deployed on AWS infrastructure: network isolation via VPC, computing through EC2, load balancing with ALB, and data storage using RDS (Multi-AZ) and ElastiCache Redis. These lab sessions not only solidified my setup skills but also deepened my understanding of security (Security Groups, WAF) and infrastructure cost optimization (FinOps).
 
-In addition to highly specialized technical activities, I actively participated in **an academic seminar and technology symposium** revolving around Cloud Architecture and Distributed Systems. This forum not only served as a catalyst in expanding my technological horizon but also helped me explicitly quantify the disparity between the academic environment and the rigorous technical demands of corporate enterprises.
+Frankly speaking, while the current project operates stably, it remains at the MVP (Minimum Viable Product) level. Below is my self-assessment evaluating my competencies after 13 weeks of hands-on experience:
 
-Through the lens of objective self-reflection, I am profoundly aware that the current system architecture remains constrained to the limits of a Minimum Viable Product (MVP). The source code still possesses substantial room for refactoring to attain a higher degree of algorithmic optimization, and the system necessitates more comprehensive security auditing measures. In order to transparently present my competencies and provide a multidimensional perspective on the achievements obtained post-internship, I would like to outline my self-analysis and capability assessment based on the following system of practical criteria:
-
-| No. | Criteria | Description | Good | Fair | Average |
-| --- | ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | --- | --- | ---------- |
-| 1 | **Technical Knowledge and Skills** | Understand the flow of a 3-Tier architecture, know how to configure basic VPC, EC2, and RDS, but lack deep performance optimization skills. | ☐ | ✅ | ☐ |
-| 2 | **Learning Ability** | Quickly adapted to new concepts on the AWS Console, proactively searched for documentation when facing network drops or permission errors. | ☐ | ✅ | ☐ |
-| 3 | **Proactiveness** | Voluntarily researched how to set up S3 Pre-signed URLs and updated the Architecture Diagram when receiving feedback from mentors. | ☐ | ☐ | ✅ |
-| 4 | **Sense of Responsibility** | Maintained a complete 12-week worklog, closely followed assigned tasks in the team to avoid delaying the overall progress. | ☐ | ✅ | ☐ |
-| 5 | **Discipline** | Attended team meetings and workshops regularly; however, sometimes tasks were piled up close to the deadline. | ✅ | ☐ | ☐ |
-| 6 | **Progressive Attitude** | Willing to scrap the old architecture diagram and redraw it when realizing the flow was wrong; unafraid to admit the system's weaknesses. | ☐ | ✅ | ☐ |
-| 7 | **Communication** | Conveying technical ideas is sometimes awkward; public speaking and presentation skills with mentors need significant improvement. | ☐ | ☐ | ✅ |
-| 8 | **Teamwork** | Coordinated smoothly with the other 4 members, knew how to share AWS resources to avoid stepping on each other's toes during deployment. | ☐ | ✅ | ☐ |
-| 9 | **Professional Conduct** | Respected the rules of the AWS community, listened to feedback, and maintained a proper attitude in a team environment. | ☐ | ✅ | ☐ |
-| 10 | **Problem-Solving Mindset** | Debugging skills on the Cloud via CloudWatch are still slow; handling backend bugs like "double-booking" is not yet thoroughly resolved. | ☐ | ☐ | ✅ |
-| 11 | **Contribution to the Project** | Completed assigned tasks regarding infrastructure architecture and wrote the deployment guidelines (README) for the Pet Resort project. | ☐ | ✅ | ☐ |
-| 12 | **Overall** | Completed the internship with many hard-earned lessons; the system runs but needs a lot of refinement to meet actual production standards. | ☐ | ✅ | ☐ |
+| No. | Criteria | Description | Good | Fair | Avg |
+| --- | --- | --- | --- | --- | --- |
+| 1 | **Technical Skills** | Mastered the 3-tier model; hands-on configured VPC, EC2, RDS, ALB. Need to explore more on database query optimization. | ☐ | ✅ | ☐ |
+| 2 | **Learning Agility** | Quickly grasped AWS Console services; proactively read docs to self-troubleshoot IAM permissions and network connections. | ✅ | ☐ | ☐ |
+| 3 | **Proactiveness** | Proposed CloudFront configuration to boost page load speed; proactively redrew architecture diagrams when spotting errors. | ☐ | ✅ | ☐ |
+| 4 | **Responsibility** | Consistently wrote full 13-week worklogs; ensured personal tasks didn't delay the team's deployment progress. | ✅ | ☐ | ☐ |
+| 5 | **Discipline** | Fully attended all lab sessions and presentations. Sometimes pushed documentation tasks too close to the deadline. | ☐ | ✅ | ☐ |
+| 6 | **Progressive Mindset** | Willing to delete resources and start over if misconfigured; unafraid to admit architectural flaws. | ✅ | ☐ | ☐ |
+| 7 | **Communication Skills** | Improved ability to discuss technical issues with mentors, though I need more confidence during project defense. | ☐ | ✅ | ☐ |
+| 8 | **Team Collaboration** | Clear task division via Trello; seamlessly shared AWS accounts without causing resource conflicts. | ✅ | ☐ | ☐ |
+| 9 | **Professionalism** | Adhered to security best practices; always open to expert feedback to refine the system. | ✅ | ☐ | ☐ |
+| 10 | **Debugging Mindset** | Reading CloudWatch logs has improved, but tracking down hidden bottlenecks remains a bit slow. | ☐ | ☐ | ✅ |
+| 11 | **Project Contribution** | Took primary responsibility for writing Workshop Docs and supported teammates in debugging the backend. | ✅ | ☐ | ☐ |
+| 12 | **Overall Evaluation** | Successfully met the 13-week series goals. The project runs smoothly but has room for expansion (e.g., full CI/CD). | ☐ | ✅ | ☐ |
 
 ---
 
-### Achievements During the Internship
+### Highlights of the Internship
+- **Hands-on Cloud Competence:** Transformed paper architecture into a live system. Confidently navigated VPC routing, IAM permissions, and Load Balancer setups.
+- **Solving Real-world Problems:** Understood how to resolve network conflicts and securely connect a Frontend (S3) to a Backend (EC2) residing in a Private Subnet.
+- **Documentation Mindset:** Writing worklogs in a workshop-style format helped systemize all knowledge, proving useful for myself and future learners.
 
-**Technical Competencies:**
-* **Cloud Practicality:** Transformed theory into practical infrastructure by independently designing virtual networks (VPC), subnetting, and configuring Load Balancers.
-* **Distributed Architecture Mindset:** Understood the core differences between the Localhost environment and the Cloud, particularly in resolving conflicts when operating source code on EC2 instances within a Private Subnet.
-* **Cloud Financial Management (FinOps):** Cultivated a strategic cost optimization mindset by setting up Billing Alarms and standardizing the release of idle resources (Snapshots, NAT Gateways).
-
-**Professional Attitude and Discipline:**
-* **AWS Ecosystem Integration:** Participated in a community technical forum, expanding my professional network and directly engaging with architectural challenges from real enterprises.
-* **Documentation Discipline:** Strictly adhered to the weekly progress reporting (Worklog) process and honed the methodology of standardizing technical documentation under time pressure.
-* **Academic Integrity and Objectivity:** Directly acknowledged architectural flaws, notably the bottleneck risks during traffic spikes, rather than fabricating performance reports.
-
----
-
-### Existing Limitations and Development Trajectory
-
-**Technical Shortcomings:**
-* **Algorithm and Database Optimization:** The business logic structure has yet to achieve maximum fluidity, harboring potential risks of state inconsistency (race conditions). Expertise in Database Indexing for high-speed querying remains limited.
-* **Troubleshooting Competence:** The Root Cause Analysis process via CloudWatch Logs lacks a systematic approach due to the absence of a Centralized Logging solution.
-* **Absence of CI/CD Automation:** The deployment process remains heavily manual. The failure to integrate continuous integration/continuous deployment pipelines (e.g., GitHub Actions, Jenkins) is a critical operational bottleneck.
-* **Information Security Policies:** Access control configuration via IAM has not strictly adhered to the Principle of Least Privilege, introducing latent system security vulnerabilities.
-
-**Professional Skills & Habits Limitations:**
-* **Defending Technical Arguments:** Argumentation and presentation skills regarding system design principles are still faltering when facing counter-arguments from experts (mentors).
-* **Time Risk Management:** The ability to estimate effort for incident resolution (Effort Estimation) is inaccurate, leading to localized overload pressures near critical deadlines.
-* **Impatience in Infrastructure Configuration:** A tendency to expect instantaneous system responses (e.g., Auto Scaling) rather than focusing on researching the underlying mechanics of AWS services.
-
-> **Summary:** The internship serves as an empirical validation, accurately reflecting my current capability baseline. While a preliminary foundation has been established, the forthcoming journey demands more profound research into domains such as Kernel-level Virtualization (Containerization/Docker), Delivery Pipeline Automation (CI/CD), and Large-scale System Architecture.
-
+### Areas for Improvement
+- **Technical Gaps:** Have not fully implemented CI/CD (only basic for Frontend). Backend CI/CD to EC2 is still done manually via SCP.
+- **Optimization:** Database Indexing skills to speed up queries aren't solid yet; the system might face bottlenecks during sudden traffic spikes.
+- **Soft Skills:** Need to hone my debate skills during technical Q&A with Mentors, and learn to manage time better to avoid crunching in the final weeks.

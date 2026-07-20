@@ -1,41 +1,38 @@
 ---
-title: "Chia sẻ, đóng góp ý kiến"
+title: "Góp ý & Phản hồi"
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
+> Khu vực này dành riêng để chia sẻ những cảm nhận và đánh giá cá nhân về chuỗi Workshop 13 tuần của chương trình First Cloud Journey, nhằm giúp ban tổ chức FCJ ngày càng hoàn thiện hơn.
 
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud Journey, giúp team FCJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
+### Đánh giá tổng quan
 
-### Đánh giá chung
+**1. Môi trường thực hành (Lab Environment):**  
+Không gian trao đổi kỹ thuật rất sôi nổi và cởi mở. Mọi người không giấu nghề mà luôn nhiệt tình chia sẻ các "trick" hay khi cấu hình AWS. Cường độ làm lab khá cao nên đôi lúc hơi áp lực, nhưng bù lại tạo ra động lực thúc đẩy bản thân vượt qua giới hạn.
 
-**1. Môi trường làm việc (Working Environment):**  
-Hệ sinh thái làm việc thân thiện và cởi mở. Các thành viên luôn sẵn sàng hỗ trợ thực tập sinh bất kể thời gian. Không gian tối ưu giúp tập trung tốt, tuy nhiên công ty có thể cân nhắc tăng cường các hoạt động giao lưu (team bonding) để gắn kết nội bộ sâu sắc hơn.
+**2. Sự đồng hành của Mentor & Đội ngũ Admin:**  
+Các Mentor có chuyên môn rất sâu, luôn định hướng giải pháp bằng cách đặt câu hỏi gợi mở thay vì làm thay thực tập sinh. Admin thì luôn túc trực hỗ trợ cấp quyền, reset mật khẩu hoặc gỡ rối các vấn đề tài khoản AWS vô cùng nhanh chóng.
 
-**2. Hỗ trợ từ Cố vấn & Quản trị (Mentorship & Admin):**  
-Mentor hướng dẫn vô cùng chi tiết, áp dụng phương pháp gợi mở giúp thực tập sinh tự chủ giải quyết vấn đề thay vì chỉ nhận đáp án có sẵn. Song song đó, đội ngũ Admin hỗ trợ tận tình các thủ tục hành chính, tạo điều kiện làm việc thuận lợi nhất.
+**3. Mức độ bám sát thực tế (Practicality):**  
+Kiến thức học được không hề giáo điều mà bám rất sát vào bài toán thực tế của doanh nghiệp. Việc phải tự cấu hình VPC, xử lý bảo mật và tối ưu chi phí giúp tôi hiểu rõ lý do đằng sau mỗi quyết định thiết kế kiến trúc.
 
-**3. Tương thích Học thuật (Academic Alignment):**  
-Công việc được giao có độ bám sát cao với kiến thức nền tảng tại giảng đường, đồng thời mở rộng thêm những mảng công nghệ mới. Đây là cơ hội tuyệt vời để thực tập sinh chuyển hóa lý thuyết thành năng lực thực chiến.
+**4. Kỹ năng gặt hái được (Skills Acquired):**  
+Ngoài kỹ năng kỹ thuật cứng (Hard skills) về Cloud, chuỗi 13 tuần này còn tôi luyện khả năng viết tài liệu kỹ thuật (Documentation), kỹ năng trình bày và làm việc nhóm dưới áp lực thời gian ngắn.
 
-**4. Cơ hội Phát triển (Skill Advancement):**  
-Kỳ thực tập là bệ phóng hoàn hảo giúp rèn luyện các kỹ năng quản lý dự án, làm việc nhóm và giao tiếp chuyên nghiệp trong môi trường doanh nghiệp. Những kinh nghiệm thực tế từ Mentor mang giá trị cốt lõi cho định hướng nghề nghiệp tương lai.
+**5. Cơ chế hỗ trợ (Support Policies):**  
+Việc được cấp tài khoản AWS thực hành là một đặc quyền rất lớn, giúp chúng tôi thoải mái thử nghiệm mà không lo rủi ro chi phí cá nhân. Các buổi Tech-talk bổ trợ cuối tuần cũng là nguồn kiến thức quý giá.
 
-**5. Văn hóa & Tinh thần đồng đội (Culture & Synergy):**  
-Văn hóa công ty cực kỳ tích cực, đề cao sự tôn trọng và bình đẳng. Trong các dự án gấp rút, mọi người luôn hỗ trợ nhau không phân biệt vị trí, giúp thực tập sinh cảm nhận rõ cảm thức thuộc về một tập thể gắn kết.
+---
 
-**6. Chính sách & Phúc lợi (Welfare & Policies):**  
-Công ty có cơ chế phụ cấp hợp lý và tạo điều kiện linh hoạt về thời gian. Đặc biệt, việc thực tập sinh được đặc quyền tham gia các buổi đào tạo nội bộ (internal training) là một điểm cộng vô cùng lớn của chương trình.
+### Khảo sát ngắn
+- Điểm khiến bạn **tâm đắc nhất** trong 13 tuần qua là gì?
+- Bạn cảm thấy chương trình **cần điều chỉnh** ở điểm nào để tối ưu hơn cho khóa sau?
+- Bạn có sẵn sàng **giới thiệu Bootcamp này** cho các sinh viên khóa dưới không? Tại sao?
 
+---
 
-### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
-
-
-### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+### Góc đề xuất
+- Ban tổ chức có thể thiết kế thêm một vài buổi chuyên sâu về Serverless (Lambda, API Gateway) hoặc Container (Docker/EKS) để mở rộng kiến thức.
+- Nên có thêm các bảng xếp hạng (Leaderboard) hoặc các mini-game thi đấu cấu hình hạ tầng nhanh giữa các nhóm để tăng tính cạnh tranh thú vị.

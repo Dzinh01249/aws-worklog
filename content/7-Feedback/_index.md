@@ -1,42 +1,38 @@
 ---
-title: "Sharing and Feedback"
+title: "Feedback & Suggestions"
 weight: 7
 chapter: false
 pre: " <b> 7. </b> "
 ---
 
-> Here, you can freely share your personal opinions about your experience participating in the First Cloud Journey program. This will help the FCJ team improve any shortcomings based on the following aspects:
+> This section is dedicated to sharing personal feelings and reviews regarding the 13-week Workshop series of the First Cloud Journey program, helping the FCJ organizing team improve in the future.
 
-### Overall Evaluation
+### Overall Review
 
-**1. Working Environment:**  
-A friendly and open working ecosystem. Members are always ready to support interns regardless of the time. The optimized workspace aids in concentration; however, the company could consider increasing social activities (team bonding) to foster deeper internal cohesion.
+**1. Lab Environment:**  
+The technical discussion space is highly vibrant and open. People don't hold back their expertise; they enthusiastically share cool "tricks" for AWS configurations. The lab intensity is quite high, which can be pressuring at times, but it serves as great motivation to push past personal limits.
 
-**2. Mentorship & Admin Support:**  
-Mentors provide extremely detailed guidance, applying an open-ended approach that helps interns autonomously solve problems rather than just receiving ready-made answers. Concurrently, the Admin team enthusiastically supports administrative procedures, creating the most favorable working conditions.
+**2. Mentor & Admin Companionship:**  
+The Mentors possess deep expertise and always guide us toward solutions by asking open-ended questions rather than doing the work for us. The Admins are constantly on standby, swiftly assisting with permissions, password resets, or resolving AWS account issues.
 
-**3. Academic Alignment:**  
-The assigned tasks closely align with foundational knowledge acquired at university while expanding into new technology areas. This is an excellent opportunity for interns to transform academic theory into practical combat capability.
+**3. Practicality & Relevance:**  
+The acquired knowledge is not theoretical but tightly adheres to real enterprise problems. Having to manually configure VPCs, handle security, and optimize costs helped me understand the reasoning behind every architectural design decision.
 
-**4. Skill Advancement:**  
-The internship serves as a perfect launchpad to hone project management skills, teamwork, and professional communication in a corporate environment. Practical experiences shared by Mentors offer core value for future career orientation.
+**4. Skills Acquired:**  
+Beyond hard technical skills on the Cloud, this 13-week series honed my technical documentation skills, presentation abilities, and teamwork under tight deadlines.
 
-**5. Culture & Synergy:**  
-The company culture is highly positive, emphasizing respect and equality. During urgent projects, everyone supports each other regardless of position, helping interns clearly feel a sense of belonging to a cohesive team.
-
-**6. Welfare & Policies:**  
-The company offers reasonable allowances and provides flexible time arrangements. In particular, granting interns the privilege to participate in internal training sessions is a tremendous plus for the program.
+**5. Support Policies:**  
+Being provided with a practice AWS account is a huge privilege, allowing us to experiment freely without worrying about personal financial risks. The supplementary weekend Tech-talks are also a valuable source of knowledge.
 
 ---
 
-### Additional Questions
-- What did you find **most satisfying** during your internship?  
-- What do you think the company **should improve** for future interns?  
-- If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+### Quick Survey
+- What was the **most satisfying** aspect for you over the past 13 weeks?
+- What do you feel the program **needs to adjust** to be better for the next cohort?
+- Are you willing to **recommend this Bootcamp** to junior students? Why?
 
 ---
 
-### Suggestions & Expectations
-- Do you have any suggestions to improve the internship experience?  
-- Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+### Suggestion Corner
+- The organizing team could design a few deep-dive sessions into Serverless (Lambda, API Gateway) or Containers (Docker/EKS) to broaden our knowledge base.
+- It would be great to introduce Leaderboards or mini-games for fast infrastructure configuration races among teams to boost fun competitiveness.
