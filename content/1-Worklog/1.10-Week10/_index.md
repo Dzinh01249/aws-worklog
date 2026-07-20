@@ -6,16 +6,16 @@ pre: " <b> 1.10. </b> "
 ---
 
 Week 10 Objectives:
-- Integrate Custom Domain and SSL/HTTPS with Route53 and ACM.
+- Bind custom domain via Route53, provision SSL certificates, and set up automated CI/CD Pipeline.
 
 | Day | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 1 | Purchase a domain and set up a Hosted Zone in Route53. | 28/06/2026 | 29/06/2026 | |
-| 2 | Use AWS Certificate Manager (ACM) to provision SSL certificates. | 30/06/2026 | 01/07/2026 | |
-| 3 | Attach SSL to CloudFront (Frontend) and ALB (Backend). | 02/07/2026 | 04/07/2026 | |
-| 4 | Create A Records (Alias) in Route53 pointing to CloudFront and ALB. | 05/07/2026 | 05/07/2026 | |
+| 1 | Register Hosted Zone on Route53, create A records (Alias) pointing domain to CloudFront and ALB. | 28/06/2026 | 29/06/2026 | |
+| 2 | Request free SSL certificate from AWS Certificate Manager (ACM), verify domain via DNS Validation. | 30/06/2026 | 01/07/2026 | |
+| 3 | Attach SSL certificate to CloudFront (Frontend HTTPS) and ALB (Backend HTTPS), redirect HTTP → HTTPS. | 02/07/2026 | 03/07/2026 | |
+| 4 | Write GitHub Actions workflow automation: build ReactJS → upload S3 → invalidate CloudFront cache on code push. | 04/07/2026 | 05/07/2026 | |
 
 Week 10 Achievements:
 
-- The entire Pet Resort system is secured with HTTPS.
-- Custom domain makes access easy and professional.
+- Entire Pet Resort system accessible via HTTPS with professional domain name.
+- CI/CD Pipeline operational: every code commit auto-deploys Frontend to Cloud.

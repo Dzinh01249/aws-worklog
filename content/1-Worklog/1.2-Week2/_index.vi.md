@@ -6,16 +6,16 @@ pre: " <b> 1.2. </b> "
 ---
 
 Mục tiêu tuần 2:
-- Phát triển và cấu hình giao diện ReactJS cho Pet Resort & Care.
+- Kiến thiết nền tảng quản trị danh tính và xây dựng chính sách kiểm soát truy cập trên AWS IAM.
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 1 | Khởi tạo dự án ReactJS (Vite), xây dựng cấu trúc thư mục frontend. | 25/04/2026 | 26/04/2026 | |
-| 2 | Phát triển trang chủ, danh sách dịch vụ spa và giỏ hàng thú cưng. | 27/04/2026 | 29/04/2026 | |
-| 3 | Kiểm tra giao diện, đảm bảo responsive trên các thiết bị. | 30/04/2026 | 30/04/2026 | |
-| 4 | Tìm hiểu về AWS S3 Static Website Hosting để chuẩn bị deploy. | 02/05/2026 | 02/05/2026 | |
+| 1 | Nghiên cứu mô hình Shared Responsibility Model, phân biệt trách nhiệm bảo mật giữa AWS và người dùng. | 25/04/2026 | 26/04/2026 | |
+| 2 | Tạo IAM User riêng cho từng thành viên nhóm, áp dụng nguyên tắc Least Privilege cho mỗi tài khoản. | 27/04/2026 | 28/04/2026 | |
+| 3 | Xây dựng IAM Group và gán chính sách (Policy) theo vai trò: Developer, Operator, Read-Only Auditor. | 29/04/2026 | 30/04/2026 | |
+| 4 | Kiểm tra quyền truy cập bằng AWS Policy Simulator, đảm bảo không có quyền thừa ngoài phạm vi cho phép. | 01/05/2026 | 02/05/2026 | |
 
 Thành tích tuần 2:
 
-- Hoàn thành giao diện cơ bản của Pet Resort & Care.
-- Nắm được khái niệm lưu trữ tĩnh trên Amazon S3.
+- Toàn bộ thành viên nhóm đã có tài khoản IAM riêng biệt với phân quyền phù hợp.
+- Hệ thống kiểm soát truy cập tuân thủ tiêu chuẩn Least Privilege.

@@ -6,16 +6,16 @@ pre: " <b> 1.11. </b> "
 ---
 
 Week 11 Objectives:
-- End-to-End Testing of the Pet Resort & Care System.
+- Build operational monitoring system with Amazon CloudWatch and set up automated alerts via SNS.
 
 | Day | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 1 | Test the spa booking flow from Frontend to Backend, saving to RDS. | 06/07/2026 | 07/07/2026 | |
-| 2 | Verify Admin/Customer authorization mechanisms. | 08/07/2026 | 09/07/2026 | |
-| 3 | Use CloudWatch to monitor system logs and fix arising issues. | 10/07/2026 | 12/07/2026 | |
-| 4 | Evaluate AWS usage costs based on Free Tier and optimize resources. | 13/07/2026 | 13/07/2026 | |
+| 1 | Install CloudWatch Agent on EC2, collect metrics: CPU Utilization, Memory Usage, Disk I/O. | 06/07/2026 | 07/07/2026 | |
+| 2 | Create CloudWatch Dashboard aggregating system-wide status: EC2, RDS, ElastiCache, ALB. | 08/07/2026 | 09/07/2026 | |
+| 3 | Set up CloudWatch Alarms for critical thresholds: CPU > 80%, DB Connection > 90%, Error Rate spikes. | 10/07/2026 | 11/07/2026 | |
+| 4 | Create SNS Topic and subscribe email for notifications, test automated alert flow when alarms trigger. | 12/07/2026 | 13/07/2026 | |
 
 Week 11 Achievements:
 
-- System runs smoothly from Frontend to Backend and Database.
-- Operational costs are optimized.
+- Centralized monitoring dashboard enables real-time system health tracking.
+- Automated email alerts when resource anomalies are detected.

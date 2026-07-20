@@ -6,15 +6,16 @@ pre: " <b> 1.7. </b> "
 ---
 
 Week 7 Objectives:
-- Deploy Backend to Amazon EC2.
+- Deploy the Backend application to Amazon EC2 and configure the production server environment.
 
 | Day | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 1 | Initialize EC2 instance (Ubuntu), SSH into the server. | 04/06/2026 | 05/06/2026 | |
-| 2 | Install Java Runtime Environment (JRE) on EC2. | 06/06/2026 | 08/06/2026 | |
-| 3 | Build Spring Boot .jar file and upload to EC2 via SCP. | 09/06/2026 | 10/06/2026 | |
-| 4 | Run Backend application as a background service on EC2. | 11/06/2026 | 11/06/2026 | |
+| 1 | Launch EC2 Instance (Amazon Linux 2023) in Private Subnet, create Key Pair and establish SSH connection via Bastion Host. | 04/06/2026 | 05/06/2026 | |
+| 2 | Install runtime environment: OpenJDK 17, configure environment variables and JVM parameters for production. | 06/06/2026 | 07/06/2026 | |
+| 3 | Build JAR file from Spring Boot source, upload to EC2 via SCP, and run application as systemd service. | 08/06/2026 | 09/06/2026 | |
+| 4 | Verify internal connectivity from EC2 to other VPC services, confirm API operates stably. | 10/06/2026 | 11/06/2026 | |
 
 Week 7 Achievements:
 
-- Backend API is public and accessible from the internet via EC2 IP.
+- Spring Boot Backend running stably on EC2 within Private Subnet.
+- Application managed as systemd service ensuring auto-restart on failures.

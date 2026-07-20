@@ -6,15 +6,16 @@ pre: " <b> 1.9. </b> "
 ---
 
 Week 9 Objectives:
-- Configure Application Load Balancer (ALB) for Backend.
+- Set up load balancing with Application Load Balancer and configure flexible Auto Scaling.
 
 | Day | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 1 | Learn about Load Balancing and create Target Groups for EC2 instances. | 20/06/2026 | 21/06/2026 | |
-| 2 | Initialize Application Load Balancer (ALB) in Public Subnets. | 22/06/2026 | 24/06/2026 | |
-| 3 | Configure Health Checks for ALB to monitor Backend status automatically. | 25/06/2026 | 26/06/2026 | |
-| 4 | Update Frontend API Endpoint to call via ALB DNS instead of direct IP. | 27/06/2026 | 27/06/2026 | |
+| 1 | Create Target Group registering EC2 Backend, configure Health Check endpoint (/api/health) for status monitoring. | 20/06/2026 | 21/06/2026 | |
+| 2 | Initialize Application Load Balancer in Public Subnet, set up Listener Rules routing requests to Target Group. | 22/06/2026 | 23/06/2026 | |
+| 3 | Create Launch Template from current EC2 AMI, configure Auto Scaling Group with scale-out/scale-in policies. | 24/06/2026 | 25/06/2026 | |
+| 4 | Simulate heavy load with stress testing tools, observe Auto Scaling automatically provisioning new instances. | 26/06/2026 | 27/06/2026 | |
 
 Week 9 Achievements:
 
-- Backend can handle more traffic and has high availability thanks to ALB.
+- Backend capable of handling high traffic and self-healing via ALB + Auto Scaling.
+- Health Checks automatically remove faulty instances from the serving pool.

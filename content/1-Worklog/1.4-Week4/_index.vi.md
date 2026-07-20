@@ -6,16 +6,16 @@ pre: " <b> 1.4. </b> "
 ---
 
 Mục tiêu tuần 4:
-- Thiết lập CI/CD bằng GitHub Actions cho Frontend.
+- Dựng lớp giao diện người dùng bằng ReactJS và đóng gói tài nguyên tĩnh sẵn sàng triển khai.
 
 | Ngày | Nhiệm vụ | Ngày bắt đầu | Ngày kết thúc | Tài liệu tham khảo |
 |------|----------|--------------|---------------|-------------------|
-| 1 | Tìm hiểu về GitHub Actions và luồng CI/CD tự động. | 11/05/2026 | 12/05/2026 | |
-| 2 | Viết workflow YAML để tự động build và upload file lên S3 khi có code mới. | 13/05/2026 | 14/05/2026 | |
-| 3 | Cấu hình workflow tự động invalidation CloudFront cache. | 15/05/2026 | 16/05/2026 | |
-| 4 | Test quá trình tự động deploy từ local lên production. | 18/05/2026 | 18/05/2026 | |
+| 1 | Thiết lập dự án ReactJS bằng Vite, cấu trúc thư mục theo mô hình component-based architecture. | 11/05/2026 | 12/05/2026 | |
+| 2 | Xây dựng các trang chính: Trang chủ hiển thị dịch vụ, Trang danh sách sản phẩm, Trang đặt lịch Spa. | 13/05/2026 | 14/05/2026 | |
+| 3 | Phát triển giỏ hàng, form đặt hẹn và tích hợp xử lý state bằng React Context API. | 15/05/2026 | 16/05/2026 | |
+| 4 | Kiểm tra responsive trên nhiều kích thước màn hình, thực hiện build production và tối ưu bundle size. | 17/05/2026 | 18/05/2026 | |
 
 Thành tích tuần 4:
 
-- Tiết kiệm thời gian deploy frontend thủ công.
-- Hoàn thiện CI/CD pipeline cơ bản cho dự án.
+- Giao diện Pet Resort hoàn chỉnh với luồng người dùng mượt mà.
+- Tài nguyên tĩnh đã được đóng gói sẵn sàng đẩy lên Cloud.
