@@ -1,22 +1,21 @@
 ---
-title: "Worklog Week 10"
+title: "Week 10"
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
 
 Week 10 Objectives:
-- The goal is to provide a professional appearance and comprehensive security for the project by utilizing a memorable Custom Domain and applying HTTPS encryption standards to protect transmitted data. This process will utilize Route 53 DNS services and security certificates from AWS Certificate Manager (ACM).
+- Configure a Custom Domain and enforce HTTPS security certificates.
 
 | Date | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 19/06 | Utilized the AWS Route 53 domain registration service (or a third-party provider) to purchase a professional domain name, e.g., `petresort-project.com`. Initialized a Hosted Zone in Amazon Route 53 and updated the Name Servers (NS) to route all DNS resolution traffic for this domain under AWS's management, preparing for more complex record configurations. | 19/06 | 20/06 | |
-| 21/06 | Accessed AWS Certificate Manager (ACM) and requested a free Public SSL/TLS Certificate for both the root domain (`petresort-project.com`) and a subdomain (`api.petresort-project.com`). Opted for the DNS Validation method. ACM generated special CNAME records; I proceeded to add these CNAME records to the Route 53 Hosted Zone so AWS could automatically verify domain ownership and issue the certificates. | 21/06 | 22/06 | |
-| 23/06 | Integrated the ACM security certificates into the services. Updated the Amazon CloudFront distribution (for Frontend) to use the newly issued SSL certificate, while simultaneously configuring the Viewer Protocol Policy to enforce 'Redirect HTTP to HTTPS'. Next, updated the Application Load Balancer (for Backend), added a Listener Port 443 (HTTPS), attached the ACM certificate to this Listener, and created a Rule to automatically redirect all traffic from Port 80 (HTTP) to Port 443. | 23/06 | 24/06 | |
-| 25/06 | Completed the final puzzle piece by connecting the domain name to the AWS services. In Route 53, created Alias Records (A Records). The first record points the root domain (Frontend) straight to the CloudFront distribution's DNS address. The second record (the `api` subdomain) points straight to the Application Load Balancer. Waited for DNS propagation, then tested website access using the custom domain, confirming the secure padlock icon displayed on the browser's address bar. | 25/06 | 25/06 | |
+| 1 | Purchase a Custom Domain (`petresort-project.com`) and configure a Route 53 Hosted Zone. | 19/06/2026 | 20/06/2026 | [Amazon Route 53](https://aws.amazon.com/route53/) |
+| 2 | Use AWS Certificate Manager (ACM) to request a free SSL certificate via DNS validation. | 21/06/2026 | 22/06/2026 | [AWS ACM](https://aws.amazon.com/certificate-manager/) |
+| 3 | Update CloudFront to use the ACM SSL and enforce HTTP to HTTPS redirects. | 23/06/2026 | 23/06/2026 | [CloudFront HTTPS](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/using-https.html) |
+| 4 | Add an HTTPS Listener (port 443) to the ALB and attach the security certificate. | 24/06/2026 | 24/06/2026 | [ALB HTTPS Listeners](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/create-https-listener.html) |
+| 5 | Create Route 53 Alias Records mapping the domain to CloudFront and ALB DNS endpoints. | 25/06/2026 | 25/06/2026 | [Route 53 Routing](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-to-cloudfront-distribution.html) |
 
 Week 10 Achievements:
 
-- The Pet Resort & Care project now possesses a professional, memorable Domain Name identifier, elevating the project's value.
-- The entire data communication flow between end-users, web browsers, CloudFront, and the Backend ALB is encrypted to HTTPS standards, protecting against Man-in-the-middle attacks.
-- Fully mastered the automated SSL certificate provisioning flow and intelligent DNS routing record management on the Cloud.
+- Entire system communicates over secure HTTPS with a professional domain name.

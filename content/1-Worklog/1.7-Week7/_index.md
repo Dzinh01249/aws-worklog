@@ -1,22 +1,21 @@
 ---
-title: "Worklog Week 7"
+title: "Week 7"
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
 ---
 
 Week 7 Objectives:
-- The central goal is to migrate the completed Backend application from the local machine to run live on the AWS cloud environment. This process requires setting up an EC2 virtual Linux server, installing the Java environment, and configuring the application to run stably with self-healing capabilities.
+- Deploy the Spring Boot Java application onto an EC2 virtual server.
 
 | Date | Tasks | Start Date | End Date | References |
 |------|-------|------------|----------|------------|
-| 29/05 | Used the AWS Console to provision an Amazon EC2 (Elastic Compute Cloud) virtual server using the Ubuntu Server operating system. Selected the `t3.micro` instance type, suitable for the Free Tier. Generated and securely downloaded an SSH Key Pair (`.pem` file). Attached this EC2 server to a Public Subnet (for ease of management during the testing phase) and applied the Security Group designed in week 5. Connected (SSH) to the server via Terminal/PuTTY. | 29/05 | 30/05 | |
-| 31/05 | Updated Ubuntu system packages using `apt update` and `apt upgrade`. Proceeded to install the Java Runtime Environment (JRE 17) via OpenJDK. Drafted a service configuration file (Systemd Unit File) located at `/etc/systemd/system/pet-resort.service`. This file instructs the Linux OS how to start the Spring Boot `.jar` file, manage logs, and crucially, automatically restart the application if it crashes or when the server reboots. | 31/05 | 01/06 | |
-| 02/06 | Returned to the local development environment, used Maven (`mvn clean package`) to package the Spring Boot application into a single executable file (`.jar`). Used the SCP (Secure Copy) command or graphical tools like WinSCP/FileZilla combined with the SSH Key to securely upload this multi-megabyte `.jar` file from the personal computer to the `/opt/pet-resort/` directory on the EC2 virtual server. | 02/06 | 03/06 | |
-| 04/06 | Enabled and started the application via systemd using `systemctl enable` and `systemctl start` commands. Monitored the startup process and read live logs using the `journalctl -f` command. Verified the connection configuration from the EC2 instance to the RDS database server in the Private Subnet. Finally, performed test calls to the APIs from an external browser/Postman over the internet via the EC2 instance's Public IP to confirm the system operates flawlessly. | 04/06 | 04/06 | |
+| 1 | Launch an EC2 Ubuntu Server (`t3.micro`) and download an SSH Key Pair for access. | 29/05/2026 | 30/05/2026 | [Amazon EC2 Setup](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html) |
+| 2 | Update OS packages and install the Java environment (OpenJDK 17) on EC2. | 31/05/2026 | 01/06/2026 | [Install Java Ubuntu](https://ubuntu.com/tutorials/install-jre) |
+| 3 | Package the application into a `.jar` via Maven and upload to EC2 using SCP. | 02/06/2026 | 02/06/2026 | [Maven Package](https://maven.apache.org/guides/getting-started/) |
+| 4 | Create a Systemd Service file (`.service`) for background execution and auto-restart on crash. | 03/06/2026 | 03/06/2026 | [Systemd Services](https://linuxhandbook.com/create-systemd-services/) |
+| 5 | Start the service, check logs using `journalctl`, and verify APIs via Postman. | 04/06/2026 | 04/06/2026 | [Journalctl Guide](https://www.loggly.com/ultimate-guide/using-journalctl/) |
 
 Week 7 Achievements:
 
-- Successfully transitioned a Backend application from a local development environment to running live on a Linux virtual server (EC2).
-- The application is configured to run in the background as a professional system service, capable of auto-recovery upon errors.
-- Mastered the processes of packaging, secure file transfer, and basic Linux server administration.
+- Backend deployed and running stably 24/7 as a Linux service.
