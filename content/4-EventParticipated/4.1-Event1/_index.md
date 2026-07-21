@@ -8,10 +8,10 @@ pre: " <b> 4.1. </b> "
 # Executive Summary: "Event GameDay 8 Đội Tranh Hùng"
 
 ### Event Details
-- **Date**: Saturday, June 6, 2026
+- **Date**: Saturday, June 20, 2026
 - **Time**: 9:00 AM - 12:00 PM
 - **Location**: Saigon Campus - Level 26 Bitexco Financial Tower, HCMC
-- **Event Type**: Technical Workshop, Career Sharing, and Networking
+- **Event Type**: Event Game Day 8 Đội Tranh Hùng
 
 ### Event Objectives
 - Explore advanced Cloud technologies on AWS (AWS WAF, AWS Neptune).
