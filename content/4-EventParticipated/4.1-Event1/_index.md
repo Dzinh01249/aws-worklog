@@ -40,7 +40,7 @@ pre: " <b> 4.1. </b> "
 - AWS experts analyze common mistakes and guide optimal solutions.
 
 #### Q&A and Networking (11:45 AM - 12:00 PM)
-- Direct interaction with speakers and event closing.
+- Direct interaction with the hosts and event closing.
 
 ### Speakers
 - **Huynh Hoang Long**

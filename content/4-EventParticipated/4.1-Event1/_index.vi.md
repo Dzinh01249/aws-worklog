@@ -41,7 +41,7 @@ pre: " <b> 4.1. </b> "
 - Các chuyên gia AWS phân tích những sai lầm phổ biến và hướng dẫn giải pháp tối ưu.
 
 #### Q&A và Networking (11:45 AM - 12:00 PM)
-- Giao lưu trực tiếp với các diễn giả và bế mạc sự kiện.
+- Giao lưu trực tiếp với những người dẫn chương trình và bế mạc sự kiện.
 
 ### Diễn giả
 - **Huỳnh Hoàng Long**
