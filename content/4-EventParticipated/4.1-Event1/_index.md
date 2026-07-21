@@ -78,7 +78,7 @@ The thrilling, "breath-taking" feeling of watching the scoreboard jump and the i
 #### Dramatic and Fascinating
 Watching the leaderboard jump continuously created an exhilarating feeling. The sense of earning points when teams had to brainstorm intensely, take risks, and rely on luck to score was truly amazing.
 
-![Vinh Tran - From IT Helpdesk to Senior Sysadmin](/images/4-EventParticipated/event1-1.png)
-![AWS Architecture for Godot Game Server](/images/4-EventParticipated/event1-2.png)
+![Group photo with organizers and participating teams](/images/4-EventParticipated/event1-1.png)
+![Members networking and shaking hands during GameDay](/images/4-EventParticipated/event1-2.png)
 
 > Overall, the event not only provided deep technical knowledge on the AWS platform but also energized and strongly inspired my journey to develop a career as a Software and Cloud Engineer.
