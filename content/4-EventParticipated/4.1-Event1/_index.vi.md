@@ -81,6 +81,6 @@ Nhìn bảng xếp hạng điểm số (leaderboard) nhảy liên tục tạo ra
 
 ![Ảnh sự kiện Event GameDay 8 Đội Tranh Hùng](/images/4-EventParticipated/event1-1.png)
 ![Ảnh sự kiện Event GameDay 8 Đội Tranh Hùng](/images/4-EventParticipated/event1-2.png)
-*Ảnh sự kiện Event GameDay 8 Đội Tranh Hùng*
+<div style="text-align: center;"><em>Ảnh sự kiện Event GameDay 8 Đội Tranh Hùng</em></div>
 
 > Tổng thể, sự kiện không chỉ cung cấp những kiến thức kỹ thuật chuyên sâu trên nền tảng AWS mà còn tiếp thêm năng lượng, truyền cảm hứng mạnh mẽ cho hành trình phát triển sự nghiệp kỹ sư phần mềm và Cloud của tôi.
