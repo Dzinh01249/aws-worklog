@@ -43,12 +43,8 @@ pre: " <b> 4.1. </b> "
 - Direct interaction with speakers and event closing.
 
 ### Speakers
-- **Vinh Tran** - Senior Sysadmin / System Engineer
-- **Truong Phuoc** - Software Development Expert & Project Manager
-- **Bao Huynh** - Cloud & DevOps Engineer
-- **Le Hoang Gia Dai** - Cloud Security Specialist
-- **Viet Phat** - Data & Cloud Architect
-- **Nguyen Quoc Bao** - Game Developer / Cloud Infrastructure Engineer
+- **Huynh Hoang Long**
+- **And other hosts**
 
 ---
 
