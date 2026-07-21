@@ -56,8 +56,13 @@ pre: " <b> 4.1. </b> "
 ---
 
 ### 2. Key Takeaways
+
+#### Technical Skills
 - Troubleshooting skills, reading logs, and analyzing root causes.
-- Risk management skills, proper time allocation (choosing major errors to fix first).
+
+#### Soft Skills
+- **Risk and time management:** Knowing how to prioritize fixing the most critical errors first, instead of wasting time on minor issues that don't yield many points.
+- **Team spirit:** Overcoming difficulties together, not blaming each other when a wrong decision is made, but focusing on finding solutions.
 
 ---
 

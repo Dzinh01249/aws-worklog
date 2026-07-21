@@ -57,8 +57,13 @@ pre: " <b> 4.1. </b> "
 ---
 
 ### 2. Những Gì Học Được
+
+#### Kỹ Năng Kỹ Thuật (Technical Skills)
 - Kỹ năng xử lý lỗi (Troubleshooting), đọc log và phân tích root cause.
-- Kỹ năng quản trị rủi ro, phân bổ thời gian hợp lý (chọn lỗi bự để sửa trước).
+
+#### Kỹ Năng Mềm (Soft Skills)
+- **Quản trị rủi ro và thời gian:** Biết cách ưu tiên sửa các lỗi nghiêm trọng nhất (critical) trước, thay vì tốn thời gian vào các vấn đề nhỏ lẻ không mang lại nhiều điểm số.
+- **Tinh thần đồng đội:** Cùng nhau vượt qua khó khăn, không đổ lỗi khi đưa ra một quyết định sai mà tập trung tìm giải pháp.
 
 ---
 
