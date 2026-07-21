@@ -62,7 +62,8 @@ pre: " <b> 4.1. </b> "
 ---
 
 ### 3. Application in Work & Study
-- Starting to develop a "defensive" mindset when designing system architecture, always anticipating risks.
+- **Building a defensive mindset:** Always consider risks and use accurate judgment for future projects.
+- **Optimizing workflow:** Apply clear task division and continuous progress updates, just like in the competition, to school group projects or company projects.
 
 ---
 

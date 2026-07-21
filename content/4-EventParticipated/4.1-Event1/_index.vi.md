@@ -63,7 +63,8 @@ pre: " <b> 4.1. </b> "
 ---
 
 ### 3. Ứng Dụng Vào Công Việc & Học Tập
-- Bắt đầu có tư duy "phòng thủ" khi thiết kế kiến trúc hệ thống, luôn đề phòng rủi ro.
+- **Xây dựng tư duy phòng thủ:** Luôn tính đến các rủi ro, sử dụng phán đoán một cách chính xác cho các dự án sau này.
+- **Tối ưu quy trình làm việc:** Áp dụng cách phân chia task rõ ràng và cập nhật tiến độ liên tục như khi thi đấu vào các đồ án nhóm ở trường hoặc dự án công ty.
 
 ---
 
