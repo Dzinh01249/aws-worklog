@@ -5,7 +5,7 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Báo cáo Tóm tắt: "Tech Meetup: Cloud Architecture, Security & Engineering Career Roadmap"
+# Báo cáo Tóm tắt: "Event GameDay 8 Đội Tranh Hùng"
 
 ### Chi tiết Sự kiện
 - **Ngày**: Thứ Bảy, 6 tháng 6, 2026

@@ -5,7 +5,7 @@ chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-# Executive Summary: "Tech Meetup: Cloud Architecture, Security & Engineering Career Roadmap"
+# Executive Summary: "Event GameDay 8 Đội Tranh Hùng"
 
 ### Event Details
 - **Date**: Saturday, June 6, 2026
