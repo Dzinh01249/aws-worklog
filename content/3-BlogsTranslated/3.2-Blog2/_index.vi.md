@@ -7,6 +7,7 @@ pre: " <b> 3.2. </b> "
 
 # Chia sẻ bài viết AWS: Giảm gian lận SMS OTP với Vonage và Amazon Cognito 
 
+*Tác giả gốc: Tito Milla & Niv Raz*
 *Link bài viết gốc: [AWS Study Group Facebook Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2195923967839230)*
 
 

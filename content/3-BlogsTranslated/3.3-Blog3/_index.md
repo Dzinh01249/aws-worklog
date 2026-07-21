@@ -5,8 +5,9 @@ chapter: false
 pre: " <b> 3.3. </b> "
 ---
 
-# Exploring S3 Files: Turning Amazon S3 Buckets into Local File Systems on AWS
+# Introducing S3 Files: Make Amazon S3 Buckets Accessible as File Systems
 
+*Original Author: Sébastien Stormacq*
 *Original post link: [AWS Study Group Facebook Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2195923967839230)*
 
 

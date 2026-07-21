@@ -7,6 +7,7 @@ pre: " <b> 3.1. </b> "
 
 # Tìm Hiểu Về Machine Learning Pipelines: Hành Trình Đưa Mô Hình AI Vào Thực Tế
 
+*Tác giả gốc: AWS Study Group*
 *Link bài viết gốc: [AWS Study Group Facebook Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2178072669624360/?rdid=xF88278FD6QFnlfz#)*
 
 

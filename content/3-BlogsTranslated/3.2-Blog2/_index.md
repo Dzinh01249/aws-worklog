@@ -5,8 +5,9 @@ chapter: false
 pre: " <b> 3.2. </b> "
 ---
 
-# AWS Article Share: Reducing SMS OTP Fraud with Vonage and Amazon Cognito
+# AWS Blog Share: Reducing SMS OTP fraud with Vonage and Amazon Cognito
 
+*Original Authors: Tito Milla & Niv Raz*
 *Original post link: [AWS Study Group Facebook Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2195923967839230)*
 
 

@@ -7,6 +7,7 @@ pre: " <b> 3.3. </b> "
 
 # Tìm hiểu tính năng S3 Files: Biến Amazon S3 Bucket thành hệ thống lưu trữ tệp tin (File System) trên AWS
 
+*Tác giả gốc: Sébastien Stormacq*
 *Link bài viết gốc: [AWS Study Group Facebook Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2195923967839230)*
 
 
