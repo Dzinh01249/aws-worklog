@@ -49,25 +49,25 @@ pre: " <b> 4.1. </b> "
 
 ---
 
-### Nội Dung Nổi Bật
+### 1. Nội Dung Nổi Bật
 - Trải nghiệm quản lý hạ tầng thực tế (EC2, RDS, VPC) thay vì chỉ học lý thuyết.
 - Căng thẳng khi xử lý sự cố (Incident Response) do ban tổ chức liên tục tạo ra.
 - Cách phân công công việc và phối hợp nhóm nhịp nhàng dưới áp lực thời gian.
 
 ---
 
-### Những Gì Học Được
+### 2. Những Gì Học Được
 - Kỹ năng xử lý lỗi (Troubleshooting), đọc log và phân tích root cause.
 - Kỹ năng quản trị rủi ro, phân bổ thời gian hợp lý (chọn lỗi bự để sửa trước).
 
 ---
 
-### Ứng Dụng Vào Công Việc & Học Tập
+### 3. Ứng Dụng Vào Công Việc & Học Tập
 - Bắt đầu có tư duy "phòng thủ" khi thiết kế kiến trúc hệ thống, luôn đề phòng rủi ro.
 
 ---
 
-### Trải nghiệm trong event
+### 4. Trải nghiệm trong event
 Miêu tả cảm giác kịch tính, "nghẹt thở" khi nhìn bảng xếp hạng điểm số nhảy múa và cảm giác thành tựu cực đã khi cứu sống được server.
 
 ![Vinh Trần - Từ IT Helpdesk lên Senior Sysadmin](/images/4-EventParticipated/event1-1.png)

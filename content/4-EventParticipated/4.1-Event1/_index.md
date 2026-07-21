@@ -48,25 +48,25 @@ pre: " <b> 4.1. </b> "
 
 ---
 
-### Key Highlights
+### 1. Key Highlights
 - Experience in managing real infrastructure (EC2, RDS, VPC) rather than just learning theory.
 - The tension of Incident Response caused continuously by the organizers.
 - How to smoothly assign tasks and coordinate as a team under time pressure.
 
 ---
 
-### Key Takeaways
+### 2. Key Takeaways
 - Troubleshooting skills, reading logs, and analyzing root causes.
 - Risk management skills, proper time allocation (choosing major errors to fix first).
 
 ---
 
-### Application in Work & Study
+### 3. Application in Work & Study
 - Starting to develop a "defensive" mindset when designing system architecture, always anticipating risks.
 
 ---
 
-### Event Experience
+### 4. Event Experience
 The thrilling, "breath-taking" feeling of watching the scoreboard jump and the immense sense of achievement when successfully rescuing the server.
 
 ![Vinh Tran - From IT Helpdesk to Senior Sysadmin](/images/4-EventParticipated/event1-1.png)
