@@ -84,4 +84,4 @@ Watching the leaderboard jump continuously created an exhilarating feeling. The 
 ![Photo of Event GameDay 8 Đội Tranh Hùng](/images/4-EventParticipated/event1-4.png)
 <div style="text-align: center;"><em>Photo of Event GameDay 8 Đội Tranh Hùng</em></div>
 
-> Overall, the event not only provided deep technical knowledge on the AWS platform but also energized and strongly inspired my journey to develop a career as a Software and Cloud Engineer.
+> In summary, the event not only delivered valuable hands-on lessons regarding AWS infrastructure but also provided immense motivation, empowering me to firmly advance on my path to becoming a professional Cloud and Software Engineer.

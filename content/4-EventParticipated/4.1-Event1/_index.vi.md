@@ -85,4 +85,4 @@ Nhìn bảng xếp hạng điểm số (leaderboard) nhảy liên tục tạo ra
 ![Ảnh sự kiện Event GameDay 8 Đội Tranh Hùng](/images/4-EventParticipated/event1-4.png)
 <div style="text-align: center;"><em>Ảnh sự kiện Event GameDay 8 Đội Tranh Hùng</em></div>
 
-> Tổng thể, sự kiện không chỉ cung cấp những kiến thức kỹ thuật chuyên sâu trên nền tảng AWS mà còn tiếp thêm năng lượng, truyền cảm hứng mạnh mẽ cho hành trình phát triển sự nghiệp kỹ sư phần mềm và Cloud của tôi.
+> Nhìn chung, sự kiện không chỉ mang lại những bài học thực chiến quý giá về hạ tầng AWS mà còn tiếp thêm động lực to lớn, giúp tôi thêm vững bước trên con đường theo đuổi sự nghiệp trở thành Kỹ sư Cloud và Phần mềm chuyên nghiệp.
