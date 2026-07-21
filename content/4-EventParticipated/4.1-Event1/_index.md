@@ -14,10 +14,10 @@ pre: " <b> 4.1. </b> "
 - **Event Type**: Event Game Day 8 Đội Tranh Hùng
 
 ### Event Objectives
-- Explore advanced Cloud technologies on AWS (AWS WAF, AWS Neptune).
-- Understand containerization with Docker and how to operate Game Servers on the Cloud.
-- Equip attendees with teamwork soft skills and roadmap orientations for advancing an IT career.
-- Connect and learn from the practical experiences of industry expert speakers.
+- Cultivate teamwork skills and coordinate to solve real-world technical incidents in the AWS environment.
+- Gain hands-on experience with AWS services through simulated scenarios closely mirroring real business cases.
+- Compete against 8 teams, honing the ability to make quick decisions under time pressure.
+- Network and learn from AWS experts and other competing teams.
 
 ### Schedule
 

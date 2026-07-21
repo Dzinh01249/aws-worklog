@@ -14,10 +14,10 @@ pre: " <b> 4.1. </b> "
 - **Loại sự kiện**: Event Game Day 8 Đội Tranh Hùng
 
 ### Mục tiêu Sự kiện
-- Khám phá các công nghệ Cloud tiên tiến trên AWS (AWS WAF, AWS Neptune).
-- Hiểu rõ về công nghệ ảo hóa (Containerization) với Docker và cách vận hành Game Server trên Cloud.
-- Trang bị kỹ năng mềm làm việc nhóm và định hướng lộ trình thăng tiến sự nghiệp trong ngành IT.
-- Kết nối và học hỏi từ kinh nghiệm thực chiến của các diễn giả đi trước.
+- Trau dồi kỹ năng làm việc nhóm và phối hợp giải quyết sự cố kỹ thuật thực tế trên môi trường AWS.
+- Trải nghiệm thực chiến với các dịch vụ AWS thông qua các bài toán giả lập sát với thực tế doanh nghiệp.
+- Thi đấu tranh tài cùng 8 đội thi, rèn luyện kỹ năng ra quyết định nhanh chóng dưới áp lực thời gian.
+- Giao lưu, học hỏi kinh nghiệm từ các chuyên gia AWS và các đội thi khác.
 
 ### Lịch trình
 
