@@ -79,7 +79,8 @@ Miêu tả cảm giác kịch tính, "nghẹt thở" khi nhìn bảng xếp hạ
 #### Kịch tính và Hấp dẫn
 Nhìn bảng xếp hạng điểm số (leaderboard) nhảy liên tục tạo ra một cảm giác phấn khích. Cảm giác đạt được điểm khi các đội phải gồng mình căng não, mạo hiểm và sử dụng sự may mắn để dành điểm số thật sự rất tuyệt vời.
 
-![Chụp hình lưu niệm cùng ban tổ chức và các đội thi](/images/4-EventParticipated/event1-1.png)
-![Các thành viên giao lưu và bắt tay nhau trong sự kiện GameDay](/images/4-EventParticipated/event1-2.png)
+![Ảnh sự kiện Event GameDay 8 Đội Tranh Hùng](/images/4-EventParticipated/event1-1.png)
+![Ảnh sự kiện Event GameDay 8 Đội Tranh Hùng](/images/4-EventParticipated/event1-2.png)
+*Ảnh sự kiện Event GameDay 8 Đội Tranh Hùng*
 
 > Tổng thể, sự kiện không chỉ cung cấp những kiến thức kỹ thuật chuyên sâu trên nền tảng AWS mà còn tiếp thêm năng lượng, truyền cảm hứng mạnh mẽ cho hành trình phát triển sự nghiệp kỹ sư phần mềm và Cloud của tôi.
