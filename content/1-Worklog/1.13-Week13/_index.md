@@ -6,15 +6,16 @@ pre: " <b> 1.13. </b> "
 ---
 
 Week 13 Objectives:
-- Package the system, author a self-evaluation, and deliver the final presentation.
+- Bug fixing, Cloud system optimization, AWS knowledge review, and finalizing the internship summary report.
 
-| Date | Tasks | Start Date | End Date | References |
-|------|-------|------------|----------|------------|
-| 1 | Final Quality Assurance (QA) pass across the entire web system and Hugo documentation. | 10/07/2026 | 11/07/2026 | [Software Testing Types](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing) |
-| 2 | Draft the Self-Evaluation article, summarizing lessons in Cloud, Networking, and CI/CD. | 12/07/2026 | 12/07/2026 | [DevOps Culture](https://aws.amazon.com/devops/what-is-devops/) |
-| 3 | Design Final Presentation slides covering the Introduction, Architecture, and Live Demos. | 13/07/2026 | 14/07/2026 | [Effective Presentations](https://hbr.org/2013/06/how-to-give-a-killer-presentation) |
-| 4 | Rehearse presentation delivery. Finalize the failover Live Demo script for the Mentors. | 15/07/2026 | 15/07/2026 | [Public Speaking Tips](https://www.ted.com/playlists/226/before_public_speaking) |
-| 5 | Execute the presentation. Handover GitHub source code, docs, and conclude the internship. | 16/07/2026 | 16/07/2026 | [Project Handover](https://www.pmi.org/learning/library/project-handover-transition-operations-10022) |
+| Day | Task | Start Date | End Date |
+|-----|------|------------|----------|
+| 1 | Bug fixing and log monitoring: Review system logs on the Cloud, resolve CORS-related issues, and ensure stable Database/Cache connections. | 13/07/2026 | 13/07/2026 |
+| 2 | DNS & CDN optimization: Verify and maintain SSL security certificates, and improve API response times using CloudFront. | 14/07/2026 | 14/07/2026 |
+| 3 | Knowledge consolidation: Review and systematize the core AWS services practiced over the past 12 weeks, including IAM, EC2, S3, RDS, and CloudFront. | 15/07/2026 | 15/07/2026 |
+| 4 | Finalizing the project: Conduct a comprehensive review of the web application's business flows on the Cloud and optimize the user interface. | 16/07/2026 | 16/07/2026 |
+| 5 | Summary report: Begin drafting the detailed report, redraw the final architecture diagrams, and summarize the achievements from the internship. | 17/07/2026 | 17/07/2026 |
+| 6 | Handover and resource cleanup: Finalize the report submission, then proceed to shut down and delete redundant AWS resources to prevent unwanted charges. | 20/07/2026 | 20/07/2026 |
 
 Week 13 Achievements:
 
