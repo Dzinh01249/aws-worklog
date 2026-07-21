@@ -70,6 +70,9 @@ pre: " <b> 4.1. </b> "
 ### 4. Trải nghiệm trong event
 Miêu tả cảm giác kịch tính, "nghẹt thở" khi nhìn bảng xếp hạng điểm số nhảy múa và cảm giác thành tựu cực đã khi cứu sống được server.
 
+#### Kịch tính và Hấp dẫn
+Nhìn bảng xếp hạng điểm số (leaderboard) nhảy liên tục tạo ra một cảm giác phấn khích. Cảm giác đạt được điểm khi các đội phải gồng mình căng não, mạo hiểm và sử dụng sự may mắn để dành điểm số thật sự rất tuyệt vời.
+
 ![Vinh Trần - Từ IT Helpdesk lên Senior Sysadmin](/images/4-EventParticipated/event1-1.png)
 ![Kiến trúc AWS cho Godot Game Server](/images/4-EventParticipated/event1-2.png)
 

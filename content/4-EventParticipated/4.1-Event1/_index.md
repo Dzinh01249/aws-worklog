@@ -69,6 +69,9 @@ pre: " <b> 4.1. </b> "
 ### 4. Event Experience
 The thrilling, "breath-taking" feeling of watching the scoreboard jump and the immense sense of achievement when successfully rescuing the server.
 
+#### Dramatic and Fascinating
+Watching the leaderboard jump continuously created an exhilarating feeling. The sense of earning points when teams had to brainstorm intensely, take risks, and rely on luck to score was truly amazing.
+
 ![Vinh Tran - From IT Helpdesk to Senior Sysadmin](/images/4-EventParticipated/event1-1.png)
 ![AWS Architecture for Godot Game Server](/images/4-EventParticipated/event1-2.png)
 
