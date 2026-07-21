@@ -7,7 +7,7 @@ pre: " <b> 3.1. </b> "
 
 # Understanding Machine Learning Pipelines: The Journey to Bring AI Models into Reality
 
-*Original Author: AWS Study Group*
+*Original Author: Nguyễn Hoàng Sơn*
 *Original post link: [AWS Study Group Facebook Group](https://www.facebook.com/groups/awsstudygroupfcj/permalink/2178072669624360/?rdid=xF88278FD6QFnlfz#)*
 
 
